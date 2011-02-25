@@ -1,0 +1,229 @@
+<style>
+
+div.contentmed {
+font-weight: bold; 
+color:#000; 
+font-style: normal; 
+font-size: 14px; 
+line-height: 1.2; 
+font-family: Verdana, Arial,Helvetica;
+}
+div.contentsmall {
+font-weight: normal; 
+color:#000; 
+font-style: normal; 
+font-size: 9px; 
+line-height: 1.2; 
+font-family: Verdana, Arial,Helvetica;}
+
+.ContentBlock { 
+margin: 0px; 
+padding-left: 8px; 
+padding-right:4px; 
+padding-top:8px; 
+}
+
+
+.ltorange, .ltblue, .ltpurple, .ltgreen {
+font-family:Verdana,Arial,Helvetica; 
+font-weight:bold;
+color:black; 
+font-size:10px;
+}
+.dkorange, .dkblue, .dkpurple, .dkgreen {
+font-family:Verdana,Arial,Helvetica; 
+color:#fff; 
+
+font-weight: bold;
+font-size:11px;
+}
+
+a.white:link {color: #fff; background=#F93; font-weight: bold;}
+a.white:vlink {color: #fff; background=#F93; font-weight: bold;}
+a.white:alink {color: #fff; background=#F93; font-weight: bold;}
+
+.ltorange {
+background:#FD9;
+} 
+.dkorange {
+background:#F93;
+} 
+.ltblue {background:#7AC;}  
+.dkblue {background:#069;}  
+.ltpurple {background:#CCF;}
+.dkpurple {background:#669;}
+.ltgreen {background:#CC9;}
+.dkgreen{background:#993;}
+
+.linktext {
+font-family:Verdana,Arial,Helvetica; 
+color:#000; 
+font-size:10px; 
+text-decoration: none
+}
+
+table.link {
+  background-color: #fff;
+  }
+
+td.philosophymain {				
+  background-color:#fff;
+  border:1px dotted #993;
+  padding:5px;
+}
+
+td.philosophy1 {				
+  background-color:#FD9;
+  border: 1px dotted #F93;
+    padding:5px;
+}
+
+td.philosophy2 {				
+  background-color:#dde;
+  border:1px dotted #669;
+  padding:5px;
+}
+
+td.volunteerforboard {				
+  background-color:#dde;
+  border:3px dotted #F93;
+  padding:5px;
+}
+
+td.philosophy2a {				
+  background-color:#fff;
+  border:1px dotted #669;
+  padding:5px;
+}
+
+td.philosophy3 {				
+  background-color:#EEC;
+  border:1px dotted #993;
+  padding:5px;
+}
+
+td.OrangeBorder {			/*black inside, light orange border*/		
+  background-color:#000000;
+  border:2px solid #Fd8;
+  padding:2px;
+}
+
+td.Infocell {			/*white inside, light orange border*/		
+  background-color:#fff;
+   border:2px solid #Fff;
+  padding:6px;
+}
+
+td.Infocellnew {			/*white inside, light orange border*/		
+  background-color:#669;
+   border:2px solid #fd8;
+   font-weight: bold; 
+color:#fff; 
+   
+  padding:6px;
+}
+
+td.Orange {			/*pale orange inside, light purple border*/
+  background-color:#FFF;
+  border:2px dotted #F93;
+  padding:5px;
+}
+
+td.Green {
+  background-color:#FFF;	/*pale green inside, light purple border*/
+  border:2px dotted #993;
+  padding:6px;
+}
+td.Blue {
+  background-color:#FFF;	/*pale green inside, light purple border*/
+  border:2px dotted #069;
+  padding:6px;
+}
+td.Purple {
+  background-color:#FFF;	/*broken dark purple border*/
+  border:2px dotted #669;
+  padding:6px;
+}
+
+td.GreenInside {
+  background-color:#EFEFC9;	/*pale green inside, light purple border*/
+  border:2px solid #CECFFF;
+  padding:6px;
+}
+
+td.PurpleInside {
+  background-color:#DDE;	/*pale purple inside, light blue border*/
+  border:1px solid #7ac;
+  padding:6px;
+}
+
+td.BlueInside {
+  background-color:#e5f6fd;	/*pale blue inside, light purple border*/
+  border:2px solid #CECFFF;
+  padding:6px;
+}
+
+p.philos {
+font-weight: normal; 
+font-style: normal; font-size: 14px; 
+line-height: 1.6; 
+font-family: Arial,Helvetica;} 
+
+p.philossml {
+font-weight: normal; 
+font-style: normal; 
+font-size: 12px; 
+line-height: 1.2; 
+font-family: Arial,Helvetica;
+} 
+
+
+span.purple{
+font-weight: bold; 
+color:#669; 
+font-style: normal; 
+font-size: 200%; 
+line-height: 1.2; 
+font-family: Arial,Helvetica;
+} 
+
+span.purplesmall{
+font-weight: bold; 
+color:#669; 
+font-style: normal; 
+font-size: 100%; 
+line-height: 1.2; 
+font-family: Arial,Helvetica;
+} 
+
+span.orange{
+font-weight: bold; 
+color:#F93; font-style: 
+normal; font-size: 200%; 
+line-height: 1.2; 
+font-family: Arial,Helvetica;
+} 
+
+span.green{font-weight: bold; color:#993; font-style: normal; font-size: 200%; line-height: 1.2; font-family: Arial,Helvetica;} 
+
+span.bigger{
+font-weight: normal; 
+color:#000; 
+font-style: normal; 
+font-size: 100%; 
+line-height: 1.2; 
+font-family: Arial,Helvetica;
+} 
+
+span.biggerbold{
+font-weight: bold; 
+color:#fff; 
+font-style: normal; 
+font-size: 100%; 
+line-height: 1.2; 
+font-family: Arial,Helvetica;
+} 
+
+
+</style>
+

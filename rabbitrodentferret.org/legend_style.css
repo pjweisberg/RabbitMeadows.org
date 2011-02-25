@@ -1,0 +1,48 @@
+
+/* ONE TIME CALLS  */
+
+a {
+text-decoration: none;
+}
+
+.clear {
+clear: both;
+}
+
+body.legendpe {
+  background-color: #FFffff;
+  color: #000099;
+  }  
+
+
+  /* HANDLE SEPARATOR LINES */
+
+  hr.legendpe {
+  height: 4px;
+  width: 100%;
+  background-color:	 green;
+  border: none;
+  color: green;
+  }
+
+/* CREATE FALSE HEADERS TO AVOID LINE BREAKS */
+
+.falseheader {
+font-family: arial;
+font-size: 16pt;
+color: #000099;
+text-align: right;
+}
+
+/* HANDLE PARAGRAPH STYLES */
+
+p {
+  text-indent: 0px;
+  font-family: arial;
+  text-align: justify;
+  font-size: 10pt;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  }

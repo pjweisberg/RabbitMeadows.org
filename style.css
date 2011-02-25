@@ -1,0 +1,14 @@
+.maintext {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 10px;
+	font-style: normal;
+	color: #000000;
+	clip:  rect(20px 20px 20px 20px);
+}
+.menu {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+}

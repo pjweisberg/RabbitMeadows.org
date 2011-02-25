@@ -1,0 +1,586 @@
+<html>
+<head>
+<title></title>
+<script LANGUAGE=JavaScript1.2>
+<!-- browser info object
+function BrowserInfo() {
+	var agent = navigator.userAgent.toLowerCase();
+	this.major = parseInt(navigator.appVersion);
+	this.minor = parseFloat(navigator.appVersion);
+	this.ns  = ((agent.indexOf('mozilla')!=-1) && ((agent.indexOf('spoofer')==-1) && (agent.indexOf('compatible') == -1)));
+	this.ns2 = (this.ns && (this.major == 3));
+	this.ns3 = (this.ns && (this.major == 3));
+	this.ns4 = (this.ns && (this.major >= 4));
+	this.ie   = (agent.indexOf("msie") != -1);
+	this.ie3  = (this.ie && (this.major == 2));
+	this.ie4  = (this.ie && (this.major >= 4));
+	this.op3 = (agent.indexOf("opera") != -1);
+}
+var browserinfo = new BrowserInfo()
+// -->
+</script>
+
+<script LANGUAGE=javascript>
+
+<!-- toc data
+
+function anItem(alink,adesc)
+{
+	this.alink = alink
+	this.adesc = adesc
+}
+var VOLUMES		= new Array
+var CHAPTERS	= new Array
+var ITEMS		= new Array
+
+CHAPTERS[1] = 1
+CHAPTERS[2] = 8
+CHAPTERS[3] = 6
+CHAPTERS[4] = 4
+CHAPTERS[5] = 5
+CHAPTERS[6] = 4
+CHAPTERS[7] = 5
+CHAPTERS[8] = 1
+
+ITEMS[1] = new anItem("default_01_b.HTM#GeneralStatsTC","General Statistics")
+ITEMS[2] = new anItem("default_01_b.HTM#TopDocumentsTC","Most Requested Pages")
+ITEMS[3] = new anItem("default_01_b.HTM#TopBottomTC","Least Requested Pages")
+ITEMS[4] = new anItem("default_01_b.HTM#TopExitTC","Top Exit Pages")
+ITEMS[5] = new anItem("default_01_b.HTM#TopSinglePageTC","Single Access Pages")
+ITEMS[6] = new anItem("default_01_b.HTM#TopDirectoryTC","Most Accessed Directories")
+ITEMS[7] = new anItem("default_01_b.HTM#TopPathsTC","Top Paths Through Site")
+ITEMS[8] = new anItem("default_01_b.HTM#TopExtensionsTC","Most Downloaded File Types")
+ITEMS[9] = new anItem("default_01_b.HTM#TopFormsTC","Dynamic Pages & Forms")
+ITEMS[10] = new anItem("default_01_b.HTM#TopUsersTC","Top Users")
+ITEMS[11] = new anItem("default_01_b.HTM#TopCountriesTC","Most Active Countries")
+ITEMS[12] = new anItem("default_01_b.HTM#TopStatesTC","North American States")
+ITEMS[13] = new anItem("default_01_b.HTM#TopCitiesTC","Most Active Cities")
+ITEMS[14] = new anItem("default_01_b.HTM#TopCompaniesTC","Most Active Organizations")
+ITEMS[15] = new anItem("default_01_b.HTM#TopSuffixesTC","Organization Breakdown")
+ITEMS[16] = new anItem("default_01_b.HTM#ActivityStatsTC","Summary of Activity for Report Period")
+ITEMS[17] = new anItem("default_01_b.HTM#TopBandwidthTC","Summary of Activity by Time Increment")
+ITEMS[18] = new anItem("default_01_b.HTM#TopWeekdaysTC","Activity Level by Day of the Week")
+ITEMS[19] = new anItem("default_01_b.HTM#TopHoursTC","Activity Level by Hour")
+ITEMS[20] = new anItem("default_01_b.HTM#TechnicalStatsTC","Technical Statistics")
+ITEMS[21] = new anItem("default_01_b.HTM#TopFormErrorsTC","Dynamic Pages & Forms Errors")
+ITEMS[22] = new anItem("default_01_b.HTM#TopClientErrorsTC","Client Errors")
+ITEMS[23] = new anItem("default_01_b.HTM#Top404ErrorsTC","Page Not Found Errors")
+ITEMS[24] = new anItem("default_01_b.HTM#TopServerErrorsTC","Server Errors")
+ITEMS[25] = new anItem("default_01_b.HTM#TopReferingSitesTC","Top Referring Sites")
+ITEMS[26] = new anItem("default_01_b.HTM#TopReferersTC","Top Referring URLs")
+ITEMS[27] = new anItem("default_01_b.HTM#TopSearchEnginesTC","Top Search Engines")
+ITEMS[28] = new anItem("default_01_b.HTM#TopSearchKeywordsTC","Top Search Keywords")
+ITEMS[29] = new anItem("default_01_b.HTM#TopBrowsersTC","Most Used Browsers")
+ITEMS[30] = new anItem("default_01_b.HTM#TopNetscapeTC","Netscape Browsers")
+ITEMS[31] = new anItem("default_01_b.HTM#TopExplorerTC","Microsoft Explorer Browsers")
+ITEMS[32] = new anItem("default_01_b.HTM#TopSpidersTC","Visiting Spiders")
+ITEMS[33] = new anItem("default_01_b.HTM#TopPlatformsTC","Most Used Platforms")
+ITEMS[34] = new anItem("default_01_b.HTM#GlossaryTC","Glossary")
+
+VOLUMES[1] = new anItem("default_01_b.HTM#GeneralStatsTC","General Statistics")
+VOLUMES[2] = new anItem("default_01_b.HTM#TopDocumentsTC","Resources Accessed")
+VOLUMES[3] = new anItem("default_01_b.HTM#TopUsersTC","Visitors & Demographics")
+VOLUMES[4] = new anItem("default_01_b.HTM#ActivityStatsTC","Activity Statistics")
+VOLUMES[5] = new anItem("default_01_b.HTM#TechnicalStatsTC","Technical Statistics")
+VOLUMES[6] = new anItem("default_01_b.HTM#TopReferingSitesTC","Referrers & Keywords")
+VOLUMES[7] = new anItem("default_01_b.HTM#TopBrowsersTC","Browsers & Platforms")
+VOLUMES[8] = new anItem("default_01_b.HTM#GlossaryTC","Glossary")
+
+ 
+
+var bExpanded		= true;							// is tree initially expanded completely
+var bLoaded			= false;						// tree is ready
+var width			= 400;
+var height			= 18;
+var MAX_ITEMS		= VOLUMES.length + ITEMS.length
+var SPACER_HEIGHT	= (MAX_ITEMS + 4) * height		// allow space for toc to expand when all nodes visible
+var listX			= 2								// start x of list
+var listY			= 20							// start y of list
+var bgColor = "FFFFFF";
+	
+if(parseInt(navigator.appVersion) < 4) 
+{
+	var item = 0
+	var alink = ""
+	var adesc = ""
+	with (window.document)
+	{
+		writeln('<body bgcolor="FFFFFF">')
+		writeln('<font size=3 face="Arial" color="000000" ><b>Table of Contents</b></font>');
+		writeln('<BR>');
+		writeln('<BR>');
+		writeln('<table border=0 cellpadding=0 cellspacing=0>');
+
+		for (var volume = 1; volume <= (VOLUMES.length-1); volume++)
+		{
+			writeln('<TR>')
+			write('  <TD colspan=2><font size=2 face="Arial"><a href="' + VOLUMES[volume].alink + '" target="CONTENT"><b>' + VOLUMES[volume].adesc + '</b></a></font></td>')
+			writeln('</TR>')
+			
+			for (var chapters=1; chapters <= CHAPTERS[volume]; chapters++)
+			{
+				item += 1
+				alink = ITEMS[item].alink
+				adesc = ITEMS[item].adesc
+				writeln('<tr>')
+				write('  <td valign=top><font size=1 face="Arial"><B>&nbsp;&nbsp;&nbsp;&nbsp;&#149&nbsp;</B></TD>')
+				write('  <td><font size=1 face="Arial"><a href="' + alink + '" target="CONTENT"><b>' + adesc + '</b></a></font></td>')
+				writeln('</tr>')
+			}
+
+			writeln('<tr>')
+			write('  <td colspan=2><font size=2 face="Arial">&nbsp;</font></td>')
+			writeln('</tr>')
+		}
+
+		writeln('</table>');
+		writeln('</body>')
+	}
+}
+// -->
+</script>
+
+<script LANGUAGE=JavaScript1.2>
+<!-- browser info object
+
+// resize and list functions
+if(!window.saveInnerWidth) {
+
+  window.onresize = resize;
+  window.saveInnerWidth = window.innerWidth;
+  window.saveInnerHeight = window.innerHeight;
+}
+
+function resize() {
+	
+    if (saveInnerWidth < window.innerWidth || 
+        saveInnerWidth > window.innerWidth || 
+        saveInnerHeight > window.innerHeight || 
+        saveInnerHeight < window.innerHeight ) 
+    {
+        window.history.go(0);
+    }
+}
+
+var _id = 0, _pid = 0, _lid = 0, _pLayer;
+var _mLists = new Array();
+document.lists = _mLists;
+
+// adapted DevEdge Online sample code :author Michael Bostock 
+
+function List(visible, width, height, bgColor) {
+  this.setIndent = setIndent;
+  this.addItem = addItem;
+  this.addList = addList;
+  this.build = build;
+  this.rebuild = rebuild;
+  this.setFont = _listSetFont;
+  this._writeList = _writeList;
+  this._showList = _showList;
+  this._updateList = _updateList;
+  this._updateParent = _updateParent;
+  this.onexpand = null; this.postexpand = null;
+  this.lists = new Array(); 
+  this.items = new Array(); 
+  this.types = new Array(); 
+  this.strs = new Array();  
+  this.x = 0;
+  this.y = 0;
+  this.visible = visible;
+  this.id = _id;
+  this.i = 18;
+  this.space = true;
+  this.pid = 0;
+  this.fontIntro = false;
+  this.fontOutro = false;
+  this.width = width; 
+  this.height = height;
+  this.parLayer = false;
+  this.built = false;
+  this.shown = false;
+  this.needsUpdate = false;
+  this.needsRewrite = false;
+  this.parent = null;
+  this.l = 0;
+  if(bgColor) this.bgColor = bgColor;
+  else this.bgColor = null;
+  _mLists[_id++] = this;
+}
+function _listSetFont(i,j) {
+  this.fontIntro = i;
+  this.fontOutro = j;
+}
+function setIndent(indent) { this.i = indent; if(this.i < 0) { this.i = 0; this.space = false;} this.space = false; }
+function setClip(layer, l, r, t, b) {
+  if(browserinfo.ns4) {
+    layer.clip.left = l; layer.clip.right = r;
+    layer.clip.top = t;  layer.clip.bottom = b;
+  } else {
+    layer.style.pixelWidth = r-l;
+    layer.style.pixelHeight = b-t;
+    layer.style.clip = "rect("+t+","+r+","+b+","+l+")";
+  }
+}
+function _writeList() {
+  var layer, str, clip;
+  for(var i = 0; i < this.types.length; i++) { 
+    layer = this.items[i];
+    if(browserinfo.ns4) layer.visibility = "hidden";
+    else layer.style.visibility = "hidden";
+    str = "";
+    if(browserinfo.ns4) layer.document.open();
+    str += "<form name=reptoc><TABLE bgcolor=FFFFFF WIDTH="+this.width+"  BORDER=0 CELLPADDING=0 CELLSPACING=0><TR>";
+    if(this.types[i] == "list") {
+      str += "<TD WIDTH=15  VALIGN=MIDDLE><A HREF=\"javascript:expand("+this.lists[i].id+");\"><IMG BORDER=0 SRC=\"true.gif\" NAME=\"_img"+this.lists[i].id+"\"></A></TD>";
+      _pid++;
+    } else if(this.space)
+      str += "<TD WIDTH=15 >&nbsp;</TD>";
+    if(this.l>0 && this.i>0) str += "<TD WIDTH="+this.l*this.i+" >&nbsp;</TD>";
+    str += "<TD HEIGHT="+(this.height-3)+" WIDTH="+(this.width-15-this.l*this.i)+" VALIGN=MIDDLE ALIGN=LEFT>";
+  	self.status = "Table of Contents: " + ITEMS[i+1].adesc
+    if(this.fontIntro) str += this.fontIntro;
+    str += this.strs[i];
+    if(this.fontOutro) str += this.fontOutro;
+    str += "</TD></TABLE></form>";
+   if(browserinfo.ns4) {
+      layer.document.writeln(str);
+      layer.document.close();
+    } else layer.innerHTML = str;
+    if(this.types[i] == "list" && this.lists[i].visible)
+      this.lists[i]._writeList();
+  }
+  this.built = true;
+  this.needsRewrite = false;
+  self.status = '';
+}
+function _showList() {
+  var layer;
+  for(var i = 0; i < this.types.length; i++) { 
+    layer = this.items[i];
+    setClip(layer, 0, this.width, 0, this.height-1);
+    if(browserinfo.ie4) {
+      if(layer.oBgColor) layer.style.backgroundColor = layer.oBgColor;
+      else layer.style.backgroundColor = this.bgColor;
+    } else {
+      if(layer.oBgColor) layer.document.bgColor = layer.oBgColor;
+      else layer.document.bgColor = this.bgColor;
+    }
+    if(this.types[i] == "list" && this.lists[i].visible)
+      this.lists[i]._showList();
+  }
+  this.shown = true;
+  this.needsUpdate = false;
+}
+function _updateList(pVis, x, y) {
+  var currTop = y, layer;
+  for(var i = 0; i < this.types.length; i++) { 
+    layer = this.items[i];
+    if(this.visible && pVis) {
+      if(browserinfo.ns4) {
+	layer.visibility = "visible";
+	layer.top = currTop;
+	layer.left = x;
+      } else {
+	layer.style.visibility = "visible";
+	layer.style.pixelTop = currTop;
+	layer.style.pixelLeft = x;
+      }
+      currTop += this.height;
+    } else {
+      if(browserinfo.ns4) layer.visibility = "hidden";
+      else layer.style.visibility = "hidden";
+    }
+    if(this.types[i] == "list") {
+      if(this.lists[i].visible) {
+        if(!this.lists[i].built || this.lists[i].needsRewrite) this.lists[i]._writeList();
+        if(!this.lists[i].shown || this.lists[i].needsUpdate) this.lists[i]._showList();
+        if(browserinfo.ns4) layer.document.images[0].src = "true.gif";
+	else eval('document.images._img'+this.lists[i].id+'.src = "true.gif"');
+      } else {
+	if(browserinfo.ns4) layer.document.images[0].src = "false.gif";
+	else eval('document.images._img'+this.lists[i].id+'.src = "false.gif"');
+      }
+      if(this.lists[i].built)
+        currTop = this.lists[i]._updateList(this.visible && pVis, x, currTop);
+    }
+  }
+  return currTop;
+}
+function _updateParent(pid, l) {
+  var layer;
+  if(!l) l = 0;
+  this.pid = pid;
+  this.l = l;
+  for(var i = 0; i < this.types.length; i++)
+    if(this.types[i] == "list")
+      this.lists[i]._updateParent(pid, l+1);
+}
+function expand(i) {
+  _mLists[i].visible = !_mLists[i].visible;
+  if(_mLists[i].onexpand != null) _mLists[i].onexpand(_mLists[i].id);
+  _mLists[_mLists[i].pid].rebuild();
+  if(_mLists[i].postexpand != null) _mLists[i].postexpand(_mLists[i].id);
+}
+function build(x, y) {
+  this._updateParent(this.id);
+  this._writeList();
+  this._showList();
+  this._updateList(true, x, y);
+  this.x = x; this.y = y;
+}
+function rebuild() { this._updateList(true, this.x, this.y); }
+function addItem(str, bgColor, layer) {
+  var testLayer = false;
+  if(!document.all) document.all = document.layers;
+  if(!layer) {
+    if(browserinfo.ie4 || !this.parLayer) testLayer = eval('document.all.lItem'+_lid);
+    else {
+      _pLayer = this.parLayer;
+      testLayer = eval('_pLayer.document.layers.lItem'+_lid);
+    }
+    if(testLayer) layer = testLayer;
+    else {
+      if(browserinfo.ns4) {
+	if(this.parLayer) layer = new Layer(this.width, this.parLayer);
+	else layer = new Layer(this.width);
+      } else return;
+    }
+  }
+  if(bgColor) layer.oBgColor = bgColor;
+  this.items[this.items.length] = layer;
+  this.types[this.types.length] = "item";
+  this.strs[this.strs.length] = str;
+  _lid++;
+}
+function addList(list, str, bgColor, layer) {
+  var testLayer = false;
+  if(!document.all) document.all = document.layers;
+  if(!layer) {
+    if(browserinfo.ie4 || !this.parLayer) testLayer = eval('document.all.lItem'+_lid);
+    else {
+      _pLayer = this.parLayer;
+      testLayer = eval('_pLayer.document.layers.lItem'+_lid);
+    }
+    if(testLayer) layer = testLayer;
+    else {
+      if(browserinfo.ns4) {
+	if(this.parLayer) layer = new Layer(this.width, this.parLayer);
+	else layer = new Layer(this.width);
+      } else return;
+    }
+  }
+  if(bgColor) layer.oBgColor = bgColor;
+  this.lists[this.items.length] = list;
+  this.items[this.items.length] = layer;
+  this.types[this.types.length] = "list";
+  this.strs[this.strs.length] = str;
+  list.parent = this;
+  _lid++;
+}
+
+document.vlinkColor = document.linkColor
+document.alinkColor = document.linkColor
+document.linkColor	= document.linkColor
+
+var onit		= new Image()
+var ofit		= new Image()
+var cursel		= new Image()
+onit.src		= "tocarw.gif" 
+ofit.src		= "tocclr.gif"  
+cursel.src		= "tocsel.gif" 
+var curlink		= null
+var prvlink		= null
+
+// List initialization
+var subvar = new Array()
+var image = 0
+var vol   = 0
+var sublist = null
+var  l = new List(true, width, height, bgColor);
+l.setFont("<FONT FACE='Arial' SIZE=-1'>","</FONT>");
+
+function imgover(id){
+
+  	if (browserinfo.ns4){	
+		var objstr = "document.layers[" + id + "].document.reptoc.wt" + id
+		img = eval(objstr) 
+	}
+	else{
+		img = eval("document.wt" + id) 
+	}
+    if (curlink && img == curlink)
+      img.src = cursel.src  
+    else
+      img.src = onit.src
+}
+
+function imgout(id){
+
+	var img
+  	if (browserinfo.ns4){
+		var objstr = "document.layers[" + id + "].document.reptoc.wt" + id
+		img = eval(objstr) 
+	}
+	else
+		img = eval("document.wt" + id) 
+
+	if (curlink && img == curlink)
+		img.src = cursel.src
+    else
+		img.src = ofit.src
+}
+
+
+function currentVol()
+{
+	if (prvlink)
+		prvlink.src = ofit.src
+	
+}
+function current(id, bVolume)
+{
+  	if (browserinfo.ns4){		
+		var objstr = "document.layers[" + id + "].document.reptoc.wt" + id
+		img = eval(objstr) 
+	}
+	else
+		img = eval("document.wt" + id) 
+
+	if (img && img != curlink){
+		curlink = img
+		if ( !bVolume )
+			curlink.src = cursel.src
+		if (prvlink)
+			prvlink.src = ofit.src
+		prvlink = curlink
+	}
+}
+function subnode(numElements){
+
+	this.list			= new List(bExpanded, width, height, bgColor);
+	this.numElements	= numElements
+}
+
+function initsublist()
+{
+	sublist = new subnode(0)
+    sublist.list.setIndent(0);
+    sublist.list.setFont("<FONT FACE='Arial' SIZE=-2>","</FONT>");
+ 	cursublist = sublist
+    return sublist
+}
+
+function addsubitem(reportlink,reportdesc)
+{	
+	image++
+	cursublist.numElements++
+    cursublist.list.addItem("<nobr><img name=wt" + image + " src='tocclr.gif'><a href='" + reportlink + "'  style='text-decoration:none' TARGET='CONTENT' onClick='current(" + image + ");return true;' onMouseOver='imgover(" + image + ");return true;' onMouseOut='imgout(" + image + ");return true;'>&nbsp;<font face='Arial'>" + reportdesc + "</font></A></nobr>");
+
+}
+
+function addvolume(vollink,voldesc)
+{
+	vol++
+	image++
+	l.addList(cursublist.list, "<nobr><A HREF='" + vollink + "' TARGET='CONTENT' onClick='currentVol();return true;' style='color:000000;text-decoration:none'>" + voldesc + "</a>");
+}
+
+function expandAll() {
+
+	if (bLoaded)
+	{
+		for (var i=1; i < l.types.length +1; i++)
+		{
+ 		 _mLists[i].visible = true
+ 		 if(_mLists[i].onexpand != null) 
+			_mLists[i].onexpand(_mLists[i].id);
+  		 _mLists[_mLists[i].pid].rebuild();
+  		 if(_mLists[i].postexpand != null) 
+			_mLists[i].postexpand(_mLists[i].id);
+		}
+	}
+
+}
+
+function collapseAll() {
+
+	if (bLoaded)
+	{
+		for (var i=1; i < l.types.length +1; i++)
+		{
+ 		 _mLists[i].visible = false
+ 		 if(_mLists[i].onexpand != null) 
+			_mLists[i].onexpand(_mLists[i].id);
+  		 _mLists[_mLists[i].pid].rebuild();
+  		 if(_mLists[i].postexpand != null) 
+			_mLists[i].postexpand(_mLists[i].id);
+		}
+	}
+}
+
+function init()
+{
+
+   var item = 0
+
+   for (var volume = 1; volume <= (VOLUMES.length-1); volume++)
+   {
+		subvar[vol] = initsublist();
+
+		for (var chapters=1; chapters <= CHAPTERS[volume]; chapters++)
+		{
+			item++
+			subvar[vol] = addsubitem(ITEMS[item].alink, ITEMS[item].adesc)
+		}
+
+		addvolume(VOLUMES[volume].alink, VOLUMES[volume].adesc)
+   }
+
+  l.build(listX,listY);
+  bLoaded = true
+}
+// -->
+</script>
+<script language=javascript1.2>
+<!--
+var TOC_HTML
+
+TOC_HTML = '<style TYPE="text/css">'
+TOC_HTML += '#spacer {margin-top:0;position: absolute; height:' + SPACER_HEIGHT  + ';z-index: 0}'
+TOC_HTML += 'BODY {margin-top:1; margin-left:2; background-color:FFFFFF;}'
+
+for (var i=0; i <= MAX_ITEMS; i++)
+{
+	TOC_HTML += '#lItem' + i + ' { position:absolute; }'
+}
+
+TOC_HTML += '</style>'
+TOC_HTML += '<body marginHeight=1 marginWidth=2 bgcolor="FFFFFF" onLoad="init();">'
+if (browserinfo.ns4)
+{
+	TOC_HTML += '<form name=frmtoc>'
+	TOC_HTML += '<a href="javascript:expandAll();"><img   width=22 height=14 name=treExp valign=top border=0 alt="Expand all sections"   src="expall.gif"></a>'
+	TOC_HTML += '<a href="javascript:collapseAll();"><img width=22 height=14 name=treCol valign=top border=0 alt="Collapse all sections" src="collall.gif"></a>'
+	TOC_HTML += '</form>'
+}
+else
+{
+	TOC_HTML += '<img style="cursor:hand" onClick="expandAll();"   width=22 height=14 border=0 alt="Expand all sections"   src="expall.gif">'
+	TOC_HTML += '<img style="cursor:hand" onClick="collapseAll();" width=22 height=14 border=0 alt="Collapse all sections" src="collall.gif">'
+}
+TOC_HTML += '<div  ID="spacer"></div>'
+
+for (var i=0; i <= MAX_ITEMS; i++)
+{
+	TOC_HTML += '<div ID="lItem' + i + '" name="lItem' + i + '"></div>'
+}
+
+document.writeln( TOC_HTML )
+
+// -->
+</script>
+<!--mstheme--><link rel="stylesheet" type="text/css" href="../_themes/sumipntg/sumi1011.css"><meta name="Microsoft Theme" content="sumipntg 1011, default">
+</head>
+</HTML>
+
+

@@ -1,0 +1,386 @@
+<html>
+<head>
+<!--Declare global variables to stop and start mouseout event, functions to change them-->
+
+<script type="text/javascript">
+
+var rab="notclicked";
+var fer="notclicked";
+var mea="notclicked";
+var sto="notclicked";
+var rod="notclicked";
+var sch="notclicked";
+var gui="notclicked";
+var don="notclicked";
+
+function changeRabClick(){
+rab=(rab=="clicked")? "notclicked" : "clicked";}
+function changeFerClick() {
+fer=(fer=="clicked")? "notclicked" : "clicked";}
+function changeMeaClick() {
+mea=(mea=="clicked")? "notclicked" : "clicked";}
+function changeStoClick() {
+sto=(sto=="clicked")? "notclicked" : "clicked";}
+function changeRodClick() {
+rod=(rod=="clicked")? "notclicked" : "clicked";}
+function changeSchClick() {
+sch=(sch=="clicked")? "notclicked" : "clicked";}
+function changeGuiClick() {
+gui=(gui=="clicked")? "notclicked" : "clicked";}
+function changeDonClick() {
+don=(don=="clicked")? "notclicked" : "clicked";}	
+</script>
+
+<!-- function to change content based on status of above global variables (controls mouseout and content of central info box onclick) -->
+
+<script type="text/javascript">
+function changeContentConditional(id,shtml,link) {
+   if (document.getElementById || document.all) {
+      var el = document.getElementById? document.getElementById(id): document.all[id];
+      if (link=="notclicked" && el && typeof el.innerHTML != "undefined") el.innerHTML = shtml;
+	  
+   }
+}
+</script>
+
+<!-- function to change content regarless of status of above global variables (for mouseover event) -->
+
+<script type="text/javascript">
+function changeContentPure(id,shtml) {
+   if (document.getElementById || document.all) {
+      var el = document.getElementById? document.getElementById(id): document.all[id];
+      if (el && typeof el.innerHTML != "undefined") el.innerHTML = shtml;
+	  
+   }
+}
+</script>
+
+<!-- function to change content based on status of above global variables (controls content of link box onclick) -->
+
+<script type="text/javascript">
+function changeOnClick(id,msgA,msgB,link) {
+   if (document.getElementById || document.all) {
+      var el = document.getElementById? document.getElementById(id): document.all[id];
+      if (link=="notclicked" && el && typeof el.innerHTML != "undefined") {
+	  el.innerHTML = msgA;
+	  }
+	  else {
+	  el.innerHTML = msgB;
+	  }
+	  
+   }
+}
+
+var msg100 = 'generic informational text about site/orgaization.  Our philosphy blah blah blah';
+
+var msg1rab = '<table border=0 bgcolor="FFFFFF" width="100%"><tr><td width="100%"><img src="pics/rabadoptlink.jpg" align="left" border="0"> brief summary of rabbit section</td></tr></table>';
+var msg2rab = 'specific details and more information about rabbits';
+var msg3rab= '<table border=0 class="ltorange" width=100%><tr><td><UL><LI><a href="somewhere"> Rabbit link 1 </a><LI><a href="somewhere"> Rabbit link 2 </a><LI><a href="somewhere"> Rabbit link 3 </a></UL></td></tr></table>';
+
+var msg1fer = '<table border=0 bgcolor="FFFFFF" width="100%"><tr><td width="100%"><img src="pics/ferretlink.jpg" width="41" height="44" align="left" border="0"> brief summary of ferret section</td></tr></table>';
+var msg2fer = 'specific details and more information about ferrets';
+var msg3fer= '<table border=0 class="ltpurple" width=100%><tr><td><UL><LI><a href="somewhere"> Ferret link 1 </a><LI><a href="somewhere"> Ferret link 2 </a><LI><a href="somewhere"> Ferret link 3 </a></UL></td></tr></table>';
+
+var msg1mea = '<table border=0 bgcolor="FFFFFF" width="100%"><tr><td width="100%"><img src="pics/rmslink.jpg" align="left" border="0"> brief summary of rabbit meadows section</td></tr></table>';
+var msg2mea = 'specific details and more information about Rabbit Meadows';
+var msg3mea= '<table border=0 class="ltgreen" width=100%><tr><td><UL><LI><a href="somewhere"> Rabbit Meadow Link 1 </a><LI><a href="somewhere"> Rabbit Meadows Link 2 </a><LI><a href="somewhere"> Rabbit Meadows Link 3 </a></UL></td></tr></table>';
+
+
+</script>
+
+
+
+
+
+<SCRIPT TYPE="text/javascript" SRC="slideshow.js">
+</SCRIPT> 
+
+<SCRIPT TYPE="text/javascript">
+<!--
+SLIDES = new slideshow("SLIDES");
+
+s = new slide();
+s.src = "pics/pic1.jpg";
+SLIDES.add_slide(s);
+
+s = new slide();
+s.src = "pics/pic2.jpg";
+SLIDES.add_slide(s);
+
+s = new slide();
+s.src = "pics/pic3.jpg";
+SLIDES.add_slide(s);
+
+s = new slide();
+s.src = "pics/pic4.jpg";
+SLIDES.add_slide(s);
+
+s = new slide();
+s.src = "pics/pic5.jpg";
+SLIDES.add_slide(s);
+
+//-->
+</SCRIPT>
+<style>
+BODY,TD { margin:0px; font-family: Verdana,Arial,Helvetica,sans-serif; FONT-SIZE: 10px }
+A, P { font-family:Verdana,Arial,Helvetica,sans-serif; color:black; FONT-SIZE:10px; text-decoration:none; }
+
+.ContentBlock { margin: 0px; padding-left: 8px; padding-right:4px; padding-top:8px; }
+
+
+.ltorange, .ltblue, .ltpurple, .ltgreen {font-family:Verdana,Arial,Helvetica; font-weight:bold;color:black; font-size:10px}
+.dkorange, .dkblue, .dkpurple, .dkgreen, {font-family:Verdana,Arial,Helvetica; color:white; font-size:11px;}
+
+.ltorange {background:#ffd181} /*ffd181*/
+.dkorange {background:#FF9E31} 
+.ltblue {background:#7BA6C6}  /*7BA6C6*/
+.dkblue {background:#00659C}  
+.ltpurple {background:#CECFFF}/*CECFFF*/
+.dkpurple {background:#63659C}
+.ltgreen {background:#CECF9C}/*CECF9C*/
+.dkgreen{background:#9C9A31}
+.white {background:#FFFFFF}
+</style>
+</head>
+<BODY onLoad="SLIDES.update()">
+
+<!--main table-->
+
+<TABLE WIDTH=95% HEIGHT=100% BORDER=0 CELLSPACING=0 CELLPADDING=0 bgcolor="#ffffff">
+
+
+<tr><td>
+	
+<center><table width="700" cellspacing="0" cellpadding="0" border="0">
+<tr><td rowspan="2" valign="top"><img src="header2a.gif" width="150" height="95" border="0" alt=""></td>
+<td valign="top">
+<img src="header2b.gif" width="550" height="56"" border="0" alt=""></td></tr>
+<tr><td valign="top">
+<map name="LINKMAP">
+<area
+	href="http://www.washingtonhouserabbitsociety.org"
+	shape=RECT
+	coordS="0,8,30,20"
+	alt="">
+
+<area
+	href="AboutHRS.asp"
+	shape=RECT
+	coordS="42,8,85,20"
+	alt="">
+
+<area
+	href="AdoptedCurrent.asp"
+	shape=RECT
+	coordS="97,8,142,20"
+	alt="">
+
+<area
+	href="http://www.rabbitrodentferret.org"
+	shape=RECT
+	coordS="151,8,180,20"
+	alt="">
+
+<area
+	href="news.asp"
+	shape=RECT
+	coordS="190,8,220,20"
+	alt="">
+
+<area
+	href="membership.asp"
+	shape=RECT
+	coordS="229,8,290,20"
+	alt="">
+
+<area
+	href="Youth/default.htm"
+	shape=RECT
+	coordS="300,8,332,20"
+	alt="">
+
+<area
+	href="vets.asp"
+	shape=RECT
+	coordS="342,8,367,20"
+	alt="">
+
+<area
+	href="FAQ.asp"
+	shape=RECT
+	coordS="378,8,428,20"
+	alt="">
+
+<area
+	href="HouseBun.asp"
+	shape=RECT
+	coordS="436,8,486,20"
+	alt="">
+
+<area
+	href="sites.asp"
+	shape=RECT
+	coordS="494,8,518,20"
+	alt="">
+</map>
+
+<img src="header2c.gif" width="550" height="39" border="0" alt="" usemap="#LINKMAP">
+</td></tr>
+</table></center>
+</td></tr>
+	<!--end of page header section-->
+<tr><td>
+<center><table border=0 bgcolor="ffffff" cellspacing="8" cellpadding="0">
+
+<tr>
+
+<td>
+<table bgcolor="#FFFFFF" width="210" height="85" cellpadding="0" cellspacing="0" border="0">
+<tr><td valign="top">
+		<table class="ltorange" cellpadding=0 cellspacing=1 width="210">
+		<tr><td class="dkorange" align="center"><a class="dkorange" href="javascript:;" onmouseover="changeContentPure('td1',msg2rab)"  onmouseout="changeContentConditional('td1',msg100,rab)"  onClick="changeOnClick('td2',msg3rab,msg1rab,rab); changeContentConditional('td1',msg2rab,rab); changeRabClick();">Rabbits</a></td></tr>
+
+		<tr><td id="td2" bgcolor="#FFFFFF">
+				<table border=0 bgcolor="FFFFFF" width=100%><tr><td width=100%>
+				<img src="pics/rabadoptlink.jpg" align="left" border="0"> brief summary of rabbit section
+				</td></tr></table>
+		</td></tr>
+		</table>
+</td></tr>
+</table>
+
+</td>
+
+<td rowspan=4  bgcolor="Ffffff" WIDTH="300" HEIGHT="200" align="center" valign="top">
+<table border=0 width="300"><tr><td align="center">
+
+<IMG NAME="SLIDESIMG" SRC="pics/pic1.jpg" WIDTH="200" HEIGHT="200"
+   BORDER="0" align="center" ALT="slideshow image" STYLE="filter:progid:DXImageTransform.Microsoft.Fade()">
+
+<SCRIPT TYPE="text/javascript">
+<!--
+if (document.images)
+{
+  SLIDES.set_image(document.images.SLIDESIMG);
+  SLIDES.set_textid("SLIDESTEXT"); // optional
+  SLIDES.update();
+  SLIDES.play(); //optional
+}
+//-->
+</SCRIPT>
+</td></tr>
+<tr><td id="td1" bgcolor="white">    
+	
+
+table cell
+
+
+
+    
+
+</td></tr></table>
+
+</td>
+
+<td>
+<table bgcolor="#FFFFFF" width="210" height="85" cellpadding="0" cellspacing="0" border="0">
+<tr><td valign="top">
+		<table class="ltpurple" cellpadding=0 cellspacing=1 width="210">
+		<tr><td class="dkpurple" align="center"><a class="dkpurple" href="javascript:;" onmouseover="changeContentPure('td1',msg2fer)"  onmouseout="changeContentConditional('td1',msg100,fer)"  onClick="changeOnClick('td5',msg3fer,msg1fer,fer); changeContentConditional('td1',msg2fer,fer); changeFerClick();">Ferrets</a></td></tr>
+
+		<tr><td id="td5" bgcolor="#FFFFFF">
+				<table border=0 bgcolor="FFFFFF" width=100%><tr><td width=100%>
+				<img src="pics/ferretlink.jpg" align="left" border="0" width="41" height="44"> brief summary of ferret section
+				</td></tr>
+				</table>
+		</td></tr>
+		</table>
+</td></tr>
+</table></td>
+
+
+<tr>
+<td>
+
+<table bgcolor="#FFFFFF" width="210" height="85" cellpadding="0" cellspacing="0" border="0">
+	<tr><td valign="top">
+		<table class="ltgreen" cellpadding=0 cellspacing=1 width="210">
+		<tr><td class="dkgreen" align="center"><a class="dkgreen" href="javascript:;" onmouseover="changeContentPure('td1',msg2mea)"  onmouseout="changeContentConditional('td1',msg100,mea)"  onClick="changeOnClick('td4',msg3mea,msg1mea,mea); changeContentConditional('td1',msg2mea,mea); changeMeaClick();">Rabbit Meadows</a></td></tr>
+
+		<tr><td id="td4" bgcolor="#FFFFFF">
+				<table border=0 bgcolor="FFFFFF" width=100%><tr><td width=100%>
+				<img src="pics/rmslink.jpg" align="left" border="0"> brief summary of rabbit meadows section
+				</td></tr>
+				</table>
+		</td></tr>
+		</table>
+</td></tr>
+</table></td>
+
+
+<td>
+<table bgcolor="#FFFFFF" width="210" height="85" cellpadding="0" cellspacing="0" border="0">
+	<tr><td valign="top">
+		<table class="ltgreen" cellpadding=0 cellspacing=1 width="210">
+		<tr><td class="dkgreen" align="center"><a class="dkgreen" href="javascript:;" onmouseover="changeContentPure('td1',msg2mea)"  onmouseout="changeContentConditional('td1',msg100,mea)"  onClick="changeOnClick('td4',msg3mea,msg1mea,mea); changeContentConditional('td1',msg2mea,mea); changeMeaClick();">Rabbit Meadows</a></td></tr>
+
+		<tr><td id="td4" bgcolor="#FFFFFF">
+				<table border=0 bgcolor="FFFFFF" width=100%><tr><td width=100%>
+				<img src="pics/rmslink.jpg" align="left" border="0"> brief summary of rabbit meadows section
+				</td></tr>
+				</table>
+		</td></tr>
+		</table>
+</td></tr>
+</table></td>
+
+</tr>
+
+
+
+<tr><td><table class="dkblue" cellpadding=0 cellspacing=1 width="210">
+<tr><td class="dkblue" align="center">Rodents</td></tr>
+<tr><td class="ltblue"><image align="left" src="rodentlink.jpg">Rodent adoption and information. </td></tr>
+</table></td>
+
+
+
+<td><table class="ltorange" cellpadding=0 cellspacing=1 width="210">
+<tr><td class="dkorange">Vet Scholorship</td></tr>
+<tr><td bgcolor="#FFFFFF"><image align="left" src="pic3.jpg">We have affectionate, litter-trained, spayed and neutered rabbits available for adoption.  </td></tr>
+</table></td></tr>
+
+<tr><td><table class="ltpurple" cellpadding=0 cellspacing=1 width="210">
+<tr><td class="dkpurple">Guinea Pigs</td></tr>
+<tr><td bgcolor="#FFFFFF"><image align="left" src="pic3.jpg">We have affectionate, litter-trained, spayed and neutered rabbits available for adoption.  </td></tr>
+</table></td>
+
+<td><table class="ltgreen" cellpadding=0 cellspacing=1 width="210">
+<tr><td class="dkgreen">Donate</td></tr>
+<tr><td bgcolor="#FFFFFF"><image align="left" src="pic3.jpg">We have affectionate, litter-trained, spayed and neutered rabbits available for adoption.  </td></tr>
+</table></td></tr>
+</table></center>
+</table>
+
+</body>
+
+
+
+<script language="JavaScript">
+
+// METATRAFFIC -- COPYRIGHT (C) 2002-2005, Brinkster Site Statistics Corp.
+
+var pagetitle = document.title;
+var action = "";
+var amount = "0";
+var order = ""; 
+
+var scriptlocation = "/stats/track.asp";
+
+var pagedata = 'mtpt=' + escape(pagetitle) + '&mtac=' + escape(action) + '&mta=' + amount + '&mto=' + escape(order) + '&mtr=' + escape(document.referrer) + '&mtt=2&mts=' + window.screen.width + 'x' + window.screen.height + '&mti=1&mtz=' + Math.random(); 
+document.write ('<img height=1 width=1 ');
+document.write ('src="' + scriptlocation + '?' + pagedata + '">');
+</script>
+
+
+</html>

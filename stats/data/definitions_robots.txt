@@ -1,0 +1,122 @@
+##Definitions:2007-02-05
+Opera 5||^.*Opera 5\.[0-9]+.*$||||||1
+Opera 6||^.*Opera 6\.[0-9]+.*$||||||1
+Opera 7||^(.*Opera 7\.[0-9]+.*|Opera/7\.[0-9]+ \(.*\).*)$||||||1
+Opera 8||^(.*Opera 8\.[0-9]+.*|Opera/8\.[0-9]+ \(.*\).*)$||||||1
+Opera 9||^(.*Opera 9\.[0-9]+.*|Opera/9\.[0-9]+ \(.*\).*)$||||||1
+Microsoft Pocket Internet Explorer||^Mozilla/.*\(.*MSIE [3-4].*Windows CE.*PPC.*\)$||||||1
+Internet Explorer 3||^Mozilla/.*\(.*MSIE [1-3].*\)$||||||1
+Internet Explorer 7||^Mozilla/4.0 \(.*MSIE 7\..*\).*$||||||1
+Internet Explorer 6||^Mozilla/4.0 \(.*MSIE 6\.0.*\).*$||||||1
+Internet Explorer 4||^Mozilla/4.0 \(.*MSIE 4\..*\)$||||||1
+Internet Explorer 5||^Mozilla/4.0 \(.*MSIE 5\.\d{1,2}.*\).*$||||||1
+Netscape 6||^Mozilla/5\.\d \(.*\) Gecko/\d{8} Netscape/6(\.\d{1,2}){1,2}.*$||||||1
+Netscape 7||^Mozilla/5\.\d \(.*\) Gecko/\d{8} Netscape/7(\.\d{1,2}){1,2}.*$||||||1
+Netscape 4||^Mozilla/4\.0[6-9]\s*\[.*\] \(.*\)$||||||1
+Netscape 4.7||^Mozilla/4\.[6-7][2|5-9]\s*\[.*\] \(.*\)$||||||1
+Firefox 2||^Mozilla/5\.\d \(.*(rv:\d\.\d\.\d).*\) Gecko/\d{8} Firefox/2\.\d.*$||||||1
+Firefox 1||^Mozilla/5\.\d \(.*(rv:\d\.\d\.\d).*\) Gecko/\d{8} Firefox/1\.\d.*$||||||1
+Konqueror 3||^.*Konqueror/3.*$||||||1
+Mozilla 1||^Mozilla/[4-5]\.\d \(.*(rv:\d\.\d\.\d).*\) Gecko/\d{8}.*$||||||1
+Mozilla 1||^Mozilla/[4-5]\.\d \(.*(rv:\d\.\drc\d).*\) .*$||||||1
+Mozilla 1||^Mozilla/[4-5]\.\d \(.*(rv:\d\.\d[a-z]).*\) .*$||||||1
+Mozilla 1||^Mozilla/[4-5]\.\d \(.*(rv:\d\.\d).*\) .*$||||||1
+Safari 2.0||^Mozilla/5\.0 \(Macintosh;.*\) AppleWebKit/412.*\(KHTML\, like Gecko\) Safari/412.*$||||||1
+Safari 1.3||^Mozilla/5\.0 \(Macintosh;.*\) AppleWebKit/312.*\(KHTML\, like Gecko\) Safari/312.*$||||||1
+Safari 1.2||^Mozilla/5\.0 \(Macintosh;.*\) AppleWebKit/125.*\(KHTML\, like Gecko\) Safari/125.*$||||||1
+Safari 1.0||^Mozilla/5\.0 \(Macintosh;.*\) AppleWebKit/85.*\(KHTML\, like Gecko\) Safari/85.*$||||||1
+Avant Browser||^Avant Browser \(http://www\.avantbrowser\.com\)$||||||1
+WinXP||^.*(Windows NT 5\.1|Windows XP).*$||||||2
+Win2003||^.*Windows NT 5\.2.*$||||||2
+Win2000||^.*(Win2000|Windows 2000|Windows NT 5\.0).*$||||||2
+Mac68k||^.*(68k|68000).*$||||||2
+Win9x||^.*(9x 4.90|Win9(5|8)|Windows 9(5|8)|95/NT|Win32|32bit).*$||||||2
+MAC||^.*(Mac|apple|MacOS8).*$||||||2
+WinNT||^.*(WinNT|Windows NT).*$||||||2
+WinCE||^.*Windows CE.*$||||||2
+MacPPC||^.*(PowerPC|PPC).*$||||||2
+Win31||^.*(Windows 3.*1|Win3.*1|Win16|Windows 16-bit|16bit).*$||||||2
+WebTV||^.*WebTV.*$||||||2
+Linux||^.*Linux.*$||||||2
+Amiga||^.*(Amiga|Ibrowse).*$||||||2
+DEC||^.*(dec|osf1|dec_alpha|alphaserver|ultrix|alphastation).*$||||||2
+OS/2||^.*(OS/2|ibm-webexplorer).*$||||||2
+VMS||^.*(VAX|OpenVMS).*$||||||2
+BSD||^.*BSD.*$||||||2
+Palm||^.*Elaine/.*$||||||2
+FreeBSD||^.*FreeBSD.*$||||||2
+Nokia||^.*Nokia.*$||||||2
+Solaris||^.*Solaris.*$||||||2
+Suni86||^.*SunI86.*$||||||2
+SunOS 4||^.*SunOS 4.*$||||||2
+SunOS 5||^.*SunOS 5.*$||||||2
+UNIX||^.*X11.*$||||||2
+GoogleBot||^Googlebot/2\.\d \(\+http://www\.(googlebot|google)\.com/bot\.html\)$||||http://www.google.com/bot.html||3
+GoogleBot Cloak||^Mozilla/[4-5]\.\d \(compatible; Googlebot/2\.\d; \+http://www\.(googlebot|google)\.com/bot\.html\)$||||http://www.google.com/bot.html||3
+GoogleBot Mediapartners||^Mediapartners\-Google/2\.\d$||||http://www.google.com/bot.html||3
+Fast Webcrawler||^(FAST(-)*WebCrawler/\d\.\d.* \(.*\)|AvantGo \d\.\d \(Fast PDA Crawler\)|Mozilla/4\.0 \(.*FastCrawler/\d\.\d.*\))$||||http://www.fastsearch.com/support/crawler.asp||3
+FAST Enterprise Crawler||^FAST Enterprise Crawler.*$||||||3
+Alexa||^ia_archiver$||||http://pages.alexa.com/help/webmasters/||3
+InternetSeer||^sitecheck\.internetseer\.com \(For more info see: http://sitecheck\.internetseer\.com\)$||||http://sitecheck.internetseer.com/||3
+Zealbot||^Mozilla/4\.0\(compatible; Zealbot \d\.\d\)$||||http://www.zeal.com/||3
+Ask Jeeves||^Mozilla/2\.0 \(compatible; Ask Jeeves.*\)$||||http://www.askjeeves.com/||3
+Slurp (Inktomi)||^Mozilla/\d\.0 \(Slurp/[a-z]+; slurp@inktomi\.com; http://www\.inktomi\.com/slurp\.html\)$||||http://www.inktomi.com/slurp.html||3
+Mercator (Altavista)||^Mercator-.+$||||http://www.altavista.com/||3
+Lycos Spider||^Lycos_Spider_\(.*\)$||||http://www.lycos.com/||3
+LinksManager.com||^LinksManager\.com \(http://linksmanager\.com/linkchecker\.html\)$||||http://linksmanager.com/linkchecker.html||3
+Baidu Spider||^Baiduspider\+\(\+http://www\.baidu\.com/search/spider\.htm\)$||||http://www.baidu.com/search/spider.htm||3
+LinkChecker||^LinkWalker$||||http://www.seventwentyfour.com/||3
+Unknown Robot (cURL)||^curl/.*$||||http://curl.sourceforge.net/||3
+WebTrends||^WebTrends/.*$||||http://www.webtrends.com/||3
+Beijing Express Email Address Extractor||^Mozilla/4\.0 \(compatible; MSIE 5\.0; Windows NT; DigExt; DTS Agent$||||http://www.zstools.com/||3
+Unknown Robot (Delphi/C++ Builder)||^Mozilla/3\.0 \(compatible; Indy Library\)$||||URL||3
+Unknown Robot (Microsoft URL Control)||^Microsoft URL Control.*$||||URL||3
+Scooter (AltaVista)||^Scooter/.*$||||http://www.altavista.com/||3
+Unknown Robot (Perl)||^(libwww-perl|lwp-trivial|LWP::Simple).*$||||http://www.perl.org/||3
+TurnitinBot||^TurnitinBot/.*$||||http://www.turnitin.com/robot/crawlerinfo.html||3
+WiseNutBot||^Mozilla/4\.0 compatible ZyBorg/1\.0.*$||||http://www.wisenutbot.com/||3
+GigaBot||^Gigabot/\d\.\d$||||http://www.gigablast.com/||3
+SynoBot||^SynoBot$||||URL||3
+Unknown Robot (Python)||^Python-urllib/.*$||||http://www.python.org/||3
+LNSpiderguy||^LNSpiderguy$||||http://www.lexis-nexis.com/||3
+OpenBot||^Openfind data gatherer, Openbot/3\.0\+\(.*\)$||||http://www.openfind.com.tw/robot.html||3
+IBM Research Division||^http://www\.almaden\.ibm\.com/cs/crawler.*$||||http://www.almaden.ibm.com/cs/crawler||3
+Download Accelerator||^DA \d\.\d$||||http://www.downloadaccelerator.com/||3
+LinksManager.com||^LinksManager.com \(http://linksmanager.com/linkchecker.html\)$||||http://linksmanager.com/linkchecker.html||3
+Whats Up (Ipswitch)||^WhatsUp.+/\d\.\d+$||||http://www.ipswitch.com/Products/WhatsUp/index.html||3
+VisualPulse||^VisualPulse$||||http://www.visualware.com/visualpulse/||3
+Grub||^Mozilla/4\.0 \(compatible; grub-client-\d\.\d\.\d; Crawl your own stuff with http://grub\.org\)$||||http://grub.org/||3
+NameProtect Web Crawler||^NPBot.*$||||http://www.nameprotect.com/botinfo.html||3
+MSNBot||^MSNBOT/\d\.\d+.*$||||http://search.msn.com/msnbot.htm||3
+Teleport Webspider||^Teleport.*/\d\.\d+.*$||||http://www.tenmax.com/||3
+Ask Jeeves/Teoma Bot||^Mozilla/2\.0 \(compatible; Ask Jeeves/Teoma\)$||||http://www.ask.com/||3
+Check & Get||^Mozilla/2\.0 compatible; Check&Get.*$||||URL||3
+Yahoo! Slurp||^Mozilla/5\.0 \(compatible; Yahoo! Slurp; http://help\.yahoo\.com/help/us/ysearch/slurp\)$||||http://help.yahoo.com/help/us/ysearch/slurp||3
+Unknown||^(Mozilla/4\.0 \(compatible; MSIE 5\.00; Windows 98|Mozilla/3\.0 \(compatible\))$||||URL||3
+QuepasaCreep||^QuepasaCreep \( crawler@quepasacorp.com \)$||||http://www.quepasa.com/||3
+Internet Archive||^ia_archiver-web\.archive\.org$||||http://www.archive.org/||3
+Pompos (dir.com)||^Pompos/\d\.\d http://dir\.com/pompos\.html||||http://dir.com/pompos.html$||3
+ExaLead||^NG/\d\.\d$||||http://www.exalead.com/||3
+JetBot||^JetBot/\d\.\d$||||http://www.jeteye.com/jetbot.html||3
+Unknown Robot (Java)||^Java/\d\.\d\.\d.{0,4}$||||Url||3
+MJ12bot (DSearch)||^MJ12bot.*$||||http://majestic12.co.uk/bot.php||3
+OmniExplorer||^OmniExplorer.*$||||http://www.omni-explorer.com||3
+Nutch (Apache)||^Nutch.*$||||http://lucene.apache.org/nutch/||3
+Google||^.*www\.google\..*$||q||http://www.google.com||4
+Teoma||^.*teoma\.com/..*$||q||http://www.teoma.com||4
+Yahoo||^.*yahoo\.com/.*$||p||http://www.yahoo.com||4
+Zeal||^.*zeal\.com/.*$||keyword||http://www.zeal.com||4
+Looksmart||^.*looksmart\.com/.*$||qt||http://www.looksmart.com||4
+Lycos||^.*lycos\..*$||query||http://www.lycos.com||4
+Ask||^.*\.ask\.com/.*$||q||http://www.ask.com||4
+MSN||^.*\.msn\..*$||q||http://search.msn.com||4
+DMOZ||^.*dmoz\.org/.*$||search||http://www.dmoz.org||4
+AOL||^.*\.aol\..*$||query||http://search.aol.com||4
+Hotbot||^.*hotbot\.com/.*$||query||http://www.hotbot.com||4
+Altavista||^.*altavista\.com/.*$||q||http://www.altavista.com||4
+Alltheweb||^.*alltheweb\.com/.*$||q||http://www.alltheweb.com||4
+Netscape||^.*netscape\.com/.*$||query||http://www.netscape.com||4
+iWon||^.*iwon\.com/.*$||searchfor||http://www.iwon.com||4
+Overture||^.*overture\.com/.*$||q||http://www.overture.com||4
+Search||^.*www\.search\.com/.*$||q||http://www.search.com||4
+Excite||^.*excite\.com/.*$||/web/||http://www.excite.com||4

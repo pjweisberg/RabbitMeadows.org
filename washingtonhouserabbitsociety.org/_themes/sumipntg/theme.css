@@ -1,0 +1,123 @@
+.mstheme
+{
+	navbutton-background-color: rgb(255,255,255);
+	top-bar-button: url(sumglob.gif);
+}
+.mstheme-topbar-font
+{
+	font-family: Arial, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(102,102,153);
+}
+body
+{
+	font-family: Verdana, Arial, Helvetica;
+	background-image: url(sumtextb.jpg);
+}
+h1
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24pt;
+}
+h2
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18pt;
+}
+h3
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14pt;
+}
+h4
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12pt;
+}
+h5
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10pt;
+}
+h6
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 8pt;
+}
+BUTTON 
+{
+	border-style: solid;
+	border-width: 1pt;
+	font-size: 8pt;
+	font-family: Arial, Helvetica;
+	font-style: normal; 
+}
+LABEL, .MSTHEME-LABEL
+{
+	font-size: 8pt;
+	font-family: Arial, Helvetica;
+	font-style: normal; 
+}
+TEXTAREA
+{
+	border-style: solid;
+	border-width: 1pt;
+	font-size: 8pt;
+	font-family: Arial, Helvetica;
+	font-style: normal; 
+}
+FIELDSET
+{
+	border-style: solid;
+	border-width: 1pt;
+	font-size: 8pt;
+	font-family: Arial, Helvetica;
+	font-style: normal; 
+}
+LEGEND
+{
+	font-size: 8pt;
+	font-family: Verdana, Arial, Helvetica;
+	font-style: Normal; 
+}
+SELECT
+{
+	border-style: solid;
+	border-width: 1pt;
+	font-size: 8pt;
+	font-family: Arial, Helvetica;
+	font-style: normal; 
+}
+TABLE
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-style: normal; 
+}
+CAPTION 
+{
+	font-size: 14pt;
+	font-family: Verdana, Arial, Helvetica;
+	font-style: Normal; 
+}
+TH
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-style: normal; 
+}
+MARQUEE
+{
+	font-size: 14pt;
+	font-family: Verdana, Arial, Helvetica;
+}

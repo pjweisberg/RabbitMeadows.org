@@ -1,0 +1,10 @@
+<SCRIPT LANGUAGE=VBSCRIPT RUNAT=SERVER>
+Sub Application_OnStart
+Application("strConn")="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\\premfs2\sites\premium6\blrrfh\database\rabbit.mdb"
+
+
+End Sub
+
+</script>
+
+

@@ -1,0 +1,311 @@
+<%@ LANGUAGE=VBSCRIPT %>
+<% OPTION EXPLICIT %>
+
+<HTML>
+<HEAD>
+<!--#include file="dropdownmenu.asp"-->
+<style type="text/css">
+table.green {
+	font-family: arial;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;	
+	background-color: rgb(204, 204, 153);
+	width: 217px;
+}
+
+TD.question {
+background-color: #FFFFFF;
+border-left: solid 1px #000000;
+border-right: solid 1px #000000;
+border-top: solid 1px #000000;
+border-bottom: solid 1px #000000;
+padding: 5px 5px 5px 5px;
+}
+
+TD.answer {
+font-size: 75%;
+background-color: rgb(204, 204, 153);
+border-left: solid 0px #000000;
+border-right: solid 0px #000000;
+border-top: solid 0px #000000;
+border-bottom: solid 0px #000000;
+padding: 5px 5px 5px 5px;
+}
+
+th.green {
+	border-width: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
+	border-style: none none none none;
+	border-color: white white white white;
+	background-color: ;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+td.green {
+	border-width: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
+	border-style: none none none none;
+	border-color: white white white white;
+	background-color: ;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.white {
+	font-family: arial;
+	border-left: 0px solid #000000;
+	border-right: 0px solid #000000;
+	border-top: 0px solid #FFFFFF;
+	border-bottom: 0px solid #000000;
+	
+	background-color: white;
+	width: 667px;
+	}
+
+table.white th {
+	border-width: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-style: none none none none;
+	border-color: white white white white;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.white td {
+	border-width: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-style: none none none none;
+	border-color: white white white white;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+
+	th.question  {
+	border-width: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
+	border-style: solid solid solid solid
+	border-color: black black black black;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+	}
+</style>
+
+
+<meta NAME="keywords" CONTENT="House Rabbit, House Rabbit Society, rabbits, bunnies, pets, pet adoption, shelter, sanctuary, humane,
+         pet rabbits, rabbit health, vets, non-profit, rabbit information, rescue, rabbit rescue, rodent rescue,
+         pet rats, pet mice, pet hamsters, pet gerbils, pet ferrets, pet guinea pigs"/>
+
+<meta NAME="Description" CONTENT="Rabbit Meadows is a the definitive site for Rescued Rabbits and Rodents Ferrets in the 
+Northwest and other parts of the country. Rabbit Meadows is a non-profit organization."/>
+
+    <style>
+	a{color:#396bb5; text-decoration:none; font-weight:bold}
+	a:visited{color:#555555}
+	a:hover{text-decoration:underline; }
+   </style>
+</head>
+
+<body>
+
+
+<center>
+<table border="1" width="700">
+    <tr>
+        <td colspan="3">
+        <!--#include file="headerfile.asp"-->
+        </td>
+    </tr>
+
+    <tr>    
+   	    <td colspan="3" align="center">
+        <A href="http://www.rabbitrodentferret.org/">
+        <IMG src="http://img.pcdn.vresp.com/media/c/e/1/ce1fba30a3/96d53a7752/96d53a7752.jpg" border="0"></A>
+                              
+    	<!-- Begin PayPal Logo -->
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+        <input type="hidden" name="cmd" value="_xclick"/>
+        <input type="hidden" name="business" value="Sandi@RabbitRodentFerret.org"/>
+        <input type="hidden" name="no_shipping" value="1"/>
+        <input type="hidden" name="shipping" value="0.00"/>
+        <input type="hidden" name="tax" value="0"/>
+
+        <input type="hidden" name="return" value="http://www.washingtonhouserabbitsociety.org/thanks"/>
+        <input type="hidden" name="cancel_return" value="http://http://www.washingtonhouserabbitsociety.org/cancel"/>
+        <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"/>
+        </form>
+        <!-- End PayPal Logo -->
+        </td>                   
+</table>
+</center>
+
+<FONT face="verdana,arial,helvetica" size=2>
+<center><H2>2009 Silent Auction</H2>
+</center>
+
+<FONT face="verdana,arial,helvetica" size=2>
+Even with the poor economy our 2009 auction was a great Success! Thanks to you, the auction brought-in $7,800!
+    <tr><td><font size="4"> <center><br>A VERY special thank you to the <a href="http://www.RustyPelicanCafe.com/">Rusty Pelican Cafe</a> for hosting this event for us!</center></font>
+<br>
+Out of this amount, we put $5,800 into our operating budget and $2,000
+into our Capital Fund for our new Shelter! Remember, you can help build our Shelter
+by donating any amount, any time. :-) 
+<br>
+<br>
+In addition to all of you who attended, the following businesses and individuals donated items which
+made the auction both fun and successful! 
+
+<ul>
+    <li><a href="http://www.ahouseofclocks.com/">
+    House of Clocks</a>
+
+    <li><a href="http://www.bfranklincrafts.com/">Ben
+    Franklin-Monroe</a>
+
+    <li><a href="http://www.bunniesbythebay.com/">Bunnies
+    By the Bay </a>
+
+    <li><a href="http://www.cakespy.com/">CakeSpy.com
+    </a>
+
+    <li><a href="http://www.ste-michelle.com/">Chateau
+    Ste Michelle Winery</a>
+
+    <li><a href="http://www.criticalcarevets.com/">Critical
+    Care Vets</a>
+
+    <li><a href="http://www.devinrice.com/">Devin
+    Rice Designs</a>
+
+    <li><a 
+    href="http://dentists.healthprofs.com/cam/prof_detail.php?profid=508299&amp;sid=1238817983.2906_19929&amp;city=Seattle&amp;county=King&amp;state=Washington&amp;thrpst_type=12">Jaymor
+    Kim, DDS-Whitening</a>
+
+    <li><a href="http://www.Fellswoop.com/">Fell
+    Swoop - Rabbit Art Posters</a>
+
+    <li>Great Clips (Sammamish)
+
+    <li><a href="http://www.bowlluckystrike.com/">Lucky Strike Lanes - <st1:City><st1:place>Bellevue</st1:place></st1:City></a>
+
+    <li><a 
+    href="http://www.leithpetwerks.com/">Leith
+    Petwerks</span> Condo (Donating a double condo!-see photo
+    below)</a>
+
+    <li><a 
+    href="http://www.northseattlevetclinic.vetsuite.com">North
+    <st1:City><st1:place>Seattle</st1:place></st1:City> Vet Clinic </a>
+
+    <li><a href="http://www.pavebakery.com">Pave
+    Bakery</a>
+
+    <li><a href="http://www.portagebaygoods.com/">Portage
+    Bay Goods</a>
+
+    <li><a href="http://www.qualitysewing.com/">Quality
+    Sewing and Vacuum</a>
+
+    <li><a href="http://www.rabbithaven.org/">Rabbit
+    Haven - Bunny furniture &amp; boarding</a>
+
+    <li><a href="http://www.runawayrabbit.com/">Runaway
+    Rabbit Creations</a>
+
+    <li><a href="http://www.ridetheducksofseattle.com/">Ride
+    the Ducks of <st1:City><st1:place>Seattle</st1:place></st1:City> </a>
+
+    <li><a 
+    href="http://rmcf.com/WA/Seattle50435/">Rocky
+    Mountain Chocolate Factory </a>
+
+    <li><a href="http://www.RustyPelicanCafe.com/">Rusty Pelican Cafe</a>
+
+    <li>Sammamish Point Espresso
+
+    <li><a href="http://www.samscatsanddogs.com/">Sam's Cats &amp; Dogs, Naturally </a>
+
+    <li><a href="http://www.sidecarforpigspeace.com/">Sidecar for Pigs Peace </a>
+
+    <li><a href="http://larkin-art.deviantart.com/">The Art of Joseph Larkin </a>
+
+    <li><a href="http://www.TheChildrensMuseum.org">The
+    <st1:place><st1:PlaceName>Childrens</span></st1:PlaceName> <st1:PlaceType>Museum</st1:PlaceType></st1:place></a>
+
+    <li><a href="http://www.museumofflight.org/">The
+    Museum of Flight </a>
+
+    <li><a href="http://www.thymeforhealth.org/">Thyme
+    For Health </a>
+
+    <li><a href="http://www.veganme.com/">Seattle's Underground Tour </a>
+
+    <li><a href="http://www.veganme.com/">Vegan*Me </a>
+
+    <li> Zunes (2) - Hollace Kennedy
+    <li> Microsoft Arc Mouse - Erika Parsons
+
+    <li> Microsoft Office 2007 (Home &amp; Student) - Erika Parsons
+
+    <li> Hypnotheraphy Session - Karen Bowman
+
+    <li>Handcrafted Purse - LuzMaria and Pablo
+
+    <li>Gourmet Vegan Dinner Party for 4-Chef Frances Janes
+
+    <li>2-Way Radios - Chris Sterns
+
+    <li>Verizon Bay Signs ($200-Commercial Signs)-James Andrews
+
+    <li> Guided Snow Shoe Tour-Patti Polinsky
+
+    <li>Original Artwork-by Jessie Olson 
+
+    <li>Framed Bunny Picture-Claudine Guignard</span>
+
+    <li>Bakery Gift Certificate 
+
+    <li>Doggie Treat Basket-Claudine Guignard</span>
+
+    <li>Tea Basket-Claudine Guignard</span> 
+
+    <li>Homemade Bunny-Claudine Guignard</span>
+
+    <li>Lavender Body Care Basket-Claudine Guignard
+
+    <li>Aromatherapy Apothecary Set
+    </ul>
+
+</td></tr>
+
+<center>
+<br>
+<p><B>Many, Many Thanks</B> to all of you for all you've done!  Your contributions truly make a difference in the world!
+<br>
+<table cellspacing=40><tr><td>
+	<b>Best Little Rabbit, Rodent & Ferret House<br>
+	14317 Lake City Way NE<br>
+    Seattle, WA 98125<br>
+
+    (206)365-9105</b>
+    </td><td>
+    <b>Rabbit Meadows<br>
+    PO Box 3242 <br> 8311 252nd Ave. NE, <br>Redmond, WA 98053<br>(425)836-8925
+    </tr></tr>
+</table>
+</center>
+
+</td></tr>
+<tr><td colspan=3><hr></td></tr>
+<tr><td align=center colspan="3"><font face="arial" size=1>
+
+&#169;2000 Best Little Rabbit, Rodent and Ferret House.  All Rights Reserved<br>
+Product prices and availability subject to change without notice<br></font>
+</td></tr>
+</table>
+</body>
+
+
+
+
+<% Response.Cookies("mt")("pagetitle") = "" : Server.Execute("/stats/track.asp") %>
+</html>

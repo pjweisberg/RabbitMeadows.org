@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sitesettings SYSTEM "sitesettings.dtd">
+<!--Adobe GoLive settings file-->
+<sitesettings section="siteServer" version="1.0">
+	<attributes>
+		<attribute name="ActiveServer" value="BarbaraDeebScholarship"/>
+		<attribute name="MaxServerID" value="1"/>
+		<list name="SiteServerList">
+			<item>
+				<attribute name="active" value="yes"/>
+				<attribute name="category" value="LocalSite"/>
+				<attribute name="globalId" value="0"/>
+				<attribute name="id" value="1"/>
+				<attribute name="name" value="BarbaraDeebScholarship"/>
+				<attribute name="optionPassive" value="YES"/>
+				<list name="options">
+					<item>
+						<attribute name="optionsKey" value="ALIVE"/>
+						<attribute name="optionsValue" value="NO"/>
+					</item>
+					<item>
+						<attribute name="optionsKey" value="FRAMEWORK"/>
+						<attribute name="optionsValue" value="libcurl"/>
+					</item>
+					<item>
+						<attribute name="optionsKey" value="ISO"/>
+						<attribute name="optionsValue" value="NO"/>
+					</item>
+					<item>
+						<attribute name="optionsKey" value="PASSIVE"/>
+						<attribute name="optionsValue" value="YES"/>
+					</item>
+					<item>
+						<attribute name="optionsKey" value="RESOLVE"/>
+						<attribute name="optionsValue" value="YES"/>
+					</item>
+					<item>
+						<attribute name="optionsKey" value="SECURITY"/>
+						<attribute name="optionsValue" value="None"/>
+					</item>
+				</list>
+				<attribute name="password" value="%ef%be%ae%ef%bf%bf%ef%be%96%1b%ef%be%b7%1f%ef%bf%82"/>
+				<attribute name="savePassword" value="yes"/>
+				<attribute name="siteId" value="0"/>
+				<attribute name="timestamp" value="0"/>
+				<attribute name="url" value="ftp://ftps16.brinkster.com/webroot/BarbaraDeeb.org/"/>
+				<attribute name="urlServerAbs" value="no"/>
+				<attribute name="username" value="Brinkster%5chrabbit"/>
+				<attribute name="version" value="7"/>
+			</item>
+		</list>
+	</attributes>
+</sitesettings>
