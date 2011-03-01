@@ -3,7 +3,7 @@
 
 
 
-<HTML><head></head>
+<html><head></head>
 <body>
 <%
 response.write "test "
@@ -18,27 +18,11 @@ response.write address
 <%
 
 address=lcase(address)
-If address="www.rabbitrodentferret.org" then
-
-response.redirect "http://www.rabbitrodentferret.org/rabbitrodentferret.org/index.asp"
-Elseif address="www.washingtonhouserabbitsociety.org" then
-response.redirect "http://www.rabbitrodentferret.org/rabbitrodentferret.org/index.asp"
-Elseif address="www.barbaradeeb.org" then
-response.redirect "http://BarbaraDeeb.org/BarbaraDeeb.org/index.html"
-Elseif address=("www.deerbrookhaven.org") then
-response.redirect "http://www.rabbitrodentferret.org/deerbrookhaven.org/default.htm"
-Elseif address=("BarbaraDeebScholarshipFund.org") then
-response.redirect "\BarbaraDeeb.org\default.htm"
-Elseif address=("BarbaraDeebVeterinaryScholarship.org") then
-response.redirect "\BarbaraDeeb.org\default.htm"'elseif address=("deerbrookhaven.org") then
-response.redirect "\deerbrookhaven.org\default.htm"
-Elseif address=("hrabbit.brinkster.net") then
-Response.Redirect "\rabbitrodentferret.org\product.asp"
+If address="www.barbaradeeb.org" or address="barbaradeeb.org" then
+    response.redirect "http://BarbaraDeeb.org/BarbaraDeeb.org/index.html"
 Elseif address=("www.rabbitmeadowssanctuary.org") then
-Response.Redirect "http://www.rabbitrodentferret.org/RabbitMeadowsSanctuary.asp"
-Elseif address=("www.rabbitmeadows.org") then
-Response.Redirect "http://www.rabbitrodentferret.org/rabbitrodentferret.org/Index.asp"
-Elseif address=("rabbitmeadows.org") then
-Response.Redirect "http://www.rabbitrodentferret.org/rabbitrodentferret.org/Index.asp"
+    Response.Redirect "http://www.rabbitmeadows.org/rabbitrodentferret.org/RabbitMeadowsSanctuary.asp"
+Else
+    Response.Redirect "http://www.rabbitmeadows.org/rabbitrodentferret.org/"
 end if
 %>
