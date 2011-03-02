@@ -4,58 +4,59 @@
 
 <%
 Function sendrequest
-Dim strquestion
+    Dim strquestion
 
-strquestion=Request("applicantname") & "<br>" & Request("email") & "<br>"
+    strquestion=Request("applicantname") & "<br>" & Request("email") & "<br>"
 
-Dim MyMail
-Set MyMail = Server.CreateObject("Persits.MailSender") 
-MyMail.Host = "sendmail.brinkster.com" 
-MyMail.body = "<html><body>"  & strquestion & "</body></html>" 
-MyMail.IsHTML = True 
-MyMail.From = "webmaster@rabbitrodentferret.org" 
-MyMail.Username = "webmaster@rabbitrodentferret.org" 
-MyMail.Password = "climber" 
-MyMail.AddAddress "sandi@rabbitrodentferret.org"
-MyMail.Subject = "Newsletter Sign Up" 
-MyMail.AddCC "houserabbit@clearwire.net" 
+    Dim MyMail
+    Set MyMail = Server.CreateObject("Persits.MailSender") 
+    MyMail.Host = "sendmail.brinkster.com" 
+    MyMail.body = "<html><body>"  & strquestion & "</body></html>" 
+    MyMail.IsHTML = True 
+    MyMail.From = "webmaster@rabbitrodentferret.org" 
+    MyMail.Username = "webmaster@rabbitrodentferret.org" 
+    MyMail.Password = "climber" 
+    MyMail.AddAddress "sandi@rabbitrodentferret.org"
+    MyMail.Subject = "Newsletter Sign Up" 
+    MyMail.AddCC "houserabbit@clearwire.net" 
 
-If MyMail.Send Then
-Response.write ""
-Else
-Response.write ""
-End if
+    If MyMail.Send Then
+        Response.write ""
+    Else
+        Response.write ""
+    End if
 
 
-set MyMail = Nothing 
+    set MyMail = Nothing 
 End Function
 
 
 Dim News
 News=0
 If Not IsNull(Request("email")) And Request("email")<>"" Then
-News=1
+    News=1
 End If
 
 If News=1 Then
-sendrequest
+    sendrequest
 End If
 %>
 
 
-<HTML>
-<HEAD>
-<TITLE>Rabbit Meadows - Quality Supplies for Companion Animals</TITLE><meta name="description" content="Best Little Rabbit & Rodent House Pet Supplies and Adoption">
+<html>
+<head>
+<title>Rabbit Meadows - Quality Supplies for Companion Animals</title>
 
+<meta name="description" content="Best Little Rabbit & Rodent House Pet Supplies and Adoption"/>
 <meta name="keywords" content="rabbit, rodent, pet, companion animal, shelter, boarding, kennel, pet supplies, pet food,
    squirrel, possum, guinea pig, rat, rodent, mice, chinchilla, prairie dog, adoption, washington, seattle, puget, house rabbit, rabbit, rabbits, pet, bunny, bunnies, 
 care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-profit,
-	behavior, faq, spay, neuter, animals, lapin, lapine, sanctuary, rabbit sanctuary, woodland park, DEA "> 
+	behavior, faq, spay, neuter, animals, lapin, lapine, sanctuary, rabbit sanctuary, woodland park, DEA "/> 
 
-<meta name="copyright" content="Copyright 2000 Best Little Rabbit, Rodent and Ferret House. All rights reserved. 
-        Contact author for reprint policies.">
+<meta name="copyright" content="Copyright 2000-2011 Best Little Rabbit, Rodent and Ferret House. All rights reserved. 
+        Contact author for reprint policies."/>
 
-<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>
+<link rel="StyleSheet" href="style.css" type="text/css" media="screen"/>
 <!--#include file="sandiedit.js"-->
 
 
@@ -64,51 +65,50 @@ care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-p
 
 <script type="text/javascript">
 
-var td1="td1";
-var td2="td2";
-var td3="td3";
-var td4="td4";
-var td5="td5";
-var td6="td6";
-var td7="td7";
-var td8="td8";
-var td9="td9";
-var td10="td10";
-
+    var td1="td1";
+    var td2="td2";
+    var td3="td3";
+    var td4="td4";
+    var td5="td5";
+    var td6="td6";
+    var td7="td7";
+    var td8="td8";
+    var td9="td9";
+    var td10="td10";
 
 </script>
 
-<SCRIPT language="JavaScript">
+<script type="text/javascript">
 <!--hide
-function legendpewindow(page)
-{
-window.open(page,'rescuewin','width=620,height=650,scrollbars=yes,resizable=yes');
-}
+    function legendpewindow(page)
+    {
+        window.open(page,'rescuewin','width=620,height=650,scrollbars=yes,resizable=yes');
+    }
 //-->
-</SCRIPT>
-
-
-<SCRIPT LANGUAGE="JavaScript">
-function validate() {
-
- if (document.newssignup.email.value.length < 5) {
- alert("Please enter your e-mail address so we can send you the newsletter!");
- return false;
-}
-window.open('newsletterthankyou.asp','thankyouwin','width=320,height=220,scrollbars=yes,resizable=yes');
-return true;
-}
 </script>
 
 
-<SCRIPT language="JavaScript">
+<script type="text/javascript">
+    function validate() {
+
+        if (document.newssignup.email.value.length < 5) {
+            alert("Please enter your e-mail address so we can send you the newsletter!");
+            return false;
+        }
+        window.open('newsletterthankyou.asp','thankyouwin','width=320,height=220,scrollbars=yes,resizable=yes');
+        return true;
+    }
+</script>
+
+
+<script type="text/javascript">
 <!--hide
-function thankyouwindow(page)
-{
-window.open(page,'thankyouwin','width=600,height=600,scrollbars=yes,resizable=yes');
-}
+    function thankyouwindow(page)
+    {
+        window.open(page,'thankyouwin','width=600,height=600,scrollbars=yes,resizable=yes');
+    }
 //-->
-</SCRIPT>
+</script>
 
 <!-- function to change content based on status of above global variables (controls mouseout and content of central info box onclick) -->
 
@@ -215,10 +215,10 @@ var msg2don= '<table border="0" cellspacing="0" cellpadding="7" width="100%" hei
 
 
 
-<SCRIPT TYPE="text/javascript" SRC="slideshow.js">
-</SCRIPT> 
+<script type="text/javascript" src="slideshow.js">
+</script> 
 
-<SCRIPT TYPE="text/javascript">
+<script type="text/javascript">
 <!--
 SLIDES = new slideshow("SLIDES");
 
@@ -298,7 +298,7 @@ s.text = "<font face=arial color=white>Scamp was adopted but this picture is too
 SLIDES.add_slide(s);
 
 //-->
-</SCRIPT>
+</script>
 
 
 <!--#include file="dropdownmenu.asp"-->
@@ -364,7 +364,6 @@ var menudon=new Array()
 menudon[0]='<a href="donate.asp" onmouseover="changeContentPure(td1,link1don)"  onmouseout="changeContentPure(td1,msg100)" >Donate</a>'
 </script>
 
-</style>
 <script type="text/javascript">
  var _gaq = _gaq || [];
  _gaq.push(['_setAccount', 'UA-21632761-1']);
@@ -378,133 +377,104 @@ menudon[0]='<a href="donate.asp" onmouseover="changeContentPure(td1,link1don)"  
 
 </head>
 
-<BODY onLoad="SLIDES.update()">
+<body onload="SLIDES.update()">
 
 <!--main table-->
 
 <center>
 
-<TABLE WIDTH="775" HEIGHT=100% BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td colspan=2>
+<td colspan="2">
 <!--#include file="headerfile.asp"-->
 </td>
 </tr>
-<!-- </td></tr>  -->
 	
 <tr>
 <td align="right" valign="top">
 
 <!--table containing links and slideshow-->
-<table border="0"  cellspacing="8" cellpadding="0" width=775>
+<table border="0"  cellspacing="8" cellpadding="0" width="775">
 
 <!--first row with spacer cells -->
-<tr><td><img src="spacer.gif" width="130" height="25"></td>
-
-<td rowspan=5  bgcolor="#ffffff" WIDTH="300" HEIGHT="250" align="center" valign="top">
-
-<!--inner table with slideshow and info cell -->
-
-<table  width="525" cellspacing="0" cellpadding="10" border="0" >
 <tr>
-    <td><img src="spacer.gif" height="1" width="1" border="0"></td>
-    <td colspan=2><img src="spacer.gif" height="1" width="324" border="0"></td>
+<td><img src="spacer.gif" height="25" alt=""/></td>
+<td rowspan="5" bgcolor="#ffffff" width="100%" height="250" align="center" valign="top">
+<hr width="100%" />
+<table width="100%" cellspacing="0" cellpadding="10" border="0"/>
+</td>
+</tr>
+<tr>
+    <td><img src="spacer.gif" height="1" width="1" border="0" alt=""/></td>
+    <td colspan=2><img src="spacer.gif" height="1" width="324" border="0" alt=""/></td>
 </tr>
 
 <tr>
-	<td rowspan="10"><img src="spacer.gif" height="240" width="1"></td>
+	<td rowspan="10"><img src="spacer.gif" height="240" width="1" alt=""/></td>
+</tr>
+</td>
+<tr>
+<td>
+<hr width="75%"/>
+</td>
 </tr>
 
-<TR>
-<TD>
-<HR WIDTH="75%">
-</TD>
-</TR>
-
-
- <Hr width="100%">
-<ul>
-</ul>
 
     <td>
-    <!-- Green Box Challenge -->
     <table width="100%">
         <tr>
         <td bgcolor="#999933" align="center">
-        <h1><font color="white">Celebrating Chinese Year of the Rabbit! 2011</font></H1>
+        <h1><font color="white">Celebrating Chinese Year of the Rabbit! 2011</font></h1>
         </td>
         </tr>
     </table>
-    
-    <table width="100%">
-         <tr>
-          <td>
-         <font size="4"> 
-         <center>
-<!--    
-     <b><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/DroughtHitsRabbitMeadows.html">Drought Hits Rabbit Meadows</a></b> 
- 
--->        </center>
-         <br />
-             </tr>
-    </table>
-    
-    <!-- Well pics-->
-    <left>
+        
     <table>
         <tr>
         <td bgcolor="white">
-	    <img src="Web-bldg1.jpg" align="right" width="360" height="185" hspace="10"        
-        <!-- img src="thirsty_rabbits.jpg" width="70%"> <!-- Pump.jpg -->    
-        <br>Here's an idea of what our new shelter will look like! Permit application was submitted to King County in Dec 2010. It's a slow process, but it's moving along. 
+	    <img src="Web-bldg1.jpg" align="right" width="360" height="185" hspace="10" alt="Conceptual image of new shelter" style="float:right" />
+        <br/>Here's an idea of what our new shelter will look like! Permit application was submitted to King County in Dec 2010. It's a slow process, but it's moving along. 
                 The building will be 38' x 48' with a second level loft of 14' x 48'. The first level will contain our reception area; adoption area with a place to spend time with potential companions; an education room; a boarding room; utility room; bathroom.
-                The loft area will contain areas to quarantine incomming animals and those waiting to be spayed/neutered. And, a clinic room where animals can receive veterinary care. 2-14-11 (More info soon.) </font>
+                The loft area will contain areas to quarantine incomming animals and those waiting to be spayed/neutered. And, a clinic room where animals can receive veterinary care. 2-14-11 (More info soon.)
 
         </td>                
         </tr>        
     </table>
-    </left>
-    
-    <table>        
-        <tr>
-   
-        
+<hr />        
 <table width="100%">
          <tr>
           <td>
-         <font size="4"> 
-         <center>  
-     <b>Past Newsletters:
-<br><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/News from Rabbit Meadows.htm">November 2010</a></b>
-<br><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/NoseWigglesfromRabbitMeadows.htm">December 2010</a></b>
-<br><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/RabbitMeadowsCelebratesYearoftheRabbit.htm">January 2011</a></b>
+         <center>
+         <font size="4">   
+     <b>Past Newsletters:</b>
+<br/><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/News from Rabbit Meadows.htm">November 2010</a>
+<br/><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/NoseWigglesfromRabbitMeadows.htm">December 2010</a>
+<br/><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/RabbitMeadowsCelebratesYearoftheRabbit.htm">January 2011</a>
+</font>
 </center>
 
-
-
-<Left>
 <!-- Begin PayPal Logo -->
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="Sandi@RabbitRodentFerret.org">
-<input type="hidden" name="no_shipping" value="1">
-<input type="hidden" name="shipping" value="0.00">
-<input type="hidden" name="tax" value="0">
+<input type="hidden" name="cmd" value="_xclick"/>
+<input type="hidden" name="business" value="Sandi@RabbitRodentFerret.org"/>
+<input type="hidden" name="no_shipping" value="1"/>
+<input type="hidden" name="shipping" value="0.00"/>
+<input type="hidden" name="tax" value="0"/>
 
-<input type="hidden" name="return" value="http://www.washingtonhouserabbitsociety.org/thanks">
-<input type="hidden" name="cancel_return" value="http://http://www.washingtonhouserabbitsociety.org/cancel">
-<input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+<input type="hidden" name="return" value="http://www.rabbitmeadows.org/"/>
+<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/"/>
+<input type="image" src="http://images.paypal.com/images/x-click-but04.gif" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"/>
 </form>
 <!-- End PayPal Logo -->
-</left>        
+ 
 </td></tr></table>
 
-<br>
+<br/>
 
 	<tr><td bgcolor="#999933">
 	<p><font color="#FFFFFF" size="4">We need <font size="5"><B>your help</B></font> to complete <b>Rabbit Meadows Sanctuary</b> project.  Read more about our plans and how you can be a part <font color="#FFFFFF"><a href="rabbitmeadowssanctuary.asp">here. </a></font></td></tr>
-	<tr><td><img src="spacer.gif height="20" width="1" border="0"></td></tr>
+	<tr><td><img src="spacer.gif" height="20" width="1" border="0"/></td></tr>
 	
 	<tr><td><H3 align="center"><a name="Josie">MEET JOSIE</a> Bunny of the Month</H3>
 	<img align="left" src="bunnyimages/Josie1.jpg" width="128" height="216" hspace="5" vspace="5"> Josie was found as a stray in Edmonds. She has a lovely, velvety coat that is unbelievable soft. Josie's a very social rabbit and wants lots of attention. However, Josie's quite insistant that you continue to pet her until she says it's enough so may not be good with young children. <br>Come visit Josie at our Redmond Shelter. She's looking for someone who will pay lots of attention to her.
@@ -740,7 +710,8 @@ document.write (msg1mem) </script>
 			<tr><td bgcolor="white" align="left"><p align="center">
 
 			<b>Bunnycam coming soon to this spot!</b><p align="center">
-			<a href="Bunnyimages/snowbunny.jpg" border="0"><img src="Bunnyimages/snowbunny.jpg" width="220" height="165"></a><br><b><font size="4"><p align="center">In the meantime, enjoy this melting snow bunny!</a></font></B> <br><p>
+			<img src="Bunnyimages/snowbunny.jpg" alt="Bunny Snowman"/><br/>
+            <b><font size="4"><p align="center">In the meantime, enjoy this melting snow bunny!</font></b> <br/><p>
 
 <p>
 
@@ -778,61 +749,17 @@ document.write (msg1mem) </script>
 
 <tr ><td colspan=4 align="center">
 
-
-<%
-dim fso
-dim getcount, countfile, oldcount, count
-dim latestcount
-set fso=server.createobject _
-("scripting.filesystemobject")
-countfile="C:\sites\Single16\hrabbit\database\countmain.txt"
-
-set getcount=fso.opentextfile(countfile,1,false)
-oldcount=trim(getcount.readline)
-count=oldcount+1
-set latestcount=fso.createtextfile(countfile,True)
-latestcount.writeline(count)
-
-Function addcount(whichfile)
-dim getcount, lastcount, number, newcount, latestcount
-set getcount=fso.opentextfile(whichfile,1,false)
-lastcount=trim(getcount.readline)
-newcount=lastcount+1
-set latestcount=fso.createtextfile(whichfile,True)
-latestcount.writeline(newcount)
-End Function
-
-dim address
-address=request.servervariables("HTTP_HOST")
-
-address=lcase(address)
-If address= "www.rabbithouse.org" then
-call addcount("C:\sites\Single16\hrabbit\database\rabbit.txt")
-Elseif address="www.rodenthouse.org" then
-call addcount("C:\sites\Single16\hrabbit\database\rodent.txt")
-Elseif address="www.ferrethouse.org" then
-call addcount("C:\sites\Single16\hrabbit\database\ferret.txt")
-elseif address="www.rabbitrodentferret.org" then
-call addcount("C:\sites\Single16\hrabbit\database\rarofe.txt")
-'Elseif address=("hrabbit.brinkster.net") then
-'Response.Redirect "http://www.washingtonhouserabbitsociety.org"
-end if
-%>
-
+<%dim fsodim getcount, countfile, oldcount, countdim latestcountset fso=server.createobject _("scripting.filesystemobject")countfile="C:\sites\Single16\hrabbit\database\countmain.txt"set getcount=fso.opentextfile(countfile,1,false)oldcount=trim(getcount.readline)count=oldcount+1set latestcount=fso.createtextfile(countfile,True)latestcount.writeline(count)Function addcount(whichfile)    dim getcount, lastcount, number, newcount, latestcount    set getcount=fso.opentextfile(whichfile,1,false)    lastcount=trim(getcount.readline)    newcount=lastcount+1    set latestcount=fso.createtextfile(whichfile,True)    latestcount.writeline(newcount)End Function%>
 <!-- table Thank you -->
 <table width="700" cellspacing="0" cellpadding="0" border="0">
 <tr>
 <td align="center" valign="middle" class="philosophy2">
-<font face="arial, arial" size=4 color=#000000><B>THANK YOU FOR SUPPORTING US!</B></font><br><b>ALL</b> donations to <b>Rabbit Meadows</b> (BLRRFH) go directly to help support our rabbits, rodents and guinea pigs.
+<font face="arial, arial" size="4" color="#000000"><B>THANK YOU FOR SUPPORTING US!</B></font><br/>
+<b>ALL</b> donations to <b>Rabbit Meadows</b> (BLRRFH) go directly to help support our rabbits, rodents and guinea pigs.
 </td>
 </tr>
-
-<tr>
-<td align="center">
-<br><Font face=arial color=#999933 size=3><b>You are visitor number <% Response.Write count %>!  </b></font><br>&nbsp;
-</td>
+<tr><td align="center"><br/><font face="arial" color="#999933" size="3"><b>You are visitor number <% Response.Write count %>!  </b></font><br/>&nbsp;</td>
 </tr>
-
 <tr>
 <td>
 <!--#include file="footer.asp"-->
