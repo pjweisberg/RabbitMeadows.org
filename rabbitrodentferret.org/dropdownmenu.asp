@@ -66,28 +66,24 @@ var menuAdopt=new Array()
 menuAdopt[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Adoptedcurrent.asp">Adopt Rabbits</a>'
 menuAdopt[1]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/RodentCurrent.asp">Adopt Rodents</a>'
 menuAdopt[2]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/GuineaCurrent.asp">Adopt G. Pigs</a>'
-menuAdopt[3]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/FerretCurrent.asp">Adopt Ferrets</a>'
 
 //Contents for News Menu
 var menuNews=new Array()
 menuNews[0]='<a href="http://www.washingtonhouserabbitsociety.org/washingtonhouserabbitsociety.org/news.asp">Rabbit News</a>'
 menuNews[1]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/comingsoon.asp?name=Rodent News">Rodent News</a>'
 menuNews[2]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/comingsoon.asp?name=Guinea Pig News">G. Pig News</a>'
-menuNews[3]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/comingsoon.asp?name=Ferret News">Ferret News</a>'
 
 //Contents for Vets Menu
 var menuVets=new Array()
 menuVets[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/vets.asp?animal=1">Rabbit Vets</a>'
 menuVets[1]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/vets.asp?animal=2">Rodent Vets</a>'
 menuVets[2]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/vets.asp?animal=4">G. Pig Vets</a>'
-menuVets[3]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/vets.asp?animal=3">Ferret Vets</a>'
 
 //Contents for FAQ's Menu
 var menuFaq=new Array()
 menuFaq[0]='<a href="http://www.washingtonhouserabbitsociety.org/washingtonhouserabbitsociety.org/FAQ.asp">Rabbit FAQs</a>'
 menuFaq[1]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/comingsoon.asp?name=Rodent FAQs">Rodent FAQs</a>'
 menuFaq[2]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/comingsoon.asp?name=Guinea Pig FAQs">G. Pig FAQs</a>'
-menuFaq[3]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/comingsoon.asp?name=Ferret FAQs">Ferret FAQs</a>'
 
 //Contents for Store Menu
 var menuStore=new Array()

@@ -183,7 +183,6 @@ var link5rod='<table border="0" cellspacing="0" cellpadding="7" width="100%" hei
 
 var link1sto='<table border="0" cellspacing="0" cellpadding="7" width="100%" height="100%"><tr><td class="Blue">' + storabbits +'</td></tr></table>';
 var link2sto='<table border="0" cellspacing="0" cellpadding="7" width="100%" height="100%"><tr><td class="Blue">' + storodents +'</td></tr></table>';
-var link3sto='<table border="0" cellspacing="0" cellpadding="7" width="100%" height="100%"><tr><td class="Blue">' + stoferrets +'</td></tr></table>';
 
 var link1gui='<table border="0" cellspacing="0" cellpadding="7" width="100%" height="100%"><tr><td class="Purple">' + guiadoption + '</td></tr></table>';
 var link2gui='<table border="0" cellspacing="0" cellpadding="7" width="100%" height="100%"><tr><td class="Purple">' + guivetreferral + '</td></tr></table>';
@@ -321,13 +320,6 @@ menurab[2]='<a href="http://hrabbit.brinkster.net/washingtonhouserabbitsociety.o
 menurab[3]='<a href="volunteerrab.asp" onmouseover="changeContentPure(td1,link4rab)"  onmouseout="changeContentPure(td1,msg100)">Volunteer</a>'
 menurab[4]='<a href="donate.asp?name=rabbits" onmouseover="changeContentPure(td1,link5rab)"  onmouseout="changeContentPure(td1,msg100)">Donate</a>'
 
-var menufer=new Array()
-menufer[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/FerretCurrent.asp" onmouseover="changeContentPure(td1,link1fer)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
-menufer[1]='<a href="vets.asp?animal=3" onmouseover="changeContentPure(td1,link2fer)"  onmouseout="changeContentPure(td1,msg100)">Vet Referral</a>'
-menufer[2]='<a href="comingsoon.asp?name=Ferret Links" onmouseover="changeContentPure(td1,link3fer)"  onmouseout="changeContentPure(td1,msg100)">Links</a>'
-menufer[3]='<a href="volunteer.asp?name=ferrets" onmouseover="changeContentPure(td1,link4fer)"  onmouseout="changeContentPure(td1,msg100)">Volunteer</a>'
-menufer[4]='<a href="donate.asp?name=ferrets" onmouseover="changeContentPure(td1,link5fer)"  onmouseout="changeContentPure(td1,msg100)">Donate</a>'
-
 var menumea=new Array()
 menumea[0]='<a href="RabbitMeadowsSanctuary.asp" onmouseover="changeContentPure(td1,link1mea)" onmouseout="changeContentPure(td1,msg100)" >Our Sanctuary</a>'
 menumea[1]='<a href="volunteer.asp?name=Sanctuary Rabbits" onmouseover="changeContentPure(td1,link2mea)" onmouseout="changeContentPure(td1,msg100)" >Volunteer</a>'
@@ -338,7 +330,6 @@ menumea[3]='<a href="http://www.woodlandparkrabbits.org" onmouseover="changeCont
 var menusto=new Array()
 menusto[0]='<a href="store.asp" onmouseover="changeContentPure(td1,link1sto)"  onmouseout="changeContentPure(td1,msg100)" >Rabbits</a>'
 menusto[1]='<a href="store.asp" onmouseover="changeContentPure(td1,link2sto)"  onmouseout="changeContentPure(td1,msg100)" >Rodents & Guinea Pigs</a>'
-menusto[2]='<a href="store.asp" onmouseover="changeContentPure(td1,link3sto)"  onmouseout="changeContentPure(td1,msg100)" >Ferrets</a>'
 
 
 var menurod=new Array()
@@ -591,19 +582,6 @@ document.write (msg1sto) </script>
 </table>
 
 <br>
-<!-- Ferret section should be going out soon-->
-<table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="1" border="0">
-<tr><td valign="top">
-		<table class="ltpurple" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkpurple" align="center" height="15"><a class="dkpurple" href="javascript://nothing" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menufer,'90px'); changeContentPure('td1',msg2fer)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Ferrets</a></td></tr>
-
-		<tr><td id="td5" bgcolor="#FFFFFF" height="40">				
-				<img src="pics/ferretlink.jpg" align="left" border="0" width="41" height="44" vspace="2"><script type="text/javascript">
-				                                                                                             document.write(msg1fer) </script>				
-		</td></tr>
-		</table>
-</td></tr>
-</table><br>
 
 
 <!--end of rabbit link section-->
@@ -743,7 +721,7 @@ document.write (msg1mem) </script>
 <td class="philosophy3" width="250" valign="top">
  <p class="philos"><span class="green">R</span>abbits and rodents are <b>intelligent and social</b> animals who require mental stimulation, toys, exercise, and social interaction from humans and other animals.
 
- </td></tr></TABLE></center>
+ </td></tr></table></center>
  </td></tr>
 
 

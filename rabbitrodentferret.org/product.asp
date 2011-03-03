@@ -37,8 +37,6 @@ Select Case intAnimal
 	GetAnimal="RABBIT"
   Case 2:
 	GetAnimal="RODENT"
-  Case 3:
-	GetAnimal="FERRET"
 End Select
 End Function
 
@@ -89,13 +87,6 @@ Select Case intAnimal
 		strSQLF = "SELECT [Photo], [Width], [Height], [FirstName]," &_
 				"[Caption], [Rotation], [Current] FROM " &_
 				"Rodents Where [Rotation]=" & intCat & " AND [Current]=1"
-
-	Case 3:
-		strSQL = "SELECT ID, Name, Image, Width, Height, DescriptionLng, Variation1Des, Variation1Price, Catagory, Status, Ferrets, Variations, InOrder FROM Products Where Catagory=" & intCat & "AND Ferrets=1 AND Status=1" &_
-			" Order by InOrder Desc, ID Desc"
-		strSQLF = "SELECT [Photo], [Width], [Height], [FirstName]," &_
-				"[Caption], [Rotation], [Current] FROM " &_
-				"Ferrets Where [Rotation]=" & intCat & " AND [Current]=1"
 
 End Select
 
@@ -547,7 +538,7 @@ If not objRSF.EOF then
 		
 		<TR>
 		  <TD COLSPAN=4 ALIGN=left BGCOLOR=#FFF0C1><FONT FACE="arial" COLOR=#000000 >Our featured companions already have happy homes, but many
-			more are still waiting.  Visit our adoption sections if you are interested in adopting a <a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Adoptedcurrent.asp"><u>rabbit</U></a>, <a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/RodentCurrent.asp"><U>rodent</U></a>, <a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/GuineaCurrent.asp"><U>guinea pig</U></a>, or <a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/FerretCurrent.asp"><U>ferret</U></a>. </FONT></TD>
+			more are still waiting.  Visit our adoption sections if you are interested in adopting a <a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Adoptedcurrent.asp"><u>rabbit</U></a>, <a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/RodentCurrent.asp"><U>rodent</U></a>, or <a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/GuineaCurrent.asp"><U>guinea pig</U></a>. </FONT></TD>
 		</TR>
 	</TABLE>
    

@@ -19,7 +19,5 @@ WIDTH=82 HEIGHT=82 NAME="img04" BORDER="0" ALT="Rabbit Adoption"></A></TD>
     onMouseOut="hiLite('img05','rodent1')"><IMG SRC="mouseovers/rodent1.gif" 
 WIDTH=82 HEIGHT=82 NAME="img05" BORDER="0" ALT="Rodent Adoption"></A></TD>
 
-<TD WIDTH=20% ALIGN=center><A HREF="http://www.washingtonhouserabbitsociety.org/FerretCurrent.asp" onMouseOver="hiLite('img06','ferret2')"
-    onMouseOut="hiLite('img06','ferret1')"><IMG SRC="mouseovers/ferret1.gif" 
-WIDTH=77 HEIGHT=82 NAME="img06" BORDER="0" ALT="Ferret Adoption"></A></TD></TR>
+</TR>
 </TABLE>

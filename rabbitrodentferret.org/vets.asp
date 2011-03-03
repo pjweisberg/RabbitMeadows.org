@@ -28,11 +28,9 @@ Select Case intAnimal
 	GetAnimal="RABBIT"
   Case 2:
 	GetAnimal="RODENT"
-  Case 3:
-	GetAnimal="FERRET"
   Case 4:
 	GetAnimaL="GUINEA PIG"
-	Case 5:
+  Case 5:
 	GetAnimal=""
 End Select
 End Function
@@ -48,7 +46,7 @@ End Function
 <!--#include file="dropdownmenu.asp"-->
 <meta NAME="Keywords" CONTENT="House Rabbit, House Rabbit Society, rabbits, bunnies, pets, pet adoption, shelter, humane,
          pet rabbits, rabbit health, vets, non-profit, rabbit information, rescue, rabbit rescue, rodent rescue,
-         pet rats, pet mice, pet hamsters, pet gerbils, pet ferrets, pet guinea pigs">
+         pet rats, pet mice, pet hamsters, pet gerbils, pet guinea pigs">
 
 <meta NAME="Description" CONTENT="Best Little Rabbit, Rodent and Ferret House is a the definitive site for Rescued Rabbits in the 
 Northwest and other parts of the country. HRS is a non-provit organization.">
@@ -88,9 +86,6 @@ Select Case intAnimal
 
 	Case 2:
 	sql="Select * from Vet where Rodents=1 order by City"
-
-	Case 3:
-	sql="Select * from Vet where Ferrets=1 order by City"
 
 	Case 4:
 	sql="Select * from Vet where Guineas=1 order by City"

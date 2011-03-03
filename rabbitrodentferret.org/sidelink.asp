@@ -26,18 +26,4 @@ ADOPTION<BR>
 &nbsp; &nbsp;<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/RodentCurrent.asp"><font color="#39638c"> Rodents</a><BR>
 &nbsp; &nbsp;<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/GuineaCurrent.asp"><font color="#39638c"> G. Pigs</a><BR><hr>
 
-<!-- src="images\ferrets.gif" height="46" width="80" alt="Ferrets"><br>-->
-<p align=center><Font face="arial" color="FF9933" size="3"><b>Ferrets</b><p align=left>
-<a href="product.asp?Cat=1&Animal=3"><font  face="arial" color="#ff9933" size=2>TOYS</a><br>
-<a href="product.asp?Cat=2&Animal=3"><font color="#ff9933">HOUSING</a><br>
-<a href="product.asp?Cat=3&Animal=3"><font color="#ff9933">FURNISHINGS</a><BR>
-<a href="product.asp?Cat=4&Animal=3"><font color="#ff9933">FOOD</FONT></a><BR>
-<a href="product.asp?Cat=5&Animal=3"><font color="#ff9933">GROOMING</a><BR>
-<a href="product.asp?Cat=6&Animal=3"><font color="#ff9933">HEALTHCARE</a><BR>
-<a href="product.asp?Cat=7&Animal=3"><font color="#ff9933">PEOPLE STUFF</a><BR>
-<a href="product.asp?Cat=8&Animal=3"><font color="#ff9933">BOOKS & VIDEOS</a><BR>
-<a href="product.asp?Cat=9&Animal=3"><font color="#ff9933">MISC</a><BR>
-<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/FerretCurrent.asp"><font color="#ff9933">ADOPTION</a><BR>
-
-
 </font>
