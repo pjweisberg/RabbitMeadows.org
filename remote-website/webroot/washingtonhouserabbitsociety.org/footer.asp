@@ -19,7 +19,7 @@ Mon: 10-6 Wed-Fri: 10-7 Sat:10-6 Sun: 11-5  &nbsp;&nbsp; Closed Tuesday  </b></d
 
 <tr><td align=center><font face="arial" size=1>
 
-&#169;2000 Best Little Rabbit, Rodent and Ferret House.  All Rights Reserved<br>
+&#169;2000-2011 Best Little Rabbit, Rodent and Ferret House.  All Rights Reserved<br>
 Product prices and availability subject to change without notice<br></font>
 
 

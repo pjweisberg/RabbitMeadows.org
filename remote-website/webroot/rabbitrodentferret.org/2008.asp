@@ -168,7 +168,7 @@ PO Box 3242 <br> 8311 252nd Ave. NE, <br>Redmond, WA 98053
 	<tr><td colspan=3><hr></td></tr>
 	<tr><td align=center colspan="3"><font face="arial" size=1>
 
-&#169;2000 Best Little Rabbit, Rodent and Ferret House.  All Rights Reserved<br>
+&#169;2000-2011 Best Little Rabbit, Rodent and Ferret House.  All Rights Reserved<br>
 Product prices and availability subject to change without notice<br></font>
 
 

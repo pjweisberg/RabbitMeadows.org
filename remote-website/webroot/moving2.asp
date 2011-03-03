@@ -220,7 +220,7 @@ The next most daunting project is to actually tap into the sink water lines to g
 	<tr><td colspan=3><hr></td></tr>
 	<tr><td align=center colspan="3"><font face="arial" size=1>
 
-&#169;2000 Best Little Rabbit, Rodent and Ferret House.  All Rights Reserved<br>
+&#169;2000-2011 Best Little Rabbit, Rodent and Ferret House.  All Rights Reserved<br>
 Product prices and availability subject to change without notice<br></font>
 
 

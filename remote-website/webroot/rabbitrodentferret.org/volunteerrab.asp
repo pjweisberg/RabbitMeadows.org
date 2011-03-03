@@ -6,7 +6,7 @@
 <meta name="keywords" content="rabbits, rodents, ferrets, pets, companion animals, shelter, pet supplies, pet food,
    guinea pig, rats, mice, chinchilla, prairie dog, adoption, washington, seattle, puget"> 
 
-<meta name="copyright" content="Copyright 2000 Best Little Rabbit, Rodent and Ferret House. All rights reserved. 
+<meta name="copyright" content="Copyright 2000-2011 Best Little Rabbit, Rodent and Ferret House. All rights reserved. 
         Contact author for reprint policies.">
 
 	<!--#include file="dropdownmenu.asp"-->
