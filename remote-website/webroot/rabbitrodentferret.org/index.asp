@@ -466,10 +466,10 @@ menudon[0]='<a href="donate.asp" onmouseover="changeContentPure(td1,link1don)"  
 	<tr><td bgcolor="#999933">
 	<p><font color="#FFFFFF" size="4">We need <font size="5"><B>your help</B></font> to complete <b>Rabbit Meadows Sanctuary</b> project.  Read more about our plans and how you can be a part <font color="#FFFFFF"><a href="rabbitmeadowssanctuary.asp">here. </a></font></td></tr>
 	<tr><td><img src="spacer.gif" height="20" width="1" border="0"/></td></tr>
-	
-	<tr><td><H3 align="center"><a name="Josie">MEET JOSIE</a> Bunny of the Month</H3>
-	<img align="left" src="bunnyimages/Josie1.jpg" width="128" height="216" hspace="5" vspace="5"> Josie was found as a stray in Edmonds. She has a lovely, velvety coat that is unbelievable soft. Josie's a very social rabbit and wants lots of attention. However, Josie's quite insistant that you continue to pet her until she says it's enough so may not be good with young children. <br>Come visit Josie at our Redmond Shelter. She's looking for someone who will pay lots of attention to her.
-	</td></tr>
+    
+    <tr><td><H3 align="center"><a name="Pepper">MEET Pepper</a> Bunny of the Month</H3>
+      <img align="left" src="bunnyimages/Pepper-72.jpg" width="198" height="163" hspace="5" vspace="5"> Pepper was found as a stray in Bellingham. He was likely last year's "Easter Bunny" and was discarded when the "kids lost interest" or "he started spraying/marking everything!" Now neutered, Pepper is the life of his party and wants lots of attention.  <br><br>Come visit Pepper at our Redmond Shelter. He's looking for someone who will pay lots of attention to him and let him out into the house for several hours of exercise each day.
+    </td></tr>
 
 	<tr><td align="left" colspan="2"><br><font color="black" size="5"><b><img src="http://www.rabbitrodentferret.org/rabbitrodentferret.org/products/condos.jpg" width="125" height="124" align=left>  Condos Now Available!!</b></font><p>
 	<p>We now have the Leith Petwerks condos (48") available at our Seattle Store! Make the trip to Seattle and save on expensive shipping fees. We do not ship this item, so if you are not in Seattle you can order directly from Leith Petwerks <a href="http://www.leithpetwerks.com">www.www.leithpetwerks.com</a>
@@ -732,7 +732,7 @@ document.write (msg1mem) </script>
 <table width="700" cellspacing="0" cellpadding="0" border="0">
 <tr>
 <td align="center" valign="middle" class="philosophy2">
-<font face="arial, arial" size="4" color="#000000"><B>THANK YOU FOR SUPPORTING US!</B></font><br/>
+<font face="arial" size="4" color="#000000"><B>THANK YOU FOR SUPPORTING US!</B></font><br/>
 <b>ALL</b> donations to <b>Rabbit Meadows</b> (BLRRFH) go directly to help support our rabbits, rodents and guinea pigs.
 </td>
 </tr>
