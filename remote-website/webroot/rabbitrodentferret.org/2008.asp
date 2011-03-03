@@ -41,8 +41,8 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
 <input type="hidden" name="shipping" value="0.00">
 <input type="hidden" name="tax" value="0">
 
-<input type="hidden" name="return" value="http://www.washingtonhouserabbitsociety.org/thanks">
-<input type="hidden" name="cancel_return" value="http://http://www.washingtonhouserabbitsociety.org/cancel">
+<input type="hidden" name="return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
+<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
 <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
 </form>
 <!-- End PayPal Logo --><font face="arial" color="#0000c0" size="5"><b>The Best little Rabbit, Rodent & Ferret House in 2008</b></font></td>
@@ -141,8 +141,8 @@ Alternatives to monetary donations such as volunteer help or donate items are ju
 <input type="hidden" name="shipping" value="0.00">
 <input type="hidden" name="tax" value="0">
 
-<input type="hidden" name="return" value="http://www.washingtonhouserabbitsociety.org/thanks">
-<input type="hidden" name="cancel_return" value="http://http://www.washingtonhouserabbitsociety.org/cancel">
+<input type="hidden" name="return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
+<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
 <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
 </form>
 <!-- End PayPal Logo --><br>
