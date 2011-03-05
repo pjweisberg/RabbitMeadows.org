@@ -125,7 +125,7 @@
 						
 						<table width=100% border="0">
 <tr><td bgcolor="#FFFFFF" align=center valign=top><img src="images/smalllight.gif" width="247" height="29"><font face="arial" color="c000c0" siz="3"><h4>New for X-mas!
-Cruelty-free soap from Rabbit Designs</h4><a href="http://www.rabbitrodentferret.org/product.asp?Cat=7&Animal=1"><img src="images/Image3.gif" width="250" height="164" border="0"></a><br clear="all"><b>Makes a great gift!<B><BR>&nbsp;</font></td></tr>
+Cruelty-free soap from Rabbit Designs</h4><a href="/product.asp?Cat=7&Animal=1"><img src="images/Image3.gif" width="250" height="164" border="0"></a><br clear="all"><b>Makes a great gift!<B><BR>&nbsp;</font></td></tr>
 <tr><td align=center valign=top><Font face="arial" size="5" color="#40ff40"><b><u>YOU CAN MAKE A DIFFERENCE</u></b></font><br>/
 <Font face="arial" size="5" COLOR="#FFCC66">Donations are down this year, but we are taking care of more animals than ever.<p>
 
@@ -226,7 +226,7 @@ Cruelty-free soap from Rabbit Designs</h4><a href="http://www.rabbitrodentferret
 						<TD><a href="product.asp?Cat=3&Animal=1"><IMG WIDTH=132 HEIGHT=115 SRC="images\puzzlesmall.jpg" ALIGN=left VALIGN=top HSPACE=5 VSPACE=0 alt="Piper and Pooh" border=0></a><FONT FACE="arial, arial"> <B>Our</B> catalog pages feature portraits of 
 							companion animals to help educate visitors about the joys of living with them.<br><b> We</b> need rabbit, rodent and ferret pictures to display.  If you
 
-						can help us out, e-mail a photo and a paragraph or two about your baby and you to:<p align=center><A HREF="mailto:Rebecca@RabbitRodentFerret.org"> Rebecca@RabbitRodentFerret.org</A></TD>
+						can help us out, e-mail a photo and a paragraph or two about your baby and you to:<p align=center><A HREF="mailto:Rebecca@RabbitMeadows.org"> Rebecca@RabbitMeadows.org</A></TD>
 					</TR>
 				</TABLE>
 			  </TD>

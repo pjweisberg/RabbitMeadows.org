@@ -313,10 +313,10 @@ SLIDES.add_slide(s);
 //Contents for menu 1
 
 var menurab=new Array()
-menurab[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Adoptedcurrent.asp" onmouseover="changeContentPure(td1,link1rab)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
+menurab[0]='<a href="/rabbitrodentferret.org/Adoptedcurrent.asp" onmouseover="changeContentPure(td1,link1rab)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
 
 menurab[1]='<a href="vets.asp?animal=1" onmouseover="changeContentPure(td1,link2rab)"  onmouseout="changeContentPure(td1,msg100)" >Vet Referral</a>'
-menurab[2]='<a href="http://hrabbit.brinkster.net/washingtonhouserabbitsociety.org/sites.asp" onmouseover="changeContentPure(td1,link3rab)"  onmouseout="changeContentPure(td1,msg100)">Links</a>'
+menurab[2]='<a href="/washingtonhouserabbitsociety.org/sites.asp" onmouseover="changeContentPure(td1,link3rab)"  onmouseout="changeContentPure(td1,msg100)">Links</a>'
 menurab[3]='<a href="volunteerrab.asp" onmouseover="changeContentPure(td1,link4rab)"  onmouseout="changeContentPure(td1,msg100)">Volunteer</a>'
 menurab[4]='<a href="donate.asp?name=rabbits" onmouseover="changeContentPure(td1,link5rab)"  onmouseout="changeContentPure(td1,msg100)">Donate</a>'
 
@@ -333,19 +333,19 @@ menusto[1]='<a href="store.asp" onmouseover="changeContentPure(td1,link2sto)"  o
 
 
 var menurod=new Array()
-menurod[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/RodentCurrent.asp" onmouseover="changeContentPure(td1,link1rod)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
+menurod[0]='<a href="/rabbitrodentferret.org/RodentCurrent.asp" onmouseover="changeContentPure(td1,link1rod)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
 menurod[1]='<a href="vets.asp?animal=2" onmouseover="changeContentPure(td1,link2rod)"  onmouseout="changeContentPure(td1,msg100)" >Vet Referral</a>'
 menurod[2]='<a href="comingsoon.asp?name=Rodent Links" onmouseover="changeContentPure(td1,link3rod)"  onmouseout="changeContentPure(td1,msg100)" >Links</a>'
 menurod[3]='<a href="volunteer.asp?name=Rodents" onmouseover="changeContentPure(td1,link4rod)"  onmouseout="changeContentPure(td1,msg100)" >Volunteer</a>'
 menurod[4]='<a href="donate.asp?name=rodents" onmouseover="changeContentPure(td1,link5rod)"  onmouseout="changeContentPure(td1,msg100)" >Donate</a>'
 
 var menumem=new Array()
-menumem[0]='<a href="http://barbaradeeb.org/BarbaraDeeb.org/index.html" onmouseover="changeContentPure(td1,link1mem)"  onmouseout="changeContentPure(td1,msg100)">Memorial Fund</a>'
-menumem[1]='<a href= "http://barbaradeeb.org/BarbaraDeeb.org/index.html" onmouseover="changeContentPure(td1,link2mem)"  onmouseout="changeContentPure(td1,msg100)">Life and Work</a>'
-menumem[2]='<a href="http://barbaradeeb.org/BarbaraDeeb.org/Donate.html" onmouseover="changeContentPure(td1,link3mem)"  onmouseout="changeContentPure(td1,msg100)">Donate</a>'
+menumem[0]='<a href="/BarbaraDeeb.org/index.html" onmouseover="changeContentPure(td1,link1mem)"  onmouseout="changeContentPure(td1,msg100)">Memorial Fund</a>'
+menumem[1]='<a href= "/BarbaraDeeb.org/index.html" onmouseover="changeContentPure(td1,link2mem)"  onmouseout="changeContentPure(td1,msg100)">Life and Work</a>'
+menumem[2]='<a href="/BarbaraDeeb.org/Donate.html" onmouseover="changeContentPure(td1,link3mem)"  onmouseout="changeContentPure(td1,msg100)">Donate</a>'
 
 var menugui=new Array()
-menugui[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/GuineaCurrent.asp" onmouseover="changeContentPure(td1,link1gui)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
+menugui[0]='<a href="/rabbitrodentferret.org/GuineaCurrent.asp" onmouseover="changeContentPure(td1,link1gui)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
 menugui[1]='<a href="vets.asp?animal=4" onmouseover="changeContentPure(td1,link2gui)" onmouseout="changeContentPure(td1,msg100)">Vet Referral</a>'
 menugui[2]='<a href="comingsoon.asp?name=Guinea Pig" onmouseover="changeContentPure(td1,link3gui)"  onmouseout="changeContentPure(td1,msg100)">Links</a>'
 menugui[3]='<a href="volunteer.asp?name=Guinea Pigs" onmouseover="changeContentPure(td1,link4gui)"  onmouseout="changeContentPure(td1,msg100)">Volunteer</a>'
@@ -438,9 +438,9 @@ menudon[0]='<a href="donate.asp" onmouseover="changeContentPure(td1,link1don)"  
          <center>
          <font size="4">   
      <b>Past Newsletters:</b>
-<br/><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/News from Rabbit Meadows.htm">November 2010</a>
-<br/><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/NoseWigglesfromRabbitMeadows.htm">December 2010</a>
-<br/><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/RabbitMeadowsCelebratesYearoftheRabbit.htm">January 2011</a>
+<br/><a href="/rabbitrodentferret.org/Newsletters/News from Rabbit Meadows.htm">November 2010</a>
+<br/><a href="/rabbitrodentferret.org/Newsletters/NoseWigglesfromRabbitMeadows.htm">December 2010</a>
+<br/><a href="/rabbitrodentferret.org/Newsletters/RabbitMeadowsCelebratesYearoftheRabbit.htm">January 2011</a>
 </font>
 </center>
 
@@ -471,7 +471,7 @@ menudon[0]='<a href="donate.asp" onmouseover="changeContentPure(td1,link1don)"  
       <img align="left" src="bunnyimages/Pepper-72.jpg" width="198" height="163" hspace="5" vspace="5"> Pepper was found as a stray in Bellingham. He was likely last year's "Easter Bunny" and was discarded when the "kids lost interest" or "he started spraying/marking everything!" Now neutered, Pepper is the life of his party and wants lots of attention.  <br><br>Come visit Pepper at our Redmond Shelter. He's looking for someone who will pay lots of attention to him and let him out into the house for several hours of exercise each day.
     </td></tr>
 
-	<tr><td align="left" colspan="2"><br><font color="black" size="5"><b><img src="http://www.rabbitrodentferret.org/rabbitrodentferret.org/products/condos.jpg" width="125" height="124" align=left>  Condos Now Available!!</b></font><p>
+	<tr><td align="left" colspan="2"><br><font color="black" size="5"><b><img src="/rabbitrodentferret.org/products/condos.jpg" width="125" height="124" align=left>  Condos Now Available!!</b></font><p>
 	<p>We now have the Leith Petwerks condos (48") available at our Seattle Store! Make the trip to Seattle and save on expensive shipping fees. We do not ship this item, so if you are not in Seattle you can order directly from Leith Petwerks <a href="http://www.leithpetwerks.com">www.www.leithpetwerks.com</a>
 	 Proceeds benefit the animals!  See clips from our <B>bunny photo shoot</B> at the sanctuary <a href="photoshoot.asp">here</a>.
 		

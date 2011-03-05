@@ -17,28 +17,28 @@ Mon: 10-6 Wed-Fri: 10-7 Sat:10-6 Sun: 11-5  &nbsp;&nbsp; Closed Tuesday  </b></f
 <TR><TD ALIGN=center>
 
 <font face="arial" color="#999933" size=2><b> RABBIT</b><a href="product.asp?Cat=1&Animal=1"><font face="arial" color="#999933" size=1> TOYS |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=2&Animal=1"><font color="#999933"> HOUSING |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=3&Animal=1"><font color="#999933"> FURNISHINGS |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=4&Animal=1"><font color="#999933"> FOOD |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=5&Animal=1"><font color="#999933"> GROOMING |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=6&Animal=1"><font color="#999933"> HEALTHCARE |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=7&Animal=1"><font color="#999933"> PEOPLE STUFF |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=8&Animal=1"><font color="#999933"> BOOKS & VIDEOS |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=9&Animal=1"><font color="#999933"> MISC |</a>
-<a href="http://www.washingtonhouserabbitsociety.org/washingtonhouserabbitsociety.org/AdoptedCurrent.asp"><font color="#999933"> ADOPTION ||</a></FONT>
+<a href="/product.asp?Cat=2&Animal=1"><font color="#999933"> HOUSING |</a>
+<a href="/product.asp?Cat=3&Animal=1"><font color="#999933"> FURNISHINGS |</a>
+<a href="/product.asp?Cat=4&Animal=1"><font color="#999933"> FOOD |</a>
+<a href="/product.asp?Cat=5&Animal=1"><font color="#999933"> GROOMING |</a>
+<a href="/product.asp?Cat=6&Animal=1"><font color="#999933"> HEALTHCARE |</a>
+<a href="/product.asp?Cat=7&Animal=1"><font color="#999933"> PEOPLE STUFF |</a>
+<a href="/product.asp?Cat=8&Animal=1"><font color="#999933"> BOOKS & VIDEOS |</a>
+<a href="/product.asp?Cat=9&Animal=1"><font color="#999933"> MISC |</a>
+<a href="/washingtonhouserabbitsociety.org/AdoptedCurrent.asp"><font color="#999933"> ADOPTION ||</a></FONT>
 
 
 
 <font face="arial" color="#39638c" size=2><b>RODENT</b><a href="product.asp?Cat=1&Animal=2"><font face="arial" color="#39638c" size=1> TOYS |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=2&Animal=2"><font color="#39638c"> HOUSING |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=3&Animal=2"><font color="#39638c"> FURNISHINGS |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=4&Animal=2"><font color="#39638c"> FOOD |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=5&Animal=2"><font color="#39638c"> GROOMING |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=6&Animal=2"><font color="#39638c"> HEALTHCARE |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=7&Animal=2"><font color="#39638c"> PEOPLE STUFF |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=8&Animal=2"><font color="#39638c"> BOOKS & VIDEOS |</a>
-<a href="http://www.rabbitrodentferret.org/product.asp?Cat=9&Animal=2"><font color="#39638c"> MISC |</a>
-<a href="http://www.washingtonhouserabbitsociety.org/washingtonhouserabbitsociety.org/RodentCurrent.asp"><font color="#39638c"> ADOPTION ||</a></FONT>
+<a href="/product.asp?Cat=2&Animal=2"><font color="#39638c"> HOUSING |</a>
+<a href="/product.asp?Cat=3&Animal=2"><font color="#39638c"> FURNISHINGS |</a>
+<a href="/product.asp?Cat=4&Animal=2"><font color="#39638c"> FOOD |</a>
+<a href="/product.asp?Cat=5&Animal=2"><font color="#39638c"> GROOMING |</a>
+<a href="/product.asp?Cat=6&Animal=2"><font color="#39638c"> HEALTHCARE |</a>
+<a href="/product.asp?Cat=7&Animal=2"><font color="#39638c"> PEOPLE STUFF |</a>
+<a href="/product.asp?Cat=8&Animal=2"><font color="#39638c"> BOOKS & VIDEOS |</a>
+<a href="/product.asp?Cat=9&Animal=2"><font color="#39638c"> MISC |</a>
+<a href="/washingtonhouserabbitsociety.org/RodentCurrent.asp"><font color="#39638c"> ADOPTION ||</a></FONT>
 
 
 </font>
@@ -50,9 +50,9 @@ Mon: 10-6 Wed-Fri: 10-7 Sat:10-6 Sun: 11-5  &nbsp;&nbsp; Closed Tuesday  </b></f
 &#169;2000-2011 Best Little Rabbit, Rodent and Ferret House.  All Rights Reserved<br>
 Product prices and availability subject to change without notice<br></font>
 
-<font face=arial size=2 color=#ff9933><b>Questions or Comments about Products, Prices, Ordering? <br>Contact the store at <a href="mailto:Store@rabbitrodentferret.org">Store@RabbitRodentFerret.org</a></b></font><br><br>
+<font face=arial size=2 color=#ff9933><b>Questions or Comments about Products, Prices, Ordering? <br>Contact the store at <a href="mailto:Store@RabbitMeadows.org">Store@RabbitRodentFerret.org</a></b></font><br><br>
 
-<font face=arial size=2 color=#999933><b>Questions or Comments about the site?  <br>Contact the webmaster at <a href="mailto:Rebecca@rabbitrodentferret.org">Rebecca@RabbitRodentFerret.org</a></b></font>
+<font face=arial size=2 color=#999933><b>Questions or Comments about the site?  <br>Contact the webmaster at <a href="mailto:Rebecca@RabbitMeadows.org">Rebecca@RabbitMeadows.org</a></b></font>
 </td></tr>
 
 </table>

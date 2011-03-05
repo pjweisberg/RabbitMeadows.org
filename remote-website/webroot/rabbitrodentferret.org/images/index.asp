@@ -126,7 +126,7 @@
 						<table width=100% border="0">
 <tr><td bgcolor="#FFFFFF" align=center valign=top><br><font face="arial" color="f70f65" size="3"><h4><b>
 Men with Buns Calendar NOW AVAILABLE!</b>
-</h4><a href="http://www.rabbitrodentferret.org/product.asp?Cat=8&Animal=1"><img src="images/calendar-cover.jpg" width="218" height="165" border="0"></a><br clear="all"><br><b>ONLY $15.00!</B><BR>&nbsp;</font></td></tr>
+</h4><a href="/product.asp?Cat=8&Animal=1"><img src="images/calendar-cover.jpg" width="218" height="165" border="0"></a><br clear="all"><br><b>ONLY $15.00!</B><BR>&nbsp;</font></td></tr>
 <tr><td align=center valign=top><Font face="arial" size="4" color="#40ff40"><b><u>YOU CAN MAKE A DIFFERENCE</u></b></font><br>/
 <Font face="arial" size="4" COLOR="#FFCC66">Donations are down this year, but we are taking care of more animals than ever.<p>
 
@@ -235,7 +235,7 @@ Men with Buns Calendar NOW AVAILABLE!</b>
 						<TD><a href="product.asp?Cat=3&Animal=1"><IMG WIDTH=132 HEIGHT=115 SRC="images\puzzlesmall.jpg" ALIGN=left VALIGN=top HSPACE=5 VSPACE=0 alt="Piper and Pooh" border=0></a><FONT FACE="arial, arial"> <B>Our</B> catalog pages feature portraits of 
 							companion animals to help educate visitors about the joys of living with them.<br><b> We</b> need rabbit, rodent and ferret pictures to display.  If you
 
-						can help us out, e-mail a photo and a paragraph or two about your baby and you to:<p align=center><A HREF="mailto:Rebecca@RabbitRodentFerret.org"> Rebecca@RabbitRodentFerret.org</A></TD>
+						can help us out, e-mail a photo and a paragraph or two about your baby and you to:<p align=center><A HREF="mailto:Rebecca@RabbitMeadows.org"> Rebecca@RabbitMeadows.org</A></TD>
 					</TR>
 				</TABLE>
 			  </TD>
@@ -297,7 +297,7 @@ end if
 <IMG ALIGN=left border=0 SRC="images\spacer.gif" width=1 height=50 alt=""><br><font face="arial, arial" size=4 color=#0066ff><B>THANK YOU FOR SUPPORTING US!</B></font><br><hr noshade width=80%><P align=center>
 
 
-<font face=arial><b><A HREF="mailto:store@rabbitrodentferret.org">Email: Store@RabbitRodentFerret.org</A></font><br>
+<font face=arial><b><A HREF="mailto:store@RabbitMeadows.org">Email: Store@RabbitMeadows.org</A></font><br>
 
 
 </TD>

@@ -9,7 +9,7 @@
 <a href="product.asp?Cat=7&Animal=1"><font color="#999933">PEOPLE STUFF</a><BR>
 <a href="product.asp?Cat=8&Animal=1"><font color="#999933">BOOKS & VIDEOS</a><BR>
 <a href="product.asp?Cat=9&Animal=1"><font color="#999933">MISC</a><BR>
-<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Adoptedcurrent.asp"><font color="#999933">ADOPTION</a><hr>
+<a href="/rabbitrodentferret.org/Adoptedcurrent.asp"><font color="#999933">ADOPTION</a><hr>
 
 <!--<img src="images\rodents.gif" height="46" width="80" alt="Rodents"><br>-->
 <p align=center><Font face="arial" color="39638C" size="3"><b>Rodents <br> & <br> G. Pigs</b><p align=left>
@@ -23,7 +23,7 @@
 <a href="product.asp?Cat=8&Animal=2"><font color="#39638c">BOOKS & VIDEOS</a><BR>
 <a href="product.asp?Cat=9&Animal=2"><font color="#39638c">MISC</a><BR>
 ADOPTION<BR>
-&nbsp; &nbsp;<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/RodentCurrent.asp"><font color="#39638c"> Rodents</a><BR>
-&nbsp; &nbsp;<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/GuineaCurrent.asp"><font color="#39638c"> G. Pigs</a><BR><hr>
+&nbsp; &nbsp;<a href="/rabbitrodentferret.org/RodentCurrent.asp"><font color="#39638c"> Rodents</a><BR>
+&nbsp; &nbsp;<a href="/rabbitrodentferret.org/GuineaCurrent.asp"><font color="#39638c"> G. Pigs</a><BR><hr>
 
 </font>

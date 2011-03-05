@@ -79,7 +79,7 @@ Northwest and other parts of the country. HRS is a non-profit organization.">
     <td><a href="Membership.asp"><b>Membership</b></a></td>
   </tr>
   <tr>
-    <td><a href="http://www.rabbitrodentferret.org"><b>On-line Store</b></a></td>
+    <td><a href="http://www.RabbitMeadows.org"><b>On-line Store</b></a></td>
   </tr>
   <tr>
     <td><a href="FAQ.asp"><b>Questions?</b></a></td>

@@ -203,7 +203,7 @@ If Not objRS.EOF THEN
 		end if
 end if
 %>
-<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/index.asp">Home</a>|<p>
+<a href="/rabbitrodentferret.org/index.asp">Home</a>|<p>
 
 <%
 
@@ -361,7 +361,7 @@ If norec=false then
  end if
 If norec = false then
 %>
-<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/index.asp">Home</a>|
+<a href="/rabbitrodentferret.org/index.asp">Home</a>|
 <%
 end if
 objRS.Close

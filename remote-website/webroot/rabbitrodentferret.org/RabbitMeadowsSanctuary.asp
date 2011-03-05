@@ -189,9 +189,9 @@ table.white td {
 					
 
 					<p align=center><font face="arial" size="4"><B>UPGRADING OUR MISSION TO HELP ANIMALS</B></font>
-            <p align="center"><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/DroughtHitsRabbitMeadows.html">DROUGHT HITS RABBIT MEADOWS!</a><br> 
+            <p align="center"><a href="/rabbitrodentferret.org/DroughtHitsRabbitMeadows.html">DROUGHT HITS RABBIT MEADOWS!</a><br> 
 
-					<p align="center"><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Thanks-2009SilentAuction.html">2009 Silent Auction</a><br>
+					<p align="center"><a href="/rabbitrodentferret.org/Thanks-2009SilentAuction.html">2009 Silent Auction</a><br>
 					<p align="right"><a href="overview.asp">Read more details of our plan!</a><br>
 					<a href="RabbitMeadowsBrochure2.pdf">View and/or print our brochure</a>
 					

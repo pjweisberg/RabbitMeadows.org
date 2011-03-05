@@ -88,7 +88,7 @@ If objRSP.EOF Then
  <font face=arial size=4 color=#999933>
 <b>Oops, there are no items left in your cart!  </font>
 <p>
-<form action="http://rabbitrodentferret.org/index.asp">
+<form action="/index.asp">
 <center><input type = "submit" value="Continue Shopping"></center>
 </form>
 <p>

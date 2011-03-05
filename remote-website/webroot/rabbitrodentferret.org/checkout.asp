@@ -99,12 +99,12 @@ Dim objMailer
 
 Set objMailer = Server.CreateObject ("SMTPsvg.Mailer") 
 objMailer.FromName="Orders"
-objMailer.FromAddress="Rebecca@rabbitrodentferret.org"
+objMailer.FromAddress="Rebecca@RabbitMeadows.org"
 
 objMailer.Subject="New Order"
 objMailer.BodyText="A new order has been placed at " & Now & ". " & " The order number is " & NewOrderID & "."
 objMailer.RemoteHost="mail.rabbitrodentferret.org"
-objMailer.AddRecipient "Sandi", "Rebecca@rabbitrodentferret.org"
+objMailer.AddRecipient "Sandi", "Rebecca@RabbitMeadows.org"
 objMailer.AddRecipient "Rebecca", "hrabbit@ix.netcom.com"
 Set objMailer=Nothing
 
@@ -116,7 +116,7 @@ objMailer.FromAddress="hrabbit@ix.netcom.com"
 objMailer.Subject="New Order"
 objMailer.BodyText="A new order has been placed. " 
 objMailer.RemoteHost="mail.earthlink.net"
-objMailer.AddRecipient "Sandi", "Rebecca@rabbitrodentferret.org"
+objMailer.AddRecipient "Sandi", "Rebecca@RabbitMeadows.org"
 objMailer.AddRecipient "Rebecca", "hrabbit@ix.netcom.com"
 Set objMailer=Nothing
 

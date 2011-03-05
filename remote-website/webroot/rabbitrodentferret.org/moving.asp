@@ -301,7 +301,7 @@ The next most daunting project is to actually tap into the sink water lines to g
 	store, and helping out with the web site and newsletter, and coordinatin volunteers. <p>
 	
 	If you can volunteer in any way, please contact Sandi at 
-	 <a href="mailto:sandi@rabbitrodentferret.org">Sandi@RabbitRodentFerret.org</a>.  
+	 <a href="mailto:sandi@RabbitMeadows.org">Sandi@RabbitMeadows.org</a>.  
 	 
 	We still need these specific skills for the ongoing construction in Redmond:
 

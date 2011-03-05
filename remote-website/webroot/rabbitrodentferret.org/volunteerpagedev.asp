@@ -161,7 +161,7 @@ Good hygiene is essential to the health of the animals. A volunteer's work will 
 </ul>
 </div>
 
-<p><b>If you or someone you know loves animals and would like to help, please email <a href="mailto:volunteer@rabbitrodentferret.org">Volunteer@rabbitrodentferret.org.</a></b>
+<p><b>If you or someone you know loves animals and would like to help, please email <a href="mailto:volunteer@rabbitmeadows.org">Volunteer@rabbitmeadows.org.</a></b>
 
 
 

@@ -96,11 +96,11 @@ page=request.querystring("name")
 <tr>
 <td class="philosophy3"  valign="top"><p class="philos">Phone: </td><td colspan= "2" class="philosophy3"><p class="philos">(206)  3 6 5 - 9 1 05</td></tr>
 
-<tr><td class="philosophy3"><p class="philos">E-mail:</td><td class="philosophy3"><p class="philos">Questions about adoption or products:</td><td class="philosophy2"><p class="philos"><a href="mailto:store@rabbitrodentferret.org" class="dklink">Info@rabbitrodentferret.org</a></td></tr>
+<tr><td class="philosophy3"><p class="philos">E-mail:</td><td class="philosophy3"><p class="philos">Questions about adoption or products:</td><td class="philosophy2"><p class="philos"><a href="mailto:store@RabbitMeadows.org" class="dklink">Info@RabbitMeadows.org</a></td></tr>
 
-<tr><td class="philosophy3"><p class="philos">E-mail:</td><td class="philosophy3"><p class="philos">Volunteering or Donating Items:</td><td class="philosophy2"><p class="philos"><a href="mailto:store@rabbitrodentferret.org" class="dklink">Store@rabbitrodentferret.org</a></td></tr>
+<tr><td class="philosophy3"><p class="philos">E-mail:</td><td class="philosophy3"><p class="philos">Volunteering or Donating Items:</td><td class="philosophy2"><p class="philos"><a href="mailto:store@RabbitMeadows.org" class="dklink">Store@RabbitMeadows.org</a></td></tr>
 
-<tr><td class="philosophy3"><p class="philos">E-mail:</td><td class="philosophy3"><p class="philos">Questions or comments about website</td><td class="philosophy2"><p class="philos"><a href="mailto:rebecca@rabbitrodentferret.org" class="dklink">Rebecca@rabbitrodentferret.org</a></td></tr>
+<tr><td class="philosophy3"><p class="philos">E-mail:</td><td class="philosophy3"><p class="philos">Questions or comments about website</td><td class="philosophy2"><p class="philos"><a href="mailto:rebecca@RabbitMeadows.org" class="dklink">Rebecca@RabbitMeadows.org</a></td></tr>
 </td></tr></table></center>
 
 </table>

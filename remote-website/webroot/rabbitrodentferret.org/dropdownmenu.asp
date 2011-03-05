@@ -58,40 +58,40 @@ text-decoration: none
 
 //Contents for Home Menu
 var menuHome=new Array()
-menuHome[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/index.asp">Home</a>'
+menuHome[0]='<a href="/rabbitrodentferret.org/index.asp">Home</a>'
 
 
 //Contents for Adoption Menu
 var menuAdopt=new Array()
-menuAdopt[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Adoptedcurrent.asp">Adopt Rabbits</a>'
-menuAdopt[1]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/RodentCurrent.asp">Adopt Rodents</a>'
-menuAdopt[2]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/GuineaCurrent.asp">Adopt G. Pigs</a>'
+menuAdopt[0]='<a href="/rabbitrodentferret.org/Adoptedcurrent.asp">Adopt Rabbits</a>'
+menuAdopt[1]='<a href="/rabbitrodentferret.org/RodentCurrent.asp">Adopt Rodents</a>'
+menuAdopt[2]='<a href="/rabbitrodentferret.org/GuineaCurrent.asp">Adopt G. Pigs</a>'
 
 //Contents for News Menu
 var menuNews=new Array()
-menuNews[0]='<a href="http://www.washingtonhouserabbitsociety.org/washingtonhouserabbitsociety.org/news.asp">Rabbit News</a>'
-menuNews[1]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/comingsoon.asp?name=Rodent News">Rodent News</a>'
-menuNews[2]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/comingsoon.asp?name=Guinea Pig News">G. Pig News</a>'
+menuNews[0]='<a href="/washingtonhouserabbitsociety.org/news.asp">Rabbit News</a>'
+menuNews[1]='<a href="/rabbitrodentferret.org/comingsoon.asp?name=Rodent News">Rodent News</a>'
+menuNews[2]='<a href="/rabbitrodentferret.org/comingsoon.asp?name=Guinea Pig News">G. Pig News</a>'
 
 //Contents for Vets Menu
 var menuVets=new Array()
-menuVets[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/vets.asp?animal=1">Rabbit Vets</a>'
-menuVets[1]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/vets.asp?animal=2">Rodent Vets</a>'
-menuVets[2]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/vets.asp?animal=4">G. Pig Vets</a>'
+menuVets[0]='<a href="/rabbitrodentferret.org/vets.asp?animal=1">Rabbit Vets</a>'
+menuVets[1]='<a href="/rabbitrodentferret.org/vets.asp?animal=2">Rodent Vets</a>'
+menuVets[2]='<a href="/rabbitrodentferret.org/vets.asp?animal=4">G. Pig Vets</a>'
 
 //Contents for FAQ's Menu
 var menuFaq=new Array()
-menuFaq[0]='<a href="http://www.washingtonhouserabbitsociety.org/washingtonhouserabbitsociety.org/FAQ.asp">Rabbit FAQs</a>'
-menuFaq[1]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/comingsoon.asp?name=Rodent FAQs">Rodent FAQs</a>'
-menuFaq[2]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/comingsoon.asp?name=Guinea Pig FAQs">G. Pig FAQs</a>'
+menuFaq[0]='<a href="/washingtonhouserabbitsociety.org/FAQ.asp">Rabbit FAQs</a>'
+menuFaq[1]='<a href="/rabbitrodentferret.org/comingsoon.asp?name=Rodent FAQs">Rodent FAQs</a>'
+menuFaq[2]='<a href="/rabbitrodentferret.org/comingsoon.asp?name=Guinea Pig FAQs">G. Pig FAQs</a>'
 
 //Contents for Store Menu
 var menuStore=new Array()
-menuStore[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/store.asp">Shop our Store!</a>'
+menuStore[0]='<a href="/rabbitrodentferret.org/store.asp">Shop our Store!</a>'
 
 //Contents for Contact Menu
 var menuCon=new Array()
-menuCon[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/contactus.asp">Contact Info</a>'
+menuCon[0]='<a href="/rabbitrodentferret.org/contactus.asp">Contact Info</a>'
 
 var menuwidth='165px' //default menu width
 var menubgcolor='#CC9'  //menu bgcolor
