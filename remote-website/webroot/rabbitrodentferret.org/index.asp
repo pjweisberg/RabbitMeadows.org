@@ -443,7 +443,7 @@ menudon[0]='<a href="donate.asp" onmouseover="changeContentPure(td1,link1don)"  
             welcome to visit without children too!)
         </p>
         <div style="text-align:center">
-            <img src="logo.jpg" alt="Rabbit Meadows logo" /><br />
+            <img src="logo.gif" alt="Rabbit Meadows logo" /><br />
             <span style="font-size:1.5em; font-family:'Comic Sans MS', Cursive">
                 Rabbit Meadows<br />
                 8311 252nd Ave NE, Redmond, WA 98053<br />
