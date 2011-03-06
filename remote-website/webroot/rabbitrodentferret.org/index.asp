@@ -405,6 +405,54 @@ menudon[0]='<a href="donate.asp" onmouseover="changeContentPure(td1,link1don)"  
 </tr>
 </td>
 <tr>
+    <td>
+        <div style="width:100%; background-color:#999933; color:#FFFFFF; text-align:center">
+            <h1>Come to Where the Real Rabbits Live for our First Annual Easter Egg Hunt!</h1>
+        </div>
+        <center><a href="EasterEggHunt.pdf" style="font-size:smaller">See flyer (pdf)</a></center>
+        <h2 style="text-align:center">Saturday, April 23, 2011 – 10 am – 2 pm</h2>
+        <ul>
+            <li>The Easter Bunny will be here for photo opportunities with the kids and adults.</li>
+            <li>We hope to have a baloon artist to make balloon critters for the kids.</li>
+            <li>Easter eggs will be plastic with toys inside.</li>
+            <li>There will be two grand prizes for whoever finds the gold and silver eggs.</li>
+            <li>There will be a couple of real live rabbits for the kids (and our volunteers) to sit with and pet.</li>
+            <li>Please bring your own baskets.</li>
+            <li>Three legged race: ages 2-4, 5-7, 8+ (if enough children)</li>
+            <li>Easter Egg Hunt begins at 11:00 sharp (rain or shine).</li>
+            <li>Suggested donation $5 per child includes:
+                <ul>
+                    <li>Lots & lots of (plastic) eggs</li>
+                    <li>One whoto with the Easter Bunny (additional photos @ $1 each)</li>
+                    <li>Entrance into 3-legged race</li>
+                    <li>A few minutes petting a real live rabbit</li>
+                </ul>
+            </li>
+        </ul>
+        <p>
+            We will also be taking orders for our wall tiles.  These ceramic tiles will decorate
+            our shelter walls with photos of your rabbit or you and your rabbit.  $35.  Funds from
+            this event will go towards construction of our new shelter.
+        </p>
+        <p>
+            Since this is our first Easter Egg Hunt, we would like to know in advance if possible,
+            how many attendees we will see.  If possible, please
+            <a href="mailto:EasterEggHunt@RabbitMeadows.org?subject=Easter%20Egg%20Hunt%20RSVP">e-mail</a>
+            or phone to let us know how many children will be attending (and provide their ages).
+            If you're not one to plan in advance, please just show up and join in the fun.  (Adults
+            welcome to visit without children too!)
+        </p>
+        <div style="text-align:center">
+            <img src="logo.jpg" alt="Rabbit Meadows logo" /><br />
+            <span style="font-size:1.5em; font-family:'Comic Sans MS', Cursive">
+                Rabbit Meadows<br />
+                8311 252nd Ave NE, Redmond, WA 98053<br />
+            </span>
+            <a href="mailto:EasterEggHunt@RabbitMeadows.org?subject=Easter%20Egg%20Hunt%20RSVP">EasterEggHunt@RabbitMeadows.org</a> or phone 425-836-8925
+        </div>
+    </td>
+</tr>
+<tr>
 <td>
 <hr width="75%"/>
 </td>
