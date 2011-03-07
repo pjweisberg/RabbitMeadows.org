@@ -357,7 +357,7 @@ SLIDES.add_slide(s);
             <h1>Come to Where the Real Rabbits Live for our First Annual Easter Egg Hunt!</h1>
         </div>
         <h2 style="text-align:center">Saturday, April 23, 2011: 10 am – 2 pm</h2>
-        <img src="images/frontpage.jpg" alt="Real Easter Rabbit" style="float:right;" />
+        <img src="images/EasterBunny_Clipart.png" alt="Easter Basket" style="float:right;" />
         <p>
             The easter bunny will be making an appearance at Rabbit Meadows this April.
             Come with your family to get your photo taken with him, and search for some
