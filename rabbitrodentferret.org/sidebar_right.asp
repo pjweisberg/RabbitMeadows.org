@@ -45,7 +45,7 @@
         </td>
     </tr>
     <tr>
-        <td bgcolor="white" align="left" style="border: solid;">
+        <td bgcolor="white" align="left" style="border: solid; border-color:Black;">
             <center>
                 <b>Bunnycam coming soon to this spot!</b><br />
 			    <img src="/rabbitrodentferret.org/Bunnyimages/snowbunny.jpg" alt="Bunny Snowman"/><br/>
