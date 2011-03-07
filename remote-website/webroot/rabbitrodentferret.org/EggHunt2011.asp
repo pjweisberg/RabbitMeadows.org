@@ -35,7 +35,7 @@
                     <h3>Come to Where the Real Rabbits Live</h3>
                     <h4>Funds from this event will go towards construction of our new shelter</h4>
                 </center>
-                <img src="images/EasterBunny_Clipart.png" alt="Easter Basket" style="float:right" />
+                <img src="images/bunny-in-basket.gif" alt="Easter Basket" style="float:right" />
                 Easter Egg Hunt begins at 11:00am (rain or shine)<br />
                 Suggested donation $5 per child includes:<br />
                 <br />
