@@ -380,7 +380,7 @@ SLIDES.add_slide(s);
 </tr>
 <tr>
 <td>
-<hr width="75%"/>
+<hr/>
 </td>
 </tr>
 
@@ -388,8 +388,8 @@ SLIDES.add_slide(s);
     <td>
     <table width="100%">
         <tr>
-        <td bgcolor="#999933" align="center">
-        <h1><font color="white">Celebrating Chinese Year of the Rabbit! 2011</font></h1>
+        <td align="center">
+        <h2 style="border-style:groove">Celebrating Chinese Year of the Rabbit! 2011</h2>
         </td>
         </tr>
     </table>
