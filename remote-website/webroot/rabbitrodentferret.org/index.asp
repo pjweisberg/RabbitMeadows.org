@@ -303,59 +303,6 @@ SLIDES.add_slide(s);
 <!--#include file="dropdownmenu.asp"-->
 
 <script type="text/javascript">
-
-/***********************************************
-* AnyLink Drop Down Menu-  Dynamic Drive (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit http://www.dynamicdrive.com/ for full source code
-***********************************************/
-
-//Contents for menu 1
-
-var menurab=new Array()
-menurab[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Adoptedcurrent.asp" onmouseover="changeContentPure(td1,link1rab)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
-
-menurab[1]='<a href="vets.asp?animal=1" onmouseover="changeContentPure(td1,link2rab)"  onmouseout="changeContentPure(td1,msg100)" >Vet Referral</a>'
-menurab[2]='<a href="http://hrabbit.brinkster.net/washingtonhouserabbitsociety.org/sites.asp" onmouseover="changeContentPure(td1,link3rab)"  onmouseout="changeContentPure(td1,msg100)">Links</a>'
-menurab[3]='<a href="volunteerrab.asp" onmouseover="changeContentPure(td1,link4rab)"  onmouseout="changeContentPure(td1,msg100)">Volunteer</a>'
-menurab[4]='<a href="donate.asp?name=rabbits" onmouseover="changeContentPure(td1,link5rab)"  onmouseout="changeContentPure(td1,msg100)">Donate</a>'
-
-var menumea=new Array()
-menumea[0]='<a href="RabbitMeadowsSanctuary.asp" onmouseover="changeContentPure(td1,link1mea)" onmouseout="changeContentPure(td1,msg100)" >Our Sanctuary</a>'
-menumea[1]='<a href="volunteer.asp?name=Sanctuary Rabbits" onmouseover="changeContentPure(td1,link2mea)" onmouseout="changeContentPure(td1,msg100)" >Volunteer</a>'
-menumea[2]='<a href="donate.asp?name=sanctuary rabbits" onmouseover="changeContentPure(td1,link3mea)" onmouseout="changeContentPure(td1,msg100)" >Donate</a>'
-menumea[3]='<a href="http://www.woodlandparkrabbits.org" onmouseover="changeContentPure(td1,link4mea)" onmouseout="changeContentPure(td1,msg100)" >Woodland Park Project</a>'
-
-
-var menusto=new Array()
-menusto[0]='<a href="store.asp" onmouseover="changeContentPure(td1,link1sto)"  onmouseout="changeContentPure(td1,msg100)" >Rabbits</a>'
-menusto[1]='<a href="store.asp" onmouseover="changeContentPure(td1,link2sto)"  onmouseout="changeContentPure(td1,msg100)" >Rodents & Guinea Pigs</a>'
-
-
-var menurod=new Array()
-menurod[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/RodentCurrent.asp" onmouseover="changeContentPure(td1,link1rod)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
-menurod[1]='<a href="vets.asp?animal=2" onmouseover="changeContentPure(td1,link2rod)"  onmouseout="changeContentPure(td1,msg100)" >Vet Referral</a>'
-menurod[2]='<a href="comingsoon.asp?name=Rodent Links" onmouseover="changeContentPure(td1,link3rod)"  onmouseout="changeContentPure(td1,msg100)" >Links</a>'
-menurod[3]='<a href="volunteer.asp?name=Rodents" onmouseover="changeContentPure(td1,link4rod)"  onmouseout="changeContentPure(td1,msg100)" >Volunteer</a>'
-menurod[4]='<a href="donate.asp?name=rodents" onmouseover="changeContentPure(td1,link5rod)"  onmouseout="changeContentPure(td1,msg100)" >Donate</a>'
-
-var menumem=new Array()
-menumem[0]='<a href="http://barbaradeeb.org/BarbaraDeeb.org/index.html" onmouseover="changeContentPure(td1,link1mem)"  onmouseout="changeContentPure(td1,msg100)">Memorial Fund</a>'
-menumem[1]='<a href= "http://barbaradeeb.org/BarbaraDeeb.org/index.html" onmouseover="changeContentPure(td1,link2mem)"  onmouseout="changeContentPure(td1,msg100)">Life and Work</a>'
-menumem[2]='<a href="http://barbaradeeb.org/BarbaraDeeb.org/Donate.html" onmouseover="changeContentPure(td1,link3mem)"  onmouseout="changeContentPure(td1,msg100)">Donate</a>'
-
-var menugui=new Array()
-menugui[0]='<a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/GuineaCurrent.asp" onmouseover="changeContentPure(td1,link1gui)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
-menugui[1]='<a href="vets.asp?animal=4" onmouseover="changeContentPure(td1,link2gui)" onmouseout="changeContentPure(td1,msg100)">Vet Referral</a>'
-menugui[2]='<a href="comingsoon.asp?name=Guinea Pig" onmouseover="changeContentPure(td1,link3gui)"  onmouseout="changeContentPure(td1,msg100)">Links</a>'
-menugui[3]='<a href="volunteer.asp?name=Guinea Pigs" onmouseover="changeContentPure(td1,link4gui)"  onmouseout="changeContentPure(td1,msg100)">Volunteer</a>'
-menugui[4]='<a href="donate.asp?name=guinea pigs" onmouseover="changeContentPure(td1,link5gui)"  onmouseout="changeContentPure(td1,msg100)">Donate</a>'
-
-var menudon=new Array()
-menudon[0]='<a href="donate.asp" onmouseover="changeContentPure(td1,link1don)"  onmouseout="changeContentPure(td1,msg100)" >Donate</a>'
-</script>
-
-<script type="text/javascript">
  var _gaq = _gaq || [];
  _gaq.push(['_setAccount', 'UA-21632761-1']);
  _gaq.push(['_trackPageview']);
@@ -409,47 +356,26 @@ menudon[0]='<a href="donate.asp" onmouseover="changeContentPure(td1,link1don)"  
         <div style="width:100%; background-color:#999933; color:#FFFFFF; text-align:center">
             <h1>Come to Where the Real Rabbits Live for our First Annual Easter Egg Hunt!</h1>
         </div>
-        <center><a href="EasterEggHunt.pdf" style="font-size:smaller">See flyer (pdf)</a></center>
-        <h2 style="text-align:center">Saturday, April 23, 2011 – 10 am – 2 pm</h2>
-        <ul>
-            <li>The Easter Bunny will be here for photo opportunities with the kids and adults.</li>
-            <li>We hope to have a baloon artist to make balloon critters for the kids.</li>
-            <li>Easter eggs will be plastic with toys inside.</li>
-            <li>There will be two grand prizes for whoever finds the gold and silver eggs.</li>
-            <li>There will be a couple of real live rabbits for the kids (and our volunteers) to sit with and pet.</li>
-            <li>Please bring your own baskets.</li>
-            <li>Three legged race: ages 2-4, 5-7, 8+ (if enough children)</li>
-            <li>Easter Egg Hunt begins at 11:00 sharp (rain or shine).</li>
-            <li>Suggested donation $5 per child includes:
-                <ul>
-                    <li>Lots & lots of (plastic) eggs</li>
-                    <li>One whoto with the Easter Bunny (additional photos @ $1 each)</li>
-                    <li>Entrance into 3-legged race</li>
-                    <li>A few minutes petting a real live rabbit</li>
-                </ul>
-            </li>
-        </ul>
+        <h2 style="text-align:center">Saturday, April 23, 2011: 10 am – 2 pm</h2>
+        <img src="images/frontpage.jpg" alt="Real Easter Rabbit" style="float:right;" />
         <p>
-            We will also be taking orders for our wall tiles.  These ceramic tiles will decorate
-            our shelter walls with photos of your rabbit or you and your rabbit.  $35.  Funds from
-            this event will go towards construction of our new shelter.
+            The easter bunny will be making an appearance at Rabbit Meadows this April.
+            Come with your family to get your photo taken with him, and search for some
+            of the plastic eggs he's hidden around our grounds.  Each egg has a toy
+            inside, and there are two very special prizes for whoever finds the gold and silver eggs!
         </p>
         <p>
-            Since this is our first Easter Egg Hunt, we would like to know in advance if possible,
-            how many attendees we will see.  If possible, please
-            <a href="mailto:EasterEggHunt@RabbitMeadows.org?subject=Easter%20Egg%20Hunt%20RSVP">e-mail</a>
-            or phone to let us know how many children will be attending (and provide their ages).
-            If you're not one to plan in advance, please just show up and join in the fun.  (Adults
-            welcome to visit without children too!)
+            There will be three-legged races and other fun activities for all ages.  While you're here,
+            you'll also get the chance to meet a few of the real live rabbits who have a home here at
+            Rabbit Meadows because of the support of people like you, and learn how <i>you</i> can help
+            us in our mission to save homeless and abandoned bunny-rabbits, guinea pigs, and other furry
+            critters.
         </p>
-        <div style="text-align:center">
-            <img src="logo.gif" alt="Rabbit Meadows logo" /><br />
-            <span style="font-size:1.5em; font-family:'Comic Sans MS', Cursive">
-                Rabbit Meadows<br />
-                8311 252nd Ave NE, Redmond, WA 98053<br />
-            </span>
-            <a href="mailto:EasterEggHunt@RabbitMeadows.org?subject=Easter%20Egg%20Hunt%20RSVP">EasterEggHunt@RabbitMeadows.org</a> or phone 425-836-8925
-        </div>
+        <p>
+            <a href="EggHunt2011.asp">Click here</a> for more information.  To RSVP, email
+            <a href="mailto:EasterEggHunt@RabbitMeadows.org?subject=Easter%20Egg%20Hunt%20RSVP">EasterEggHunt@RabbitMeadows.org</a>
+            or call 425-836-8925.  (RSVPs are appreciated, but not required.)
+        </p>
     </td>
 </tr>
 <tr>
@@ -486,9 +412,9 @@ menudon[0]='<a href="donate.asp" onmouseover="changeContentPure(td1,link1don)"  
          <center>
          <font size="4">   
      <b>Past Newsletters:</b>
-<br/><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/News from Rabbit Meadows.htm">November 2010</a>
-<br/><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/NoseWigglesfromRabbitMeadows.htm">December 2010</a>
-<br/><a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Newsletters/RabbitMeadowsCelebratesYearoftheRabbit.htm">January 2011</a>
+<br/><a href="/rabbitrodentferret.org/Newsletters/News from Rabbit Meadows.htm">November 2010</a>
+<br/><a href="/rabbitrodentferret.org/Newsletters/NoseWigglesfromRabbitMeadows.htm">December 2010</a>
+<br/><a href="/rabbitrodentferret.org/Newsletters/RabbitMeadowsCelebratesYearoftheRabbit.htm">January 2011</a>
 </font>
 </center>
 
@@ -519,230 +445,24 @@ menudon[0]='<a href="donate.asp" onmouseover="changeContentPure(td1,link1don)"  
       <img align="left" src="bunnyimages/Pepper-72.jpg" width="198" height="163" hspace="5" vspace="5"> Pepper was found as a stray in Bellingham. He was likely last year's "Easter Bunny" and was discarded when the "kids lost interest" or "he started spraying/marking everything!" Now neutered, Pepper is the life of his party and wants lots of attention.  <br><br>Come visit Pepper at our Redmond Shelter. He's looking for someone who will pay lots of attention to him and let him out into the house for several hours of exercise each day.
     </td></tr>
 
-	<tr><td align="left" colspan="2"><br><font color="black" size="5"><b><img src="http://www.rabbitrodentferret.org/rabbitrodentferret.org/products/condos.jpg" width="125" height="124" align=left>  Condos Now Available!!</b></font><p>
-	<p>We now have the Leith Petwerks condos (48") available at our Seattle Store! Make the trip to Seattle and save on expensive shipping fees. We do not ship this item, so if you are not in Seattle you can order directly from Leith Petwerks <a href="http://www.leithpetwerks.com">www.www.leithpetwerks.com</a>
+	<tr><td align="left" colspan="2"><br><font color="black" size="5"><b><img src="/rabbitrodentferret.org/products/condos.jpg" width="125" height="124" align=left>  Condos Now Available!!</b></font><p>
+	<p>We now have the Leith Petwerks condos (48") available at our Seattle Store! Make the trip to Seattle and save on expensive shipping fees. We do not ship this item, so if you are not in Seattle you can order directly from Leith Petwerks <a href="http://www.leithpetwerks.com">www.leithpetwerks.com</a>
 	 Proceeds benefit the animals!  See clips from our <B>bunny photo shoot</B> at the sanctuary <a href="photoshoot.asp">here</a>.
 		
 	</td></tr>	
 </td></tr>
 </table>
 
-<!--end of slideshow rowspan section -->
-
-</td>
-</tr>
-<!--end of first row with spacer cells^-->
-
 <tr>
+    <td align="right" valign="top">
+        <!--#include file="sidebar_left.asp"-->
+    </td>
+</tr>
 
-<td align="right" valign="top">
-
-<!--beginning of row 1, rabbit section (all section cells are a main 2 cells inside, a title cell and main info cell containing a table) -->
-<table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="0" border="0">
-	<tr><td valign="top">
-		<table class="ltgreen" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkgreen" align="center" height="15"><a class="dkgreen" href="donate.asp"  onMouseover="changeContentPure('td1',msg2don)" onMouseout="changeContentPure('td1',msg100);">Donate</a></td></tr>
-
-		<tr><td id="td10" bgcolor="#FFFFFF" height="40">
-				
-				<img src="pics/donatelink.gif" align="left" border="0" width="41" height="46" vspace="2"> <script type="text/javascript">
-document.write (msg1don) </script>
-				
-		</td></tr>
-		</table>
-	</td></tr>
-</table><br>
-
-<table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="1" border="0">
-	<tr><td valign="top">
-		<table class="ltorange" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkorange" align="center" height="15"><a class="dkorange" href="javascript://nothing" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menurab, '90px'); changeContentPure('td1',msg2rab)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Rabbits</a></td></tr>
-
-		<tr><td id="td2" bgcolor="#FFFFFF" height="40">					
-				<img src="pics/rabadoptlink.jpg" align="left" border="0" vspace="2"> <script type="text/javascript">
-document.write (msg1rab)</script>
-				
-		</td></tr>
-		</table>
-	</td></tr>
-</table>	
-
-<br>
-
-
-<table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="0" border="0">
-	<tr><td valign="top">
-		<table class="ltblue" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkblue" align="center" height="15"><a class="dkblue" href="javascript://nothing" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menurod,'90'); changeContentPure('td1',msg2rod)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Rodents</a></td></tr>
-
-		<tr><td id="td7" bgcolor="#FFFFFF" height="40">
-				
-				<img src="pics/rodentlink.jpg"  align="left" border="0" width="42" height="41" vspace="2"> <script type="text/javascript">
-document.write (msg1rod) </script>
-				
-		</td></tr>
-		</table>
-	</td></tr>
-</table><br>
-
-<table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="0" border="0">
-	<tr><td valign="top">
-		<table class="ltgreen" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkgreen" align="center" height="15"><a class="dkgreen" href="javascript://nothing" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menugui,'90px'); changeContentPure('td1',msg2gui)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Guinea Pigs</a></td></tr>
-
-		<tr><td id="td9" bgcolor="#FFFFFF" height="40">
-				
-				<img src="pics/guinealink.jpg" align="left" border="0" width="45" height="42" vspace="2"> <script type="text/javascript">
-document.write (msg1gui) </script>
-				
-		</td></tr>
-		</table>
-	</td></tr>
-</table><br>
-
-
-<table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="1" border="0">
-	<tr><td valign="top">
-		<table class="ltpurple" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkpurple" align="center" height="15"><a class="dkpurple" href="javascript://nothing" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menumea,'90px'); changeContentPure('td1',msg2mea)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Rabbit Meadows</a></td></tr>
-
-		<tr><td id="td4" bgcolor="#FFFFFF" height="40">
-								<img src="pics/rmslink.jpg" align="left" border="0" vspace="2"> <script type="text/javascript">
-document.write (msg1mea) </script>
-				
-		</td></tr>
-		</table>
-</td></tr>
-</table><br>
-
-<table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="0" border="0">
-	<tr><td valign="top">
-		<table class="ltblue" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkblue" align="center" height="15"><a class="dkblue" href="store.asp"  onMouseover="changeContentPure('td1',msg2sto)" onMouseout="changeContentPure('td1',msg100)">Store</a></td></tr>
-
-		<tr><td id="td6" bgcolor="#FFFFFF" height="40">				
-				<img src="pics/storelink.jpg" align="left" border="0" width="41" height="44" vspace="2"> <script type="text/javascript">
-document.write (msg1sto) </script>
-				
-		</td></tr>
-		</table>
-</td></tr>
-</table>
-
-<br>
-
-
-<!--end of rabbit link section-->
-</td>
-<td align="left">
-
-</td></tr>
-
-<tr><td align="right">
-
-</td>
-<td>
-<!--store section -->
-
-
-<!--end of store section and end of row 2 -->
-</td></tr>
-
-<tr><td align="right">
-
-
-
-</td>
-<td>
-
-<!--beginning of row 2, rabbit meadows link section -->
-
-
-<!--end of rabbit meadows section -->
-
-
-
-</td></tr>
-<tr><td align="right">
-
-<!--beginning of row 4, Guinea Pig section -->
-
-
-
-<!--end of Guinea Pig section -->
-</td>
-<td align="left">
-
-<!--beginning scholarship section 
-
-<table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="0" border="0">
-	<tr><td valign="top">
-		<table class="ltorange" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkorange" align="center" height="15"><a class="dkorange" href="javascript://nothing" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menumem,'90px'); changeContentPure('td1',msg2mem)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Memorial Fund</a></td></tr>
-
-		<tr><td id="td8" bgcolor="#FFFFFF" height="40">
-				
-				<img src="pics/Barbdeeblink.jpg" align="left" border="0" width="43" height="42" vspace="2"> <script type="text/javascript">
-document.write (msg1mem) </script>
-				
-		</td></tr>
-		</table>
-	</td></tr>
-</table>
-
-  end of scholorship section and end of row 3 -->
-
-
-
-</td></tr>
-
-<!-- deleted section here -->
 </table></td>
 
 <td valign="top" bgcolor="white">
-	<table cellpadding="0" cellspacing="0" border="0" bgcolor="white" width="145">
-
-	<tr><td  align="left">
-	<img src="spacer.gif" width="301" height="1" border="0" alt="auction for BLRRFH"></td></tr>
-
-	<tr><td>
-	<form method="post" action="http://oi.vresp.com?fid=e001acedbb" target="vr_optin_popup" onsubmit="window.open( 'http://www.verticalresponse.com', 'vr_optin_popup', 'scrollbars=yes,width=600,height=450' ); return true;" >
-  <div style="font-family: verdana; font-size: 11px; width: 270px; padding: 5px; border: 1px solid #000000; background: #dddddd;">
-    <strong><span style="color: #333333;">Sign Up For our Monthly Newsletter!</span></strong><p>
-    
-    <label style="color: #333333;">Email Address:</label>    <span style="color: #f00">* </span>
-    <br/>
-    <input name="email_address" size="25" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
-    <br/>
-    <label style="color: #333333;">Name:</label>
-    <br/>
-    <input name="first_name" size="25" style="margin-top: 5px; margin-bottom: 5px; border: 1px solid #999; padding: 3px;"/>
-    <br/>
-    <input type="submit" value="Join Now" style="margin-top: 5px; border: 1px solid #999; padding: 3px;"/>
-  </div>
-</form>
-
-	
-<hr>
-</td></tr>
-	<td class="volunteerforboard"><p class="philossml">
-<img src="carrot017.gif" align=left>
- <font color="black"><b><center>WISH LIST For our New Shelter</b> <br>Lumber: 2x4's and 2x6'<br>Nailes & screws<br>Electrical Supplies<br>Ceiling fans(6) <br>Drywall<br>Windows<br>Gift Certificates to Home Depot, Lowes, McLendon's, Second Use, Millworks of Maple Valley</font>
-	</center>
-	</td></tr>
-
-<tr><td bgcolor="black">
-			<table cellpadding="5" bgcolor="black" border="0">
-			<tr><td bgcolor="white" align="left"><p align="center">
-
-			<b>Bunnycam coming soon to this spot!</b><p align="center">
-			<img src="Bunnyimages/snowbunny.jpg" alt="Bunny Snowman"/><br/>
-            <b><font size="4"><p align="center">In the meantime, enjoy this melting snow bunny!</font></b> <br/><p>
-
-<p>
-
-                        		</td></tr>
-			</table>
+    <!--#include file="sidebar_right.asp"-->
 	</td></tr>	
 	
 	</table>
