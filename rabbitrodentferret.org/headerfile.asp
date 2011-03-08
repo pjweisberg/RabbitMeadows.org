@@ -9,15 +9,15 @@
 
 	<td valign="top"><img  src="/rabbitrodentferret.org/links.gif" width="8" height="10"/><a href="/rabbitrodentferret.org/index.asp" class="linktext">Home</a> </td>
 
-	<td valign="top"><img  src="/rabbitrodentferret.org/links.gif" width="8" height="10"/><a class="linktext" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menuAdopt, '110px')" onMouseout="delayhidemenu()">Adoption</a> </td>
+	<td valign="top"><img  src="/rabbitrodentferret.org/links.gif" width="8" height="10"/><a href="/rabbitrodentferret.org/AdoptedCurrent.asp" class="linktext" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menuAdopt, '110px')" onMouseout="delayhidemenu()">Adoption</a> </td>
 
 	<td valign="top"><img  src="/rabbitrodentferret.org/links.gif" width="8" height="10"/><a href="/rabbitrodentferret.org/store.asp" class="linktext">Store</a> </td>
 
-	<td valign="top"><img   src="/rabbitrodentferret.org/links.gif" width="8" height="10"/><a class="linktext" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menuNews, '100px')" onMouseout="delayhidemenu()">News</a> </td>
+	<td valign="top"><img   src="/rabbitrodentferret.org/links.gif" width="8" height="10"/><a href="/washingtonhouserabbitsociety.org/news.asp" class="linktext" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menuNews, '100px')" onMouseout="delayhidemenu()">News</a> </td>
 
-	<td valign="top"><img   src="/rabbitrodentferret.org/links.gif" width="8" height="10"/><a class="linktext" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menuVets, '95px')" onMouseout="delayhidemenu()">Vets</a> </td>
+	<td valign="top"><img   src="/rabbitrodentferret.org/links.gif" width="8" height="10"/><a href="/rabbitrodentferret.org/vets.asp?animal=1" class="linktext" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menuVets, '95px')" onMouseout="delayhidemenu()">Vets</a> </td>
 
-	<td valign="top"><img  src="/rabbitrodentferret.org/links.gif" width="8" height="10"/><a class="linktext" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menuFaq, '95px')" onMouseout="delayhidemenu()">FAQs</a> </td>
+	<td valign="top"><img  src="/rabbitrodentferret.org/links.gif" width="8" height="10"/><a href="/washingtonhouserabbitsociety/FAQ.asp" class="linktext" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menuFaq, '95px')" onMouseout="delayhidemenu()">FAQs</a> </td>
 
 	<td valign="top"><img   src="/rabbitrodentferret.org/links.gif" width="8" height="10"/><a class="linktext" href="/rabbitrodentferret.org/contactus.asp"  onMouseover="dropdownmenu(this, event, menuCon, '100px')" onMouseout="delayhidemenu()">Contact Us</a> </td>
 	
