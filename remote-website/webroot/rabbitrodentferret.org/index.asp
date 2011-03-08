@@ -361,16 +361,16 @@ SLIDES.add_slide(s);
         <img src="images/bunny-in-basket.gif" alt="Easter Basket" style="float:right;" />
         <p>
             The easter bunny will be making an appearance at Rabbit Meadows this April.
-            Come with your family to get your photo taken with him, and search for some
-            of the plastic eggs he's hidden around our grounds.  Each egg has a toy
-            inside, and there are two very special prizes for whoever finds the gold and silver eggs!
+            Come with your family; have your photo taken with him; search for plastic eggs with a toy
+            inside; find the gold or silver eggs for a special prize!
         </p>
         <p>
             There will be three-legged races and other fun activities for all ages.  While you're here,
-            you'll also get the chance to meet a few of the real live rabbits who have a home here at
-            Rabbit Meadows because of the support of people like you, and learn how <i>you</i> can help
+            you'll also get the chance to meet a few of the real live rabbits who have a home with us.
+            Learn how <i>you</i> can help
             us in our mission to save homeless and abandoned bunny-rabbits, guinea pigs, and other furry
-            critters.
+            critters. You can also learn the difference between the easter bunny and living breathing 
+            rabbits who can live 10+ years.
         </p>
         <p>
             <a href="EggHunt2011.asp">Click here</a> for more information.  To RSVP, email
@@ -496,7 +496,30 @@ SLIDES.add_slide(s);
 
 <tr ><td colspan=4 align="center">
 
-<%dim fsodim getcount, countfile, oldcount, countdim latestcountset fso=server.createobject _("scripting.filesystemobject")countfile="C:\sites\Single16\hrabbit\database\countmain.txt"set getcount=fso.opentextfile(countfile,1,false)oldcount=trim(getcount.readline)count=oldcount+1set latestcount=fso.createtextfile(countfile,True)latestcount.writeline(count)Function addcount(whichfile)    dim getcount, lastcount, number, newcount, latestcount    set getcount=fso.opentextfile(whichfile,1,false)    lastcount=trim(getcount.readline)    newcount=lastcount+1    set latestcount=fso.createtextfile(whichfile,True)    latestcount.writeline(newcount)End Function%>
+<%
+dim fso
+dim getcount, countfile, oldcount, count
+dim latestcount
+set fso=server.createobject _
+("scripting.filesystemobject")
+countfile="C:\sites\Single16\hrabbit\database\countmain.txt"
+
+set getcount=fso.opentextfile(countfile,1,false)
+oldcount=trim(getcount.readline)
+count=oldcount+1
+set latestcount=fso.createtextfile(countfile,True)
+latestcount.writeline(count)
+
+Function addcount(whichfile)
+    dim getcount, lastcount, number, newcount, latestcount
+    set getcount=fso.opentextfile(whichfile,1,false)
+    lastcount=trim(getcount.readline)
+    newcount=lastcount+1
+    set latestcount=fso.createtextfile(whichfile,True)
+    latestcount.writeline(newcount)
+End Function
+%>
+
 <!-- table Thank you -->
 <table width="700" cellspacing="0" cellpadding="0" border="0">
 <tr>
@@ -505,7 +528,10 @@ SLIDES.add_slide(s);
 <b>ALL</b> donations to <b>Rabbit Meadows</b> (BLRRFH) go directly to help support our rabbits, rodents and guinea pigs.
 </td>
 </tr>
-<tr><td align="center"><br/><font face="arial" color="#999933" size="3"><b>You are visitor number <% Response.Write count %>!  </b></font><br/>&nbsp;</td>
+<tr>
+<td align="center">
+<br/><font face="arial" color="#999933" size="3"><b>You are visitor number <% Response.Write count %>!  </b></font><br/>&nbsp;
+</td>
 </tr>
 <tr>
 <td>
