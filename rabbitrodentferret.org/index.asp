@@ -352,8 +352,36 @@ SLIDES.add_slide(s);
 </tr>
 </td>
 <tr>
+    <td>
+        <div style="width:100%; background-color:#999933; color:#FFFFFF; text-align:center">
+            <span style="font-size:1.5em">Come to Where the Real Rabbits Live for our</span><br />
+            <span style="font-size:2em">First Annual Easter Egg Hunt!</span>
+        </div>
+        <h2 style="text-align:center">Saturday, April 23, 2011: 10 am  2 pm</h2>
+        <img src="images/bunny-in-basket.gif" alt="Easter Basket" style="float:right;" />
+        <p>
+            The easter bunny will be making an appearance at Rabbit Meadows this April.
+            Come with your family; have your photo taken with him; search for plastic eggs with a toy
+            inside; find the gold or silver eggs for a special prize!
+        </p>
+        <p>
+            There will be three-legged races and other fun activities for all ages.  While you're here,
+            you'll also get the chance to meet a few of the real live rabbits who have a home with us.
+            Learn how <i>you</i> can help
+            us in our mission to save homeless and abandoned bunny-rabbits, guinea pigs, and other furry
+            critters. You can also learn the difference between the easter bunny and living breathing 
+            rabbits who can live 10+ years.
+        </p>
+        <p>
+            <a href="EggHunt2011.asp">Click here</a> for more information.  To RSVP, email
+            <a href="mailto:EasterEggHunt@RabbitMeadows.org?subject=Easter%20Egg%20Hunt%20RSVP">EasterEggHunt@RabbitMeadows.org</a>
+            or call 425-836-8925.  (RSVPs are appreciated, but not required.)
+        </p>
+    </td>
+</tr>
+<tr>
 <td>
-<hr width="75%"/>
+<hr/>
 </td>
 </tr>
 
@@ -361,8 +389,8 @@ SLIDES.add_slide(s);
     <td>
     <table width="100%">
         <tr>
-        <td bgcolor="#999933" align="center">
-        <h1><font color="white">Celebrating Chinese Year of the Rabbit! 2011</font></h1>
+        <td align="center">
+        <h2 style="border-style:groove">Celebrating Chinese Year of the Rabbit! 2011</h2>
         </td>
         </tr>
     </table>
@@ -468,7 +496,30 @@ SLIDES.add_slide(s);
 
 <tr ><td colspan=4 align="center">
 
-<%dim fsodim getcount, countfile, oldcount, countdim latestcountset fso=server.createobject _("scripting.filesystemobject")countfile="C:\sites\Single16\hrabbit\database\countmain.txt"set getcount=fso.opentextfile(countfile,1,false)oldcount=trim(getcount.readline)count=oldcount+1set latestcount=fso.createtextfile(countfile,True)latestcount.writeline(count)Function addcount(whichfile)    dim getcount, lastcount, number, newcount, latestcount    set getcount=fso.opentextfile(whichfile,1,false)    lastcount=trim(getcount.readline)    newcount=lastcount+1    set latestcount=fso.createtextfile(whichfile,True)    latestcount.writeline(newcount)End Function%>
+<%
+dim fso
+dim getcount, countfile, oldcount, count
+dim latestcount
+set fso=server.createobject _
+("scripting.filesystemobject")
+countfile="C:\sites\Single16\hrabbit\database\countmain.txt"
+
+set getcount=fso.opentextfile(countfile,1,false)
+oldcount=trim(getcount.readline)
+count=oldcount+1
+set latestcount=fso.createtextfile(countfile,True)
+latestcount.writeline(count)
+
+Function addcount(whichfile)
+    dim getcount, lastcount, number, newcount, latestcount
+    set getcount=fso.opentextfile(whichfile,1,false)
+    lastcount=trim(getcount.readline)
+    newcount=lastcount+1
+    set latestcount=fso.createtextfile(whichfile,True)
+    latestcount.writeline(newcount)
+End Function
+%>
+
 <!-- table Thank you -->
 <table width="700" cellspacing="0" cellpadding="0" border="0">
 <tr>
@@ -477,7 +528,10 @@ SLIDES.add_slide(s);
 <b>ALL</b> donations to <b>Rabbit Meadows</b> (BLRRFH) go directly to help support our rabbits, rodents and guinea pigs.
 </td>
 </tr>
-<tr><td align="center"><br/><font face="arial" color="#999933" size="3"><b>You are visitor number <% Response.Write count %>!  </b></font><br/>&nbsp;</td>
+<tr>
+<td align="center">
+<br/><font face="arial" color="#999933" size="3"><b>You are visitor number <% Response.Write count %>!  </b></font><br/>&nbsp;
+</td>
 </tr>
 <tr>
 <td>
