@@ -65,7 +65,7 @@
 <table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="1" border="0">
 	<tr><td valign="top">
 		<table class="ltorange" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkorange" align="center" height="15"><a class="dkorange" href="/shelter/AdoptedCurrent.asp" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menurab, '90px'); changeContentPure('td1',msg2rab)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Rabbits</a></td></tr>
+		<tr><td class="dkorange" align="center" height="15"><a class="dkorange" href="/shelter/AdoptedCurrent.asp" onMouseover="dropdownmenu(this, event, menurab, '90px'); changeContentPure('td1',msg2rab)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Rabbits</a></td></tr>
 
 		<tr><td id="td2" bgcolor="#FFFFFF" height="40">
 				<img src="/shelter/pics/rabadoptlink.jpg" align="left" border="0" vspace="2"> <script type="text/javascript">
@@ -82,7 +82,7 @@
 <table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="0" border="0">
 	<tr><td valign="top">
 		<table class="ltblue" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkblue" align="center" height="15"><a class="dkblue" href="/shelter/RodentCurrent.asp" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menurod,'90'); changeContentPure('td1',msg2rod)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Rodents</a></td></tr>
+		<tr><td class="dkblue" align="center" height="15"><a class="dkblue" href="/shelter/RodentCurrent.asp" onMouseover="dropdownmenu(this, event, menurod,'90'); changeContentPure('td1',msg2rod)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Rodents</a></td></tr>
 
 		<tr><td id="td7" bgcolor="#FFFFFF" height="40">
 				
@@ -97,7 +97,7 @@
 <table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="0" border="0">
 	<tr><td valign="top">
 		<table class="ltgreen" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkgreen" align="center" height="15"><a class="dkgreen" href="/shelter/GuineaCurrent.asp" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menugui,'90px'); changeContentPure('td1',msg2gui)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Guinea Pigs</a></td></tr>
+		<tr><td class="dkgreen" align="center" height="15"><a class="dkgreen" href="/shelter/GuineaCurrent.asp" onMouseover="dropdownmenu(this, event, menugui,'90px'); changeContentPure('td1',msg2gui)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Guinea Pigs</a></td></tr>
 
 		<tr><td id="td9" bgcolor="#FFFFFF" height="40">
 				
@@ -113,7 +113,7 @@
 <table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="1" border="0">
 	<tr><td valign="top">
 		<table class="ltpurple" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkpurple" align="center" height="15"><a class="dkpurple" href="/shelter/RabbitMeadowsSanctuary.asp" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menumea,'90px'); changeContentPure('td1',msg2mea)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Rabbit Meadows</a></td></tr>
+		<tr><td class="dkpurple" align="center" height="15"><a class="dkpurple" href="/shelter/RabbitMeadowsSanctuary.asp" onMouseover="dropdownmenu(this, event, menumea,'90px'); changeContentPure('td1',msg2mea)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Rabbit Meadows</a></td></tr>
 
 		<tr><td id="td4" bgcolor="#FFFFFF" height="40">
 								<img src="/shelter/pics/rmslink.jpg" align="left" border="0" vspace="2"> <script type="text/javascript">
