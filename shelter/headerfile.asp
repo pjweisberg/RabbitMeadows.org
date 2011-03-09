@@ -1,5 +1,5 @@
 <center><table width="700" cellspacing="0" cellpadding="0" border="0">
-<tr><td rowspan="3" valign="top"><img src="/shelter/sm_logo.jpg" width="150" height="95" border="0" alt=""/></td>
+<tr><td rowspan="3" valign="top"><a href="http://www.RabbitMeadows.org"><img src="/shelter/sm_logo.jpg" width="150" height="95" border="0" alt=""/></a></td>
 <td valign="top">
 <img src="/shelter/header2b.gif" width="550" height="56"" border="0" alt=""/></td></tr>
 <tr><td valign="top">
