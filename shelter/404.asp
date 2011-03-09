@@ -5,7 +5,7 @@
     garbage = "404;http://" & Request.ServerVariables("SERVER_NAME") & ":"  & Request.ServerVariables("SERVER_PORT")
     url = Replace( Request.QueryString, garbage, "" )
 
-    modified = Replace( url, "/rabbitrodentferret.org", "/shelter")
+    modified = Replace( url, "/rabbitrodentferret.org", "/shelter", vbTextCompare)
     if url = modified then
         Response.Status = "404 Not Found"
     else
@@ -25,7 +25,7 @@
     <head>
         <title>404 - RabbitMeadows.org</title>
 
-        <link rel="StyleSheet" href="/rabbitrodentferret.org/style.css" type="text/css" media="screen"/>
+        <link rel="StyleSheet" href="/shelter/style.css" type="text/css" media="screen"/>
         <!--#include file="sandiedit.js"-->
     </head>
     <body>
@@ -42,7 +42,7 @@
                  <div style="background-color:#999933; color:#FFFFFF; text-align:center; width:100%; margin-bottom:10px;">
                     <h1 style="padding-bottom:5px">Oops! - <code>404</code></h1>
                  </div>
-                 <img src="/rabbitrodentferret.org/BunnyImages/snoopy2.jpg" alt="Where did it go?" style="float:left; padding:10px"/>
+                 <img src="/shelter/BunnyImages/snoopy2.jpg" alt="Where did it go?" style="float:left; padding:10px"/>
                  <p>
                      We can't seem to find the page you were looking for.  Maybe it moved, or you typed the address wrong, or somebody took it and hid it behind the couch.
                  </p>

@@ -168,8 +168,8 @@ table.white td {
 <input type="hidden" name="shipping" value="0.00">
 <input type="hidden" name="tax" value="0">
 
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
-<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
+<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
+<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/shelter/">
 <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
 </form>
 <!-- End PayPal Logo --><br>

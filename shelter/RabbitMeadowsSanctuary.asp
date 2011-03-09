@@ -189,9 +189,9 @@ table.white td {
 					
 
 					<p align=center><font face="arial" size="4"><B>UPGRADING OUR MISSION TO HELP ANIMALS</B></font>
-            <p align="center"><a href="/rabbitrodentferret.org/DroughtHitsRabbitMeadows.html">DROUGHT HITS RABBIT MEADOWS!</a><br> 
+            <p align="center"><a href="/shelter/DroughtHitsRabbitMeadows.html">DROUGHT HITS RABBIT MEADOWS!</a><br> 
 
-					<p align="center"><a href="/rabbitrodentferret.org/Thanks-2009SilentAuction.html">2009 Silent Auction</a><br>
+					<p align="center"><a href="/shelter/Thanks-2009SilentAuction.html">2009 Silent Auction</a><br>
 					<p align="right"><a href="overview.asp">Read more details of our plan!</a><br>
 					<a href="RabbitMeadowsBrochure2.pdf">View and/or print our brochure</a>
 					
@@ -222,7 +222,7 @@ table.white td {
 <input type="hidden" name="shipping" value="0.00">
 <input type="hidden" name="tax" value="0">
 
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
+<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
 <input type="hidden" name="cancel_return" value="http://http://www.washingtonhouserabbitsociety.org/cancel">
 <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
 </form>
@@ -258,8 +258,8 @@ Running the sanctuary takes a considerable amount of time, effort and money.  Al
 <input type="hidden" name="shipping" value="0.00">
 <input type="hidden" name="tax" value="0">
 
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
-<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
+<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
+<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/shelter/">
 <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" align="Center">
 </form>
 <!-- End PayPal Logo -->

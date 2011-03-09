@@ -1,7 +1,7 @@
 <table cellpadding="0" cellspacing="0" border="0" bgcolor="white" width="145">
 	<tr>
     <td align="left">
-	    <img src="/rabbitrodentferret.org/spacer.gif" width="301" height="1" border="0" alt="auction for BLRRFH"/>
+	    <img src="/shelter/spacer.gif" width="301" height="1" border="0" alt="auction for BLRRFH"/>
         </td>
     </tr>
 
@@ -26,7 +26,7 @@
     </tr>
     <tr>
 	    <td class="volunteerforboard">
-            <img src="/rabbitrodentferret.org/carrot017.gif" style="float:left" alt=""/>
+            <img src="/shelter/carrot017.gif" style="float:left" alt=""/>
             <center><strong>WISH LIST For our New Shelter</strong></center>
             <ul>
                 <li>Lumber: 2x4's and 2x6'</li>
@@ -41,14 +41,14 @@
     </tr>
     <tr>
         <td>
-            <img src="/rabbitrodentferret.org/spacer.gif" width="1" height="10"/>
+            <img src="/shelter/spacer.gif" width="1" height="10"/>
         </td>
     </tr>
     <tr>
         <td bgcolor="white" align="left" style="border: solid; border-color:Black;">
             <center>
                 <b>Bunnycam coming soon to this spot!</b><br />
-			    <img src="/rabbitrodentferret.org/Bunnyimages/snowbunny.jpg" alt="Bunny Snowman"/><br/>
+			    <img src="/shelter/Bunnyimages/snowbunny.jpg" alt="Bunny Snowman"/><br/>
                 <b><font size="4">In the meantime, enjoy this melting snow bunny!</font></b>
             </center>
    		</td>

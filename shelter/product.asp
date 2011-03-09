@@ -538,7 +538,7 @@ If not objRSF.EOF then
 		
 		<TR>
 		  <TD COLSPAN=4 ALIGN=left BGCOLOR=#FFF0C1><FONT FACE="arial" COLOR=#000000 >Our featured companions already have happy homes, but many
-			more are still waiting.  Visit our adoption sections if you are interested in adopting a <a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/Adoptedcurrent.asp"><u>rabbit</U></a>, <a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/RodentCurrent.asp"><U>rodent</U></a>, or <a href="http://www.rabbitrodentferret.org/rabbitrodentferret.org/GuineaCurrent.asp"><U>guinea pig</U></a>. </FONT></TD>
+			more are still waiting.  Visit our adoption sections if you are interested in adopting a <a href="http://www.rabbitrodentferret.org/shelter/Adoptedcurrent.asp"><u>rabbit</U></a>, <a href="http://www.rabbitrodentferret.org/shelter/RodentCurrent.asp"><U>rodent</U></a>, or <a href="http://www.rabbitrodentferret.org/shelter/GuineaCurrent.asp"><U>guinea pig</U></a>. </FONT></TD>
 		</TR>
 	</TABLE>
    

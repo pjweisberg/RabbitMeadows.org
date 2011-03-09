@@ -41,8 +41,8 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
 <input type="hidden" name="shipping" value="0.00">
 <input type="hidden" name="tax" value="0">
 
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
-<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
+<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
+<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/shelter/">
 <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
 </form>
 <!-- End PayPal Logo --><font face="arial" color="#0000c0" size="5"><b>You Can Make a Difference! </b></font></td>
@@ -76,7 +76,7 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
 
 
 	<br clear=left><br><font size="3" color="#0000c0"> <B>Provide Sanctuary for rabbits who can't be adopted</b></font>
-	<P><img src="onebunnysmall.jpg" width="84" height="122" align="right" hspace="10">Feral rabbits are not good candidates to be adopted as house rabbits.  Our <a href="/rabbitrodentferret.org/RabbitMeadowsSanctuary.asp">Sanctuary at Rabbit Meadows</a> is set up just for them, because we believe that all animals, regardless of temperament or affinity for humans, deserve to live out their lives free from fear, pain, hunger and emotional or physical suffering.  Although the rabbits live in a natural way, they must still be fed and have their medical needs taken care of, and your donations do just that. 
+	<P><img src="onebunnysmall.jpg" width="84" height="122" align="right" hspace="10">Feral rabbits are not good candidates to be adopted as house rabbits.  Our <a href="/shelter/RabbitMeadowsSanctuary.asp">Sanctuary at Rabbit Meadows</a> is set up just for them, because we believe that all animals, regardless of temperament or affinity for humans, deserve to live out their lives free from fear, pain, hunger and emotional or physical suffering.  Although the rabbits live in a natural way, they must still be fed and have their medical needs taken care of, and your donations do just that. 
 
 	<br clear=right><font size="3" color="#0000c0"> <B>Build a shelter, housing and play areas for the shelter and sanctuary rabbits.</b></font>
 	<p><img src="outdoor.jpg" width="111" height="103" align="left" hspace="10">
@@ -132,8 +132,8 @@ a large number of visitors)
 <input type="hidden" name="shipping" value="0.00">
 <input type="hidden" name="tax" value="0">
 
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
-<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/rabbitrodentferret.org/">
+<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
+<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/shelter/">
 <input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
 </form>
 <!-- End PayPal Logo --><br>

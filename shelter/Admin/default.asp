@@ -21,7 +21,7 @@ If session("UserLevel")=2 then
 		Session("UserLevel")=false
 		response.write "<center><h1><b>You are Logged Out</b><br>"
 		response.write "<a href=""default.asp"">login</a><br><br>"
-		response.write "<a href=""/rabbitrodentferret.org/index.asp"">Back to the Web Page</a></center>"
+		response.write "<a href=""/shelter/index.asp"">Back to the Web Page</a></center>"
 	else
 		Call DisplayMenu()
 	end if

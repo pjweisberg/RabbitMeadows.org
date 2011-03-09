@@ -413,9 +413,9 @@ SLIDES.add_slide(s);
          <center>
          <font size="4">   
      <b>Past Newsletters:</b>
-<br/><a href="/rabbitrodentferret.org/Newsletters/News from Rabbit Meadows.htm">November 2010</a>
-<br/><a href="/rabbitrodentferret.org/Newsletters/NoseWigglesfromRabbitMeadows.htm">December 2010</a>
-<br/><a href="/rabbitrodentferret.org/Newsletters/RabbitMeadowsCelebratesYearoftheRabbit.htm">January 2011</a>
+<br/><a href="/shelter/Newsletters/News from Rabbit Meadows.htm">November 2010</a>
+<br/><a href="/shelter/Newsletters/NoseWigglesfromRabbitMeadows.htm">December 2010</a>
+<br/><a href="/shelter/Newsletters/RabbitMeadowsCelebratesYearoftheRabbit.htm">January 2011</a>
 </font>
 </center>
 
@@ -446,7 +446,7 @@ SLIDES.add_slide(s);
       <img align="left" src="bunnyimages/Pepper-72.jpg" width="198" height="163" hspace="5" vspace="5"> Pepper was found as a stray in Bellingham. He was likely last year's "Easter Bunny" and was discarded when the "kids lost interest" or "he started spraying/marking everything!" Now neutered, Pepper is the life of his party and wants lots of attention.  <br><br>Come visit Pepper at our Redmond Shelter. He's looking for someone who will pay lots of attention to him and let him out into the house for several hours of exercise each day.
     </td></tr>
 
-	<tr><td align="left" colspan="2"><br><font color="black" size="5"><b><img src="/rabbitrodentferret.org/products/condos.jpg" width="125" height="124" align=left>  Condos Now Available!!</b></font><p>
+	<tr><td align="left" colspan="2"><br><font color="black" size="5"><b><img src="/shelter/products/condos.jpg" width="125" height="124" align=left>  Condos Now Available!!</b></font><p>
 	<p>We now have the Leith Petwerks condos (48") available at our Seattle Store! Make the trip to Seattle and save on expensive shipping fees. We do not ship this item, so if you are not in Seattle you can order directly from Leith Petwerks <a href="http://www.leithpetwerks.com">www.leithpetwerks.com</a>
 	 Proceeds benefit the animals!  See clips from our <B>bunny photo shoot</B> at the sanctuary <a href="photoshoot.asp">here</a>.
 		
