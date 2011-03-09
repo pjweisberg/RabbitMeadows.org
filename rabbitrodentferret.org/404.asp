@@ -1,6 +1,26 @@
 <% @LANGUAGE=VBScript %>
 <% Option Explicit %>
+<%
+    dim garbage, url, modified
+    garbage = "404;http://" & Request.ServerVariables("SERVER_NAME") & ":"  & Request.ServerVariables("SERVER_PORT")
+    url = Replace( Request.QueryString, garbage, "" )
 
+    modified = Replace( url, "/rabbitrodentferret.org", "/shelter")
+    if url = modified then
+        Response.Status = "404 Not Found"
+    else
+        dim newlocation
+        newlocation = "http://www.rabbitmeadows.org" & modified
+        Response.Status = "301 Moved Permanently"
+        Response.AddHeader "Location", newlocation
+        Response.Write "<html><body>The page you are looking for has moved to <a href='"
+        Response.Write newlocation
+        Response.Write "'>"
+        Response.Write newlocation
+        response.Write "</a></body></html>"
+        Response.End
+    end if
+%>
 <html>
     <head>
         <title>404 - RabbitMeadows.org</title>
