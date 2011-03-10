@@ -361,12 +361,13 @@ SLIDES.add_slide(s);
         <img src="images/bunny-in-basket.gif" alt="Easter Basket" style="float:right;" />
         <p>
             The easter bunny will be making an appearance at Rabbit Meadows this April.
-            Come with your family; have your photo taken with him; search for plastic eggs with a toy
-            inside; find the gold or silver eggs for a special prize!
+            Come with your family, have your photo taken with him, search for plastic eggs with toys
+            inside, and find the gold or silver eggs for a special prize!
         </p>
         <p>
             There will be three-legged races and other fun activities for all ages.  While you're here,
-            you'll also get the chance to meet a few of the real live rabbits who have a home with us.
+            you'll also get the chance to meet a few of the real live rabbits who have a home at
+            Rabbit Meadows because of your support.
             Learn how <i>you</i> can help
             us in our mission to save homeless and abandoned bunny-rabbits, guinea pigs, and other furry
             critters. You can also learn the difference between the easter bunny and living breathing 
