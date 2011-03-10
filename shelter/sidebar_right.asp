@@ -45,11 +45,33 @@
         </td>
     </tr>
     <tr>
-        <td bgcolor="white" align="left" style="border: solid; border-color:Black;">
+        <td style="background-color:Black; color:White;">
             <center>
-                <b>Bunnycam coming soon to this spot!</b><br />
-			    <img src="/shelter/Bunnyimages/snowbunny.jpg" alt="Bunny Snowman"/><br/>
-                <b><font size="4">In the meantime, enjoy this melting snow bunny!</font></b>
+                Rabbit Meadows BunnyCam, featuring:<br />
+                <span style="font-size:1.3em">Tess, Pete, and Pat</span>
+                <div>
+                <table width="320" border="0" cellpadding="0" cellspacing="2" bgcolor="#000000">
+                    <tr>
+                        <td>
+                            <object id="CSrabbitmeadowsWMP" width="320" height="304" classid="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6" type="application/x-oleobject">
+                                <param name="Url" value="http://www.camstreams.com/asx.asp?user=rabbitmeadows"/>
+                                <param name="AutoStart" value="0"/>
+                                <param name="Enablecontextmenu" value="1"/>
+                                <param name="Volume" value="75"/>
+                                <param name="uimode" value="full"/>
+                                <embed id="CSrabbitmeadowsWMP" type="application/x-mplayer2" pluginspage = "http://www.microsoft.com/Windows/MediaPlayer/" src="http://www.camstreams.com/asx.asp?user=rabbitmeadows" align="middle" width=320 height=304 showcontrols=1 showdisplay=1 autostart="0" enablecontextmenu="1" volume="75"/>
+                            </object>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center>
+                                <a href="http://www.camstreams.com" target="_blank"><font face="Arial" size="2" color="#E2D5FD">Webcams - Streaming by Camstreams</font></a>
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+                </div>
             </center>
    		</td>
     </tr>
