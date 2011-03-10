@@ -66,6 +66,7 @@
                     <tr>
                         <td>
                             <center>
+                                <!-- DON'T REMOVE THIS LINK.  It's required by Camstreams' terms of service. -->
                                 <a href="http://www.camstreams.com" target="_blank"><font face="Arial" size="2" color="#E2D5FD">Webcams - Streaming by Camstreams</font></a>
                             </center>
                         </td>
