@@ -1,28 +1,23 @@
 <% @LANGUAGE=VBScript %>
 <% Option Explicit %>
-
-
-
-<html><head></head>
-<body>
 <%
-response.write "test "
-dim address
-address=request.servervariables("HTTP_HOST")
+    Response.Status = "303 See Other"
 
-response.write address
+    dim address    
+    address=lcase(address)
+    If address="www.barbaradeeb.org" or address="barbaradeeb.org" then
+        Response.AddHeader "Location", "http://BarbaraDeeb.org/BarbaraDeeb.org/index.html"
+    Elseif address=("www.rabbitmeadowssanctuary.org") then
+        Response.AddHeader "Location", "http://www.rabbitmeadows.org/shelter/RabbitMeadowsSanctuary.asp"
+    Else
+        Response.AddHeader "Location", "http://www.rabbitmeadows.org/shelter/"
+    End if
 %>
-</body></html>
-
-
-<%
-
-address=lcase(address)
-If address="www.barbaradeeb.org" or address="barbaradeeb.org" then
-    response.redirect "http://BarbaraDeeb.org/BarbaraDeeb.org/index.html"
-Elseif address=("www.rabbitmeadowssanctuary.org") then
-    Response.Redirect "http://www.rabbitmeadows.org/shelter/RabbitMeadowsSanctuary.asp"
-Else
-    Response.Redirect "http://www.rabbitmeadows.org/shelter/"
-end if
-%>
+<html>
+    <head>
+        <title>Rabbit Meadows</title>
+    </head>
+    <body>
+        Please go to our <a href="http://www.rabbitmeadows.org/shelter/">home page</a> if you are not redirected automatically.
+    </body>
+</html>
