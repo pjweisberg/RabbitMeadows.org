@@ -20,13 +20,6 @@
     menumea[0] = '<a href="/shelter/RabbitMeadowsSanctuary.asp" onmouseover="changeContentPure(td1,link1mea)" onmouseout="changeContentPure(td1,msg100)" >Our Sanctuary</a>'
     menumea[1] = '<a href="/shelter/volunteer.asp?name=Sanctuary Rabbits" onmouseover="changeContentPure(td1,link2mea)" onmouseout="changeContentPure(td1,msg100)" >Volunteer</a>'
     menumea[2] = '<a href="/shelter/donate.asp?name=sanctuary rabbits" onmouseover="changeContentPure(td1,link3mea)" onmouseout="changeContentPure(td1,msg100)" >Donate</a>'
-    menumea[3] = '<a href="http://www.woodlandparkrabbits.org" onmouseover="changeContentPure(td1,link4mea)" onmouseout="changeContentPure(td1,msg100)" >Woodland Park Project</a>'
-
-
-    var menusto = new Array()
-    menusto[0] = '<a href="/shelter/store.asp" onmouseover="changeContentPure(td1,link1sto)"  onmouseout="changeContentPure(td1,msg100)" >Rabbits</a>'
-    menusto[1] = '<a href="/shelter/store.asp" onmouseover="changeContentPure(td1,link2sto)"  onmouseout="changeContentPure(td1,msg100)" >Rodents & Guinea Pigs</a>'
-
 
     var menurod = new Array()
     menurod[0] = '<a href="/shelter/RodentCurrent.asp" onmouseover="changeContentPure(td1,link1rod)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
@@ -123,16 +116,3 @@
 		</table>
 </td></tr>
 </table><br>
-
-<table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="0" border="0">
-	<tr><td valign="top">
-		<table class="ltblue" cellpadding=4 cellspacing=2 width="130">
-		<tr><td class="dkblue" align="center" height="15"><a class="dkblue" href="/shelter/store.asp"  onMouseover="changeContentPure('td1',msg2sto)" onMouseout="changeContentPure('td1',msg100)">Store</a></td></tr>
-
-		<tr><td id="td6" bgcolor="#FFFFFF" height="40">
-				<img src="/shelter/pics/storelink.jpg" align="left" border="0" width="41" height="44" vspace="2"> <script type="text/javascript">
-				                                                                                             document.write(msg1sto) </script>
-
-		</td></tr>
-		</table>
-</table>
