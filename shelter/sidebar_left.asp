@@ -20,8 +20,6 @@
     menumea[0] = '<a href="/shelter/RabbitMeadowsSanctuary.asp" onmouseover="changeContentPure(td1,link1mea)" onmouseout="changeContentPure(td1,msg100)" >Our Sanctuary</a>'
     menumea[1] = '<a href="/shelter/volunteer.asp?name=Sanctuary Rabbits" onmouseover="changeContentPure(td1,link2mea)" onmouseout="changeContentPure(td1,msg100)" >Volunteer</a>'
     menumea[2] = '<a href="/shelter/donate.asp?name=sanctuary rabbits" onmouseover="changeContentPure(td1,link3mea)" onmouseout="changeContentPure(td1,msg100)" >Donate</a>'
-    menumea[3] = '<a href="http://www.woodlandparkrabbits.org" onmouseover="changeContentPure(td1,link4mea)" onmouseout="changeContentPure(td1,msg100)" >Woodland Park Project</a>'
-
 
     var menusto = new Array()
     menusto[0] = '<a href="/shelter/store.asp" onmouseover="changeContentPure(td1,link1sto)"  onmouseout="changeContentPure(td1,msg100)" >Rabbits</a>'
