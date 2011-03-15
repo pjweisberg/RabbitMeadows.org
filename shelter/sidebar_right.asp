@@ -55,6 +55,12 @@
     </tr>
     <tr>
         <td class="bunnycam">
+            <!-- Temporary placeholder -->
+            <center style="border:solid; border-color:Black; background-color:White; color:Black;">
+                <b>Bunnycam coming soon to this spot!</b><br />
+			    <img src="/shelter/Bunnyimages/snowbunny.jpg" alt="Bunny Snowman"/><br/>
+                <b><font size="4">In the meantime, enjoy this melting snow bunny!</font></b>
+                <!--
             <center>
                 <span style="font-size:1.3em">Rabbit Meadows BunnyCam</span><br />
                 <span style="font-size:.8em">Click "Play" to Watch</span>
@@ -74,12 +80,12 @@
                     <tr>
                         <td>
                             <center>
-                                <!-- DON'T REMOVE THIS LINK.  It's required by Camstreams' terms of service. -->
                                 <a href="http://www.camstreams.com" target="_blank"><font face="Arial" size="2" color="#E2D5FD">Webcams - Streaming by Camstreams</font></a>
                             </center>
                         </td>
                     </tr>
                 </table>
+                -->
             </center>
    		</td>
     </tr>
