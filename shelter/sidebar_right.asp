@@ -45,12 +45,11 @@
         </td>
     </tr>
     <tr>
-        <td style="background-color:Black; color:White;">
+        <td class="bunnycam">
             <center>
-                Rabbit Meadows BunnyCam, featuring:<br />
-                <span style="font-size:1.3em">Tess, Pete, and Pat</span>
-                <div>
-                <table width="320" border="0" cellpadding="0" cellspacing="2" bgcolor="#000000">
+                <span style="font-size:1.3em">Rabbit Meadows BunnyCam</span><br />
+                <span style="font-size:.8em">Click "Play" to Watch</span>
+                <table width="320" border="0" cellpadding="0" cellspacing="2">
                     <tr>
                         <td>
                             <object id="CSrabbitmeadowsWMP" width="320" height="304" classid="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6" type="application/x-oleobject">
@@ -72,7 +71,6 @@
                         </td>
                     </tr>
                 </table>
-                </div>
             </center>
    		</td>
     </tr>

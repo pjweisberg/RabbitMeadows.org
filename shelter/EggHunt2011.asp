@@ -13,7 +13,7 @@
     <!--#include file="dropdownmenu.asp"-->
     <!--#include file="headerfile.asp"-->
     <center>
-    <table cellpadding="7px">
+    <table cellspacing="10px">
         <tr>
             <td valign="top" align="right" rowspan="2">
                 <!--#include file="sidebar_left.asp"-->

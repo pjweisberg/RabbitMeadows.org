@@ -1,5 +1,3 @@
-<style>
-
 div.contentmed {
 font-weight: bold; 
 color:#000; 
@@ -224,6 +222,14 @@ line-height: 1.2;
 font-family: Arial,Helvetica;
 } 
 
+.bunnycam{
+    background-color:Black;
+    color:White;       
+}
 
-</style>
-
+.banner{
+    width:100%;
+    color:#FFFFFF;
+    background-color:#999933;
+    padding:5px;
+}
