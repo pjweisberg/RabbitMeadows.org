@@ -35,7 +35,16 @@
                 <li>Ceiling fans(6)</li>
                 <li>Drywall</li>
                 <li>Windows</li>
-                <li>Gift Certificates to Home Depot, Lowes, McLendon's, Second Use, Millworks of Maple Valley</li>
+                <li>
+                    Gift Certificates to:
+                    <ul>
+                      <li>Home Depot</li>
+                      <li>Lowes</li>
+                      <li>McLendon's</li>
+                      <li>Second Use</li>
+                      <li>Millworks of Maple Valley</li>
+                    </ul>
+                </li>
             </ul>
 	    </td>
     </tr>
