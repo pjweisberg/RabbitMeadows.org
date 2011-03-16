@@ -32,20 +32,7 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
   <tr>
     
 	<td colspan="3" align="center">
-	<!-- Begin PayPal Logo -->
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="Sandi@RabbitRodentFerret.org">
-<input type="hidden" name="no_shipping" value="1">
-<input type="hidden" name="shipping" value="0.00">
-<input type="hidden" name="tax" value="0">
-
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-</form>
-<!-- End PayPal Logo -->
+	<!--#include file="paypal_logo.html"-->
 
 
 
@@ -55,20 +42,8 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
     <td colspan="3" class="philosophy1">
 	
 	<hr>
-	<!-- Begin PayPal Logo -->
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="Sandi@RabbitRodentFerret.org">
-<input type="hidden" name="no_shipping" value="1">
-<input type="hidden" name="shipping" value="0.00">
-<input type="hidden" name="tax" value="0">
-
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-</form>
-<!-- End PayPal Logo --><br>
+    <!--#include file="paypal_logo.html"-->
+    <br>
 <tr>
 	<td rowspan="10"><img src="spacer.gif" height="240" width="1"></td></tr>
 	<tr><td>
