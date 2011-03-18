@@ -143,13 +143,11 @@ care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-p
 
         <hr/>
         
-        <h2 style="border-style:groove; text-align:center">Celebrating Chinese Year of the Rabbit! 2011</h2>
+        <h2 style="border-style:groove; text-align:center">We Have Our Building Permit!</h2>
       	<img src="Web-bldg1.jpg" width="360" height="185" hspace="10" alt="Conceptual image of new shelter" style="float:right" />
-        Here's an idea of what our new shelter will look like! Permit application was submitted to King County in Dec 2010. It's a slow process, but it's moving along. 
+        Here's an idea of what our new shelter will look like!  
                 The building will be 38' x 48' with a second level loft of 14' x 48'. The first level will contain our reception area; adoption area with a place to spend time with potential companions; an education room; a boarding room; utility room; bathroom.
-                The loft area will contain areas to quarantine incomming animals and those waiting to be spayed/neutered. And, a clinic room where animals can receive veterinary care. 2-14-11 (More info soon.)
-
-        <hr />
+                The loft area will contain areas to quarantine incomming animals and those waiting to be spayed/neutered. And, a clinic room where animals can receive veterinary care. We need volunteers to help clear the building area. Contact us if you have a few hours available to help. (3-17-11)<hr />
 
         <center>
           <b>Past Newsletters:</b>
