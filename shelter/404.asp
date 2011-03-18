@@ -33,15 +33,16 @@
     <!--#include file="dropdownmenu.asp"-->
     <!--#include file="headerfile.asp"-->
     <center>
-    <table cellpadding="7px">
+    <table cellspacing="10px">
         <tr>
             <td valign="top" align="right">
                 <!--#include file="sidebar_left.asp"-->
             </td>
             <td width="540px" valign="top">
-                 <div style="background-color:#999933; color:#FFFFFF; text-align:center; width:100%; margin-bottom:10px;">
-                    <h1 style="padding-bottom:5px">Oops! - <code>404</code></h1>
+                 <div class="banner" style="text-align:center;">
+                    <h1>Oops! - <code>404</code></h1>
                  </div>
+                 <br />
                  <img src="/shelter/BunnyImages/snoopy2.jpg" alt="Where did it go?" style="float:left; padding:10px"/>
                  <p>
                      We can't seem to find the page you were looking for.  Maybe it moved, or you typed the address wrong, or somebody took it and hid it behind the couch.

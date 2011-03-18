@@ -32,20 +32,7 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
   <tr>
     
 	<td colspan="3" align="center">
-	<!-- Begin PayPal Logo -->
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="Sandi@RabbitRodentFerret.org">
-<input type="hidden" name="no_shipping" value="1">
-<input type="hidden" name="shipping" value="0.00">
-<input type="hidden" name="tax" value="0">
-
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-</form>
-<!-- End PayPal Logo -->
+	<!--#include file="paypal_logo.html"-->
 
 
 
@@ -114,20 +101,8 @@ We put $5,800 into our operating budget and have put $2,000 into our Capital Fun
 <li>Aromatherapy Apothecary Set<p>
 
 	
-	<!-- Begin PayPal Logo -->
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="Sandi@RabbitRodentFerret.org">
-<input type="hidden" name="no_shipping" value="1">
-<input type="hidden" name="shipping" value="0.00">
-<input type="hidden" name="tax" value="0">
-
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-</form>
-<!-- End PayPal Logo --><br>
+	<!--#include file="paypal_logo.html"-->
+<br/>
 <table  cellspacing=40><tr><td>
 	<b>Best Little Rabbit, Rodent & Ferret House<br>
 	14317 Lake City Way NE<br>

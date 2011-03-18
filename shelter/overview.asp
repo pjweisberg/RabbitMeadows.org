@@ -160,19 +160,8 @@ table.white td {
 
 	 <b>We need your support to accomplish this project.  Please help us to continue to give each rescued animal a safe environment and a second chance for a new home.  If you would like to contribute to this effort and to our continuing rescue work, please send a donation today!</b><img src="salad2.jpg" width="218" height=""105" align="right" hspace="5">
 	 <p align=center>
-	 <!-- Begin PayPal Logo -->
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="Sandi@RabbitRodentFerret.org">
-<input type="hidden" name="no_shipping" value="1">
-<input type="hidden" name="shipping" value="0.00">
-<input type="hidden" name="tax" value="0">
-
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-</form>
-<!-- End PayPal Logo --><br>
+	 <!--#include file="paypal_logo.html"-->
+     <br/>
 View our Tax Form 990 for year 2007 <a href="2007-990.pdf" >here.</a>
 <br><br>
 

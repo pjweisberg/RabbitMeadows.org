@@ -214,19 +214,8 @@ table.white td {
 
 	 We need your support to accomplish this project.  Please help us to continue to give each rescued animal a safe environment and a second chance for a new home.  If you would like to contribute to this effort and to our continuing rescue work, please send a donation today!<img src="salad2.jpg" width="218" height=""105" align="right" hspace="5">
 	 <p align=center>
-	 <!-- Begin PayPal Logo -->
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="Sandi@RabbitRodentFerret.org">
-<input type="hidden" name="no_shipping" value="1">
-<input type="hidden" name="shipping" value="0.00">
-<input type="hidden" name="tax" value="0">
-
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="hidden" name="cancel_return" value="http://http://www.washingtonhouserabbitsociety.org/cancel">
-<input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-</form>
-<!-- End PayPal Logo --><br>
+	 <!--#include file="paypal_logo.html"-->
+     <br>
 View our 990 Tax Forms for years: <a href="2007-990.pdf" >2007-here </a>  and <a href="2008-990EZ.pdf" >2008-here.</a>
 
 <br><br>
@@ -250,19 +239,7 @@ Running the sanctuary takes a considerable amount of time, effort and money.  Al
 <p align=left>
  If you would like to contribute to the rescue effort, please send a donation today!
 <p align=center>	 
-	 <!-- Begin PayPal Logo -->
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" align=center>
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="Sandi@RabbitRodentFerret.org">
-<input type="hidden" name="no_shipping" value="1">
-<input type="hidden" name="shipping" value="0.00">
-<input type="hidden" name="tax" value="0">
-
-<input type="hidden" name="return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="hidden" name="cancel_return" value="http://www.rabbitmeadows.org/shelter/">
-<input type="image" src="http://images.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" align="Center">
-</form>
-<!-- End PayPal Logo -->
+	 <!--#include file="paypal_logo.html"-->
 <hr>
 
 			</td></tr>
