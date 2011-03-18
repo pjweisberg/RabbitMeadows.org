@@ -147,7 +147,8 @@ care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-p
       	<img src="Web-bldg1.jpg" width="360" height="185" hspace="10" alt="Conceptual image of new shelter" style="float:right" />
         Here's an idea of what our new shelter will look like!  
                 The building will be 38' x 48' with a second level loft of 14' x 48'. The first level will contain our reception area; adoption area with a place to spend time with potential companions; an education room; a boarding room; utility room; bathroom.
-                The loft area will contain areas to quarantine incomming animals and those waiting to be spayed/neutered. And, a clinic room where animals can receive veterinary care. We need volunteers to help clear the building area. <a href="mailto:Sandi@RabbitMeadows.org?subject=Helping%20With%20the%20New%20Shelter">Contact us</a> if you have a few hours available to help. (3-17-11)<hr />
+                The loft area will contain areas to quarantine incomming animals and those waiting to be spayed/neutered. And, a clinic room where animals can receive veterinary care. We need volunteers to help clear the building area. <a href="mailto:Sandi@RabbitMeadows.org?subject=Helping%20With%20the%20New%20Shelter">Contact us</a> if you have a few hours available to help.
+<hr />
 
         <center>
           <b>Past Newsletters:</b>
