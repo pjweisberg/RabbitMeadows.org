@@ -55,14 +55,9 @@
     </tr>
     <tr>
         <td class="bunnycam">
-            <!-- Temporary placeholder -->
-            <center style="border:solid; border-color:Black; background-color:White; color:Black;">
-                <b>Bunnycam coming soon to this spot!</b><br />
-			    <img src="/shelter/Bunnyimages/snowbunny.jpg" alt="Bunny Snowman"/><br/>
-                <b><font size="4">In the meantime, enjoy this melting snow bunny!</font></b>
-                <!--
             <center>
-                <span style="font-size:1.3em">Rabbit Meadows BunnyCam</span><br />
+                Rabbit Meadows BunnyCam, featuring:<br />
+                <span style="font-size:1.3em">Tess, Pete, and Pat</span><br />
                 <span style="font-size:.8em">Click "Play" to Watch</span>
                 <table width="320" border="0" cellpadding="0" cellspacing="2">
                     <tr>
@@ -85,7 +80,6 @@
                         </td>
                     </tr>
                 </table>
-                -->
             </center>
    		</td>
     </tr>
