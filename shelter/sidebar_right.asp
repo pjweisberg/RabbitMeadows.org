@@ -58,7 +58,6 @@
             <center>
                 Rabbit Meadows BunnyCam, featuring:<br />
                 <span style="font-size:1.3em">Tess, Pete, and Pat</span><br />
-                <span style="font-size:.8em">Click "Play" to Watch</span>
                 <table width="320" border="0" cellpadding="0" cellspacing="2">
                     <tr>
                         <td>
