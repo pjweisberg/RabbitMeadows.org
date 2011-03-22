@@ -30,7 +30,7 @@
             <center><strong>WISH LIST For our New Shelter</strong></center>
             <ul>
                 <li>Lumber: 2x4's and 2x6'</li>
-                <li>Nailes & screws</li>
+                <li>Nails & screws</li>
                 <li>Electrical Supplies</li>
                 <li>Ceiling fans(6)</li>
                 <li>Drywall</li>
