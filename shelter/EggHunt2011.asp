@@ -42,8 +42,8 @@
                 <span style="text-decoration:underline; font-weight:bold">For Kids:</span>
                 <ul>
                     <li>Hunt for lots & lots of (plastic) eggs with toys inside (Please bring your own basket.)</li>
-                    <li>Find the gold or silver eggs for a special prize</li>
-                    <li>One photo with the Easter Bunny (each additional photo is $1.50)</li>
+                    <li>Find the gold eggs for a special prize</li>
+                    <li>Photo with the Easter Bunny </li>
                     <li>Win the 3-legged race and win a prize</li>
                     <li>Share a few minutes with a real live rabbit</li>
                     <li>Lots of arts and crafts items for your creative ideas</li>
@@ -61,11 +61,7 @@
                     and adults will be attending.
                 </p>
                 <p>
-                    Put a picture of your favorite furry companion on our walls!  Ceramic
-                    tiles will decorate our shelter walls with photos of your companion
-                    animal or you with your companion animal. Donation for each tile is
-                    from $35-$75 depending upon size.  We will contact you via e-mail
-                    after this event to obtain your high quality photo.
+                    Commemorate your favorite furry companion on ceramic tiles on the walls of our new shelter! Tiles will be available at this event and information will soon be posted on our web page.
                 </p>
                 <center>
                     See you at:<br />
