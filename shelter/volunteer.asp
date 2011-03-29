@@ -48,6 +48,7 @@ font-size:10px;
 text-decoration: none
 }
 </style>
+<!--#include file="google-analytics.js"-->
 </head>
 <bodY>
 <!--main table-->

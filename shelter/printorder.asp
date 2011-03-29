@@ -70,7 +70,10 @@ End If
 
 %>
 <html>
-<head><title>Best Little Rabbit, Rodent and Ferret House - Register</title></head>
+<head>
+<title>Best Little Rabbit, Rodent and Ferret House - Register</title>
+<!--#include file="google-analytics.js"-->
+</head>
 <body bgcolor=#ffffff LINK="#4486c4"  ALINK="#999944" vlink="#ff9533">
 <center><img src="images\titlebaska.gif" width=359 height=24></center><br>
 <%

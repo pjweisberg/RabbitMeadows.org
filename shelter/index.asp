@@ -93,6 +93,7 @@ care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-p
 
 <!--#include file="dropdownmenu.asp"-->
 
+<!--#include file="google-analytics.js"-->
 </head>
 <body>
 

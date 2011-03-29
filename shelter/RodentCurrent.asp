@@ -38,7 +38,8 @@ End Select
 <TITLE>Best Little Rabbit, Rodent and Ferret House - <%=title%> </TITLE>
 
 <!--#include file="dropdownmenu.asp"-->
-</HEAD>
+<!--#include file="google-analytics.js"-->
+</head>
 
 <BODY BGCOLOR="#ffffff" LINK="#000000"  ALINK="#8FBC8F" VLINK="#2E8B57">
 <CENTER>

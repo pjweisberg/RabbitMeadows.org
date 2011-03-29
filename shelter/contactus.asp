@@ -66,6 +66,7 @@ font-weight: normal;
 font-size:14px;
 }
 </style>
+<!--#include file="google-analytics.js"-->
 </head>
 <bodY>
 <!--main table-->

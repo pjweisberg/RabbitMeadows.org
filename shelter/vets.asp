@@ -51,7 +51,8 @@ End Function
 <meta NAME="Description" CONTENT="Best Little Rabbit, Rodent and Ferret House is a the definitive site for Rescued Rabbits in the 
 Northwest and other parts of the country. HRS is a non-provit organization.">
 
-
+<!--#include file="google-analytics.js"-->
+</head>
 
 
 <body>

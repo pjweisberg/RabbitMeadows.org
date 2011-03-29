@@ -4,9 +4,8 @@
 
 <title>Best Little Rabbit, Rodent and Ferret House</title>
 
-
-
-
+<!--#include file="google-analytics.js"-->
+</head>
 
 <body bgcolor="#666699">
 <font face="arial" color="#FFFFFF">You are signed up and will recieve the next issue of our newsletter!</font>

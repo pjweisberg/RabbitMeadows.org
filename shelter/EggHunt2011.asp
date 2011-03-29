@@ -7,6 +7,7 @@
 
         <link rel="StyleSheet" href="style.css" type="text/css" media="screen"/>
         <!--#include file="sandiedit.js"-->
+        <!--#include file="google-analytics.js"-->
     </head>
     <body>
 

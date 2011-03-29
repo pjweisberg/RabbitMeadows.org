@@ -98,7 +98,8 @@ table.white td {
 <META NAME="Author" CONTENT="">
 <META NAME="Keywords" CONTENT="">
 <META NAME="Description" CONTENT="">
-</HEAD>
+<!--#include file="google-analytics.js"-->
+</head>
 
 <BODY bgcolor="#5a755c">
 <TABLE cellpadding="0" border="0" cellspacing="0" bgcolor="#FFFFFF" width="887">

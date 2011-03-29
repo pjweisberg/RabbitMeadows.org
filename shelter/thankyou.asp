@@ -13,7 +13,8 @@
 
 <STYLE TYPE="text/css"><!--A { text-decoration: none }A:hover { text-decoration: underline }--></STYLE>
 <TITLE>Best Little Rabbit, Rodent and Ferret House - Thank You</TITLE>
-</HEAD>
+<!--#include file="google-analytics.js"-->
+</head>
 
 <BODY BGCOLOR="#FFCC66" LINK="#4486c4"  ALINK="#999944" vlink="#ff9533">
 

@@ -1,6 +1,9 @@
 
 <html>
-<head><title>Best Little Rabbit, Rodent and Ferret House - Register</title></head>
+<head>
+<title>Best Little Rabbit, Rodent and Ferret House - Register</title>
+<!--#include file="google-analytics.js"-->
+</head>
 <body bgcolor="ffffff" LINK=#39638C VLINK=#FF9933 ALINK=#999933>
 <center>
 <table width=80% border=0 cellpadding=4 cellspacing=0>

@@ -7,7 +7,8 @@
 	<TITLE>Legend of Pink Eyes</TITLE>
 
 <link rel="stylesheet" type="text/css" href="legend_style.css" />
-</HEAD>
+<!--#include file="google-analytics.js"-->
+</head>
 
 <body class="legendpe">
 

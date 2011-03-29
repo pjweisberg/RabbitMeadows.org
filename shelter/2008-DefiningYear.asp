@@ -17,6 +17,7 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
 	a:hover{text-decoration:underline; }
    </style>
 
+<!--#include file="google-analytics.js"-->
 </head>
 
 <body>
