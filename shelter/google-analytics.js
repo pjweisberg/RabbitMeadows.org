@@ -1,5 +1,3 @@
-<!--// This should be #included in the <head> element of every page
-    // that needs to be tracked.  -->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
