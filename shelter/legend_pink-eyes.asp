@@ -1,3 +1,6 @@
+<% @LANGUAGE=VBScript %>
+<% Option Explicit %>
+<!-- #include file="correct-domain.asp"-->
 	<!-- Created: 4/4/2002 8:30:30 AM -->
 	<! DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
 

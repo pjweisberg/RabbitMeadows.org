@@ -1,3 +1,7 @@
+<% @LANGUAGE=VBScript %>
+<% Option Explicit %>
+<!-- #include file="correct-domain.asp"-->
+
 <html>
 
 <head>

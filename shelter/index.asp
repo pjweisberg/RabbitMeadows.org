@@ -1,6 +1,7 @@
 <% @LANGUAGE=VBScript %>
 <% Option Explicit %>
 
+<!-- #include file="correct-domain.asp"-->
 
 <%
 Function sendrequest

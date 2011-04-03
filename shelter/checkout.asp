@@ -1,6 +1,6 @@
 <% @Language=VBScript %>
 <% Option Explicit %>
-<%  REsponse.Buffer="true" %>
+<!-- #include file="correct-domain.asp"-->
 <!--#include file="adovbs.inc" -->
 
 <%

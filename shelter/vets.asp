@@ -1,5 +1,6 @@
 <%@ LANGUAGE=VBSCRIPT %>
 <% OPTION EXPLICIT %>
+<!-- #include file="correct-domain.asp"-->
 <!--#include file="connstr.asp" -->
 
 <%
