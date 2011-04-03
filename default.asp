@@ -1,7 +1,7 @@
 <% @LANGUAGE=VBScript %>
 <% Option Explicit %>
 <%
-    Response.Status = "303 See Other"
+    Response.Status = "301 Moved Permanently"
 
     dim address
     address=request.servervariables("HTTP_HOST")
