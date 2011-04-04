@@ -15,7 +15,7 @@
 
 	<td valign="top"><img   src="/shelter/links.gif" width="8" height="10"/><a href="/shelter/vets.asp?animal=1" class="linktext" onMouseover="dropdownmenu(this, event, menuVets, '95px')" onMouseout="delayhidemenu()">Vets</a> </td>
 
-	<td valign="top"><img  src="/shelter/links.gif" width="8" height="10"/><a href="/washingtonhouserabbitsociety/FAQ.asp" class="linktext" onMouseover="dropdownmenu(this, event, menuFaq, '95px')" onMouseout="delayhidemenu()">FAQs</a> </td>
+	<td valign="top"><img  src="/shelter/links.gif" width="8" height="10"/><a href="/shelter/FAQ.asp" class="linktext" onMouseover="dropdownmenu(this, event, menuFaq, '95px')" onMouseout="delayhidemenu()">FAQs</a> </td>
 
 	<td valign="top"><img   src="/shelter/links.gif" width="8" height="10"/><a class="linktext" href="/shelter/contactus.asp"  onMouseover="dropdownmenu(this, event, menuCon, '100px')" onMouseout="delayhidemenu()">Contact Us</a> </td>
 	
