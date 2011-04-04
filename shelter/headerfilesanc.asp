@@ -9,7 +9,7 @@
 
 	<td valign="top"><img  src="/shelter/links.gif" width="8" height="10"/><a href="/shelter/AdoptedCurrent.asp" class="linktext" onMouseover="dropdownmenu(this, event, menuAdopt, '110px')" onMouseout="delayhidemenu()">Adoption</a> </td>
 
-	<td valign="top"><img   src="/shelter/links.gif" width="8" height="10"/><a href="/washingtonhouserabbitsociety.org/news.asp" class="linktext" onMouseover="dropdownmenu(this, event, menuNews, '100px')" onMouseout="delayhidemenu()">News</a> </td>
+	<td valign="top"><img   src="/shelter/links.gif" width="8" height="10"/><a href="/shelter/news.asp" class="linktext" onMouseover="dropdownmenu(this, event, menuNews, '100px')" onMouseout="delayhidemenu()">News</a> </td>
 
 	<td valign="top"><img   src="/shelter/links.gif" width="8" height="10"/><a href="/shelter/vets.asp?animal=1" class="linktext" onMouseover="dropdownmenu(this, event, menuVets, '95px')" onMouseout="delayhidemenu()">Vets</a> </td>
 

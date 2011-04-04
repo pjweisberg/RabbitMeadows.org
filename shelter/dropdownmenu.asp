@@ -69,7 +69,7 @@ menuAdopt[2]='<a href="/shelter/GuineaCurrent.asp">Adopt G. Pigs</a>'
 
 //Contents for News Menu
 var menuNews=new Array()
-menuNews[0]='<a href="/washingtonhouserabbitsociety.org/news.asp">Rabbit News</a>'
+menuNews[0]='<a href="/shelter/news.asp">Rabbit News</a>'
 menuNews[1]='<a href="/shelter/comingsoon.asp?name=Rodent News">Rodent News</a>'
 menuNews[2]='<a href="/shelter/comingsoon.asp?name=Guinea Pig News">G. Pig News</a>'
 
@@ -81,7 +81,7 @@ menuVets[2]='<a href="/shelter/vets.asp?animal=4">G. Pig Vets</a>'
 
 //Contents for FAQ's Menu
 var menuFaq=new Array()
-menuFaq[0]='<a href="/washingtonhouserabbitsociety.org/FAQ.asp">Rabbit FAQs</a>'
+menuFaq[0]='<a href="/shelter/FAQ.asp">Rabbit FAQs</a>'
 menuFaq[1]='<a href="/shelter/comingsoon.asp?name=Rodent FAQs">Rodent FAQs</a>'
 menuFaq[2]='<a href="/shelter/comingsoon.asp?name=Guinea Pig FAQs">G. Pig FAQs</a>'
 

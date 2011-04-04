@@ -6,6 +6,7 @@
     url = Replace( Request.QueryString, garbage, "" )
 
     modified = Replace( url, "/rabbitrodentferret.org", "/shelter", vbTextCompare)
+    modified = Replace( modified, "/washingtonhouserabbitsociety.org", "/shelter", vbTextCompare)
     if url = modified then
         Response.Status = "404 Not Found"
     else

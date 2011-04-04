@@ -25,7 +25,7 @@ Mon: 10-6 Wed-Fri: 10-7 Sat:10-6 Sun: 11-5  &nbsp;&nbsp; Closed Tuesday  </b></f
 <a href="/product.asp?Cat=7&Animal=1"><font color="#999933"> PEOPLE STUFF |</a>
 <a href="/product.asp?Cat=8&Animal=1"><font color="#999933"> BOOKS & VIDEOS |</a>
 <a href="/product.asp?Cat=9&Animal=1"><font color="#999933"> MISC |</a>
-<a href="/washingtonhouserabbitsociety.org/AdoptedCurrent.asp"><font color="#999933"> ADOPTION ||</a></FONT>
+<a href="/shelter/AdoptedCurrent.asp"><font color="#999933"> ADOPTION ||</a></FONT>
 
 
 
@@ -38,7 +38,7 @@ Mon: 10-6 Wed-Fri: 10-7 Sat:10-6 Sun: 11-5  &nbsp;&nbsp; Closed Tuesday  </b></f
 <a href="/product.asp?Cat=7&Animal=2"><font color="#39638c"> PEOPLE STUFF |</a>
 <a href="/product.asp?Cat=8&Animal=2"><font color="#39638c"> BOOKS & VIDEOS |</a>
 <a href="/product.asp?Cat=9&Animal=2"><font color="#39638c"> MISC |</a>
-<a href="/washingtonhouserabbitsociety.org/RodentCurrent.asp"><font color="#39638c"> ADOPTION ||</a></FONT>
+<a href="/shelter/RodentCurrent.asp"><font color="#39638c"> ADOPTION ||</a></FONT>
 
 
 </font>

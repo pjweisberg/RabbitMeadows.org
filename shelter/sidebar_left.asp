@@ -12,7 +12,7 @@
     menurab[0] = '<a href="/shelter/Adoptedcurrent.asp" onmouseover="changeContentPure(td1,link1rab)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
 
     menurab[1] = '<a href="/shelter/vets.asp?animal=1" onmouseover="changeContentPure(td1,link2rab)"  onmouseout="changeContentPure(td1,msg100)" >Vet Referral</a>'
-    menurab[2] = '<a href="/washingtonhouserabbitsociety.org/sites.asp" onmouseover="changeContentPure(td1,link3rab)"  onmouseout="changeContentPure(td1,msg100)">Links</a>'
+    menurab[2] = '<a href="/shelter/sites.asp" onmouseover="changeContentPure(td1,link3rab)"  onmouseout="changeContentPure(td1,msg100)">Links</a>'
     menurab[3] = '<a href="/shelter/volunteerrab.asp" onmouseover="changeContentPure(td1,link4rab)"  onmouseout="changeContentPure(td1,msg100)">Volunteer</a>'
     menurab[4] = '<a href="/shelter/donate.asp?name=rabbits" onmouseover="changeContentPure(td1,link5rab)"  onmouseout="changeContentPure(td1,msg100)">Donate</a>'
 

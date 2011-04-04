@@ -16,7 +16,7 @@ intAnimal=Request.Querystring("Animal")
 
 
 If intAnimal="" Then
-intAnimal=5
+intAnimal=1
 End If
 
 '----------------------------------------------------
