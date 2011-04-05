@@ -1,3 +1,6 @@
+<% @LANGUAGE=VBScript %>
+<% Option Explicit %>
+<!-- #include file="correct-domain.asp"-->
 <html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:w="urn:schemas-microsoft-com:office:word"
@@ -156,6 +159,7 @@ content="WashingtonHouseRabbitSociety.org is a the definitive site for Rescued R
 		}
 	}
 </script>
+<!--#include file="google-analytics.js"-->
 </head>
 
 <body lang=EN-US link="#396BB5" vlink="#555555" style='tab-interval:.5in'>

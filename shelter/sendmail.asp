@@ -1,3 +1,6 @@
+<% @LANGUAGE=VBScript %>
+<% Option Explicit %>
+<!-- #include file="correct-domain.asp"-->
 <html>
 <head><title>HouseRabbit.org Sendmail</title>
 <meta NAME="Keywords" CONTENT="live online House Rabbit, Rabbitmedia,
@@ -27,6 +30,7 @@ Northwest and other parts of the country. HRS is a non-provit organization.">
 	a:visited{color:#555555}
 	a:hover{text-decoration:underline; }
    </style>
+<!--#include file="google-analytics.js"-->
 </head>
 <body>
 <center>

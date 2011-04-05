@@ -1,3 +1,6 @@
+<% @LANGUAGE=VBScript %>
+<% Option Explicit %>
+<!-- #include file="correct-domain.asp"-->
 <html>
 
 <head>
@@ -32,6 +35,7 @@ Northwest and other parts of the country. HRS is a non-provit organization.">
 	a:visited{color:#555555}
 	a:hover{text-decoration:underline; }
    </style>
+<!--#include file="google-analytics.js"-->
 </head>
 
 <body>

@@ -1,6 +1,6 @@
 <%@ LANGUAGE=VBSCRIPT %>
 <% OPTION EXPLICIT %>
-
+<!-- #include file="correct-domain.asp"-->
 <!--#include file="adovbs.inc"-->
 
 
@@ -10,7 +10,8 @@
 <HEAD>
 <TITLE>Best Little Rabbit, Rodent and Ferret House  </TITLE>
 <STYLE TYPE="text/css"><!--A { text-decoration: none }A:hover { text-decoration: underline }--></STYLE>
-</HEAD>
+<!--#include file="google-analytics.js"-->
+</head>
 
 <BODY BGCOLOR="#ffffff" LINK="#B8860B"  ALINK="#8FBC8F" VLINK="#2E8B57">
 <CENTER>

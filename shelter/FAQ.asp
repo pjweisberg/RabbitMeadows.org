@@ -1,7 +1,10 @@
+<% @LANGUAGE=VBScript %>
+<% Option Explicit %>
+<!-- #include file="correct-domain.asp"-->
 <html>
 
 <head>
-<title>HouseRabbit.org FAQ</title>
+<title>Rabbit Meadows FAQ</title>
 <!--#include file="dropdownmenu.asp"-->
 <meta NAME="Keywords" CONTENT="House Rabbit, House Rabbit Society, rabbits, bunnies, pets, pet adoption, shelter, humane,
          pet rabbits, rabbit health, vets, non-profit, rabbit information, rescue, rabbit rescue, rodent rescue,
@@ -32,6 +35,7 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
 	a:hover{text-decoration:underline; }
    </style>
 
+<!--#include file="google-analytics.js"-->
 </head>
 
 <body>

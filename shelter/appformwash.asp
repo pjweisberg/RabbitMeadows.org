@@ -1,6 +1,6 @@
 <% @LANGUAGE=VBSCRIPT %>
 <% OPTION EXPLICIT %>
-
+<!-- #include file="correct-domain.asp"-->
 	<!-- Created: 6/23/01 8:03:58 AM -->
 	<! DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <HTML>
@@ -20,7 +20,8 @@ return true;
 	<META HTTP-EQUIV="Content-Type"CONTENT="text/html;CHARSET=iso-8859-1">
 	<TITLE>Washington HRS - Application to adopt a rabbit</TITLE>
 <STYLE TYPE="text/css"><!--A { text-decoration: none }A:hover { text-decoration: underline }--></STYLE>
-</HEAD>
+<!--#include file="google-analytics.js"-->
+</head>
 
 <BODY BGCOLOR="#ffffff" LINK="#B8860B"  ALINK="#8FBC8F" VLINK="#2E8B57">
 <center><table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="1">
