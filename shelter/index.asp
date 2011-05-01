@@ -95,6 +95,21 @@ care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-p
 <!--#include file="dropdownmenu.asp"-->
 
 <!--#include file="google-analytics.js"-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21632761-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--#include file="google-analytics.js"-->
 </head>
 <body>
 
@@ -105,33 +120,35 @@ care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-p
       <td align="right" valign="top">
         <!--#include file="sidebar_left.asp"-->
       </td>
+.
+    <center>
+              See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/RabbitMeadows#!/photo.php?fbid=10150167349094759&set=pu.75949809758&type=1&theater">Easter Egg Hunt</a> on Facebook
+    </center>
+.
       <td style="width:540px">
         <h1 class="banner" style="text-align:center">
-            <span style="font-size:0.75em">Come to Where the Real Rabbits Live for our</span><br />
-            First Annual Easter Egg Hunt!
+            <span style="font-size:0.75em">Annual Silent Auction & Dinner<br>Saturday  June 4, 2011 <br> <font size="4"> Sponsored by Rusty Pelican Cafe</span><br />
+            
         </h1>
-        <h2 style="text-align:center">Saturday, April 23, 2011: 10&nbsp;am&nbsp;&ndash;&nbsp;2&nbsp;pm</h2>
-        <img src="images/bunny-in-basket.gif" alt="Easter Basket" style="float:right;" />
-        <p>
-            The easter bunny will be making an appearance at Rabbit Meadows this April.
-            Come with your family, have your photo taken with him, search for plastic eggs with toys
-            inside, and find the gold eggs for a special prize!
-        </p>
-        <p>
-            There will be three-legged races and other fun activities for all ages.  While you're here,
-            you'll also get the chance to meet a few of the real live rabbits who have a home at
-            Rabbit Meadows because of your support.
-            Learn how <i>you</i> can help
-            us in our mission to save homeless and abandoned rabbits, guinea pigs, and other furry
-            critters. You can also learn the difference between the easter bunny and living breathing 
-            rabbits who can live 10+ years.
-        </p>
-        <p>
-            <a href="EggHunt2011.asp">Click here</a> for more information.  To RSVP, email
-            <a href="mailto:EasterEggHunt@RabbitMeadows.org?subject=Easter%20Egg%20Hunt%20RSVP">EasterEggHunt@RabbitMeadows.org</a>
-            or call 425-836-8925.  (RSVPs are appreciated, but not required.)
-        </p>
+        <h2 style="text-align:center"> ______________</h2>
 
+ <img src="2011PosterSmall.jpg" alt="2011 Auction Poster" style="float:right;" />
+Our 5th annual Silent Auction is fast approaching! Tickets are only $35 for the auction and a delicious pasta or lasagna dinner, plus on a fantastic dessert that Rusty Pelican is famous for. We have a limited number of tickets, so purchase yours now. 
+ 
+<center>
+  <div style="padding:10px"/>
+          <!--#include file="paypal_logo.html"-->
+
+</center>
+<p>We are still accepting items for the auction. If you have a service (house cleaning, pet sitting, etc.) or product that you can donate you can help to make this years auction a huge success. The rabbits, guinea pigs, rats & other small rodents thank you!
+<a href="2011 Auction Letter & Procurement Form.pdf"> Procurement Letter & Form </p> </a>
+
+               <p>            
+    <!--        <a href="2011Auction.asp">Click here</a> for more information or email
+            <a href="mailto:Auction@RabbitMeadows.org?subject=Silent%20Auction%20& Dinner%20">Auction@RabbitMeadows.org</a>
+            or call 206-365-9105.
+    -->
+        </p>
         <hr/>
         
         <h2 style="border-style:groove; text-align:center">We Have Our Building Permit!</h2>
@@ -146,6 +163,9 @@ care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-p
           <br/><a href="/shelter/Newsletters/News from Rabbit Meadows.htm">November 2010</a>
           <br/><a href="/shelter/Newsletters/NoseWigglesfromRabbitMeadows.htm">December 2010</a>
           <br/><a href="/shelter/Newsletters/RabbitMeadowsCelebratesYearoftheRabbit.htm">January 2011</a>
+           <br/><a href="/shelter/Newsletters/HoponoverMarch2011.htm">March 2011</a>
+           <br/><a href="/shelter/Newsletters/FunWaystoSupportRabbitMeadows.htm">April 2011</a>
+   
           <div style="padding:10px"/>
           <!--#include file="paypal_logo.html"-->
         </center>
