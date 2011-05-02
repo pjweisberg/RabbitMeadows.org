@@ -126,16 +126,22 @@ See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/Ra
             Saturday  June 4, 2011 <br/>
             <span style="font-size:.75em">Sponsored by Rusty Pelican Cafe</span>
         </h1>
- <img src="2011PosterSmall.jpg" alt="2011 Auction Poster" style="float:right;" />
-Our 5th annual Silent Auction is fast approaching! Tickets are only $35 for the auction and a delicious pasta or lasagna dinner, plus on a fantastic dessert that Rusty Pelican is famous for. We have a limited number of tickets, so purchase yours now. 
- 
+ <a href="2011 Poster.pdf"><img src="2011PosterSmall.jpg" alt="2011 Auction Poster" style="float:right;" /></a>
+<p>
+Our 5th annual Silent Auction is fast approaching! Tickets are only $35 for the auction and a delicious pasta or lasagna dinner, plus a fantastic dessert that Rusty Pelican is famous for. We have a limited number of tickets, so purchase yours now. 
+</p>
 <center>
-  <div style="padding:10px"/>
           <!--#include file="paypal_logo.html"-->
-
 </center>
-<p>We are still accepting items for the auction. If you have a service (house cleaning, pet sitting, etc.) or product that you can donate you can help to make this years auction a huge success. The rabbits, guinea pigs, rats & other small rodents thank you!
-<a href="2011 Auction Letter & Procurement Form.pdf"> Procurement Letter & Form </p> </a>
+<p>
+    We are still accepting items for the auction. If you have a service (house cleaning, pet sitting, etc.) or product that you can donate, please fill out and send us
+    <a href="2011 Auction Letter & Procurement Form.pdf">this form</a> along with any brochures, buisness cards, etc. you'd like to have displayed alongside the item at the auction.
+    You can help to make this year's auction a huge success. The rabbits, guinea pigs, rats & other small rodents thank you!
+</p>
+<p>
+    <strong>Help us spread the word!</strong>  Print out <a href="2011 Poster.pdf">our poster</a> and hang it on your office door, the bulletin board in the break room, or anywhere
+    else <em>that you have permission</em> to post it!
+</p>
 
                <p>            
     <!--        <a href="2011Auction.asp">Click here</a> for more information or email
