@@ -109,29 +109,23 @@ care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-p
   })();
 
 </script>
-<!--#include file="google-analytics.js"-->
 </head>
 <body>
 
 <center>
 <!--#include file="headerfile.asp"-->
+See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/RabbitMeadows#!/photo.php?fbid=10150167349094759&set=pu.75949809758&type=1&theater">Easter Egg Hunt</a> on Facebook
 <table border="0"  cellspacing="10px">
     <tr>
       <td align="right" valign="top">
         <!--#include file="sidebar_left.asp"-->
       </td>
-.
-    <center>
-              See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/RabbitMeadows#!/photo.php?fbid=10150167349094759&set=pu.75949809758&type=1&theater">Easter Egg Hunt</a> on Facebook
-    </center>
-.
       <td style="width:540px">
         <h1 class="banner" style="text-align:center">
-            <span style="font-size:0.75em">Annual Silent Auction & Dinner<br>Saturday  June 4, 2011 <br> <font size="4"> Sponsored by Rusty Pelican Cafe</span><br />
-            
+            Annual Silent Auction & Dinner<br/>
+            Saturday  June 4, 2011 <br/>
+            <span style="font-size:.75em">Sponsored by Rusty Pelican Cafe</span>
         </h1>
-        <h2 style="text-align:center"> ______________</h2>
-
  <img src="2011PosterSmall.jpg" alt="2011 Auction Poster" style="float:right;" />
 Our 5th annual Silent Auction is fast approaching! Tickets are only $35 for the auction and a delicious pasta or lasagna dinner, plus on a fantastic dessert that Rusty Pelican is famous for. We have a limited number of tickets, so purchase yours now. 
  
@@ -267,6 +261,7 @@ Our 5th annual Silent Auction is fast approaching! Tickets are only $35 for the 
     </tr>
 </table>
 <!--#include file="footer.asp"-->
+</center>
 
 </body>
 </html>
