@@ -3,6 +3,7 @@
 
 <!-- #include file="correct-domain.asp"-->
 
+<!-- #include file="paypal_paybutton.asp"-->
 <%
 Function sendrequest
     Dim strquestion
@@ -127,11 +128,14 @@ See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/Ra
             <span style="font-size:.75em">Sponsored by Rusty Pelican Cafe</span>
         </h1>
  <a href="2011 Poster.pdf"><img src="2011PosterSmall.jpg" alt="2011 Auction Poster" style="float:right;" /></a>
+<center><a href="AuctionDinner2011.asp">See our current list of Auction Items</a></center>
 <p>
 Our 5th annual Silent Auction is fast approaching! Tickets are only $35 for the auction and a delicious pasta or lasagna dinner, plus a fantastic dessert that Rusty Pelican is famous for. We have a limited number of tickets, so purchase yours now. 
 </p>
 <center>
-          <!--#include file="paypal_logo.html"-->
+          <%
+            paypal_paybutton "Seat at Rabbit Meadows Dinner & Silent Auction", "35.00"
+          %>
 </center>
 <p>
     We are still accepting items for the auction. If you have a service (house cleaning, pet sitting, etc.) or product that you can donate, please fill out and send us
