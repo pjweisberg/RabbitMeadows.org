@@ -75,7 +75,9 @@
                 </center>
                 <p>
                     Do you know a generous individual or business that might want their item added to the list below?  Forward them
-                    <a href="2011%20Auction%20Letter%20&%20Procurement%20Form.pdf">this letter</a>
+                    <a href="2011%20Auction%20Letter%20&%20Procurement%20Form.pdf">this letter</a>.
+                    Our rabbits and other critters couldn't be more greatful.
+                    (Unless you also gave them a piece of banana or something.)
                 </p>
                 <center>
                     <h1>Auction Items List</h1>
