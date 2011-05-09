@@ -33,12 +33,12 @@
                     Our Fifth Annual<br />
                     <h1>Dinner and Silent Auction</h1>
                     <h2>Saturday, June 4, 2011 &ndash; 2 pm to 5 pm</h2>
-                    <h3><a href="http://www.rustypelicancafe.com/">Rusty Pelican Café</a><br />
+                    <h3><a href="http://www.rustypelicancafe.com"> Rusty Pelican Café</a><br />
                     1924 N 45th St., Seattle</h3>
                 </center>
                 <img src="BunnyImages/Josie1.jpg" alt="Josie, our 2011 Auction Mascot" style="float:right" />
                 <p>
-                    For a $35 donation, you get a three-course meal including your choice of Vegetarian Lasagna or Greek Pasta,
+                    For a $35 donation, you get a three course meal with a choice of Vegetarian Lasagna or Greek Pasta,
                     and of course one of the homemade desserts The Rusty Pelicans is famous for!
                 </p>
                 <center>
@@ -126,10 +126,7 @@
                         <a href="http://www.busybunny.com/" target="_blank">Busy Bunny
                         Gift Basket</a>
                     </li>
-                    <li>
-                        <a href="http://www.dermagenics.com/" target="_blank">Dermagenics Collagen Recovery Cream</a>
-                    </li>
-                    <li>
+                                       <li>
                         <a href="http://www.jetcityimprov.com/" target="_blank">Admission
                         for 4 to Seattle&#39;s best improvisational comedy show!</a>
                     </li>
@@ -158,12 +155,12 @@
                         Jewelry: earrings, bracelets, etc.
                     </li>
                     <li>
-                        <a href="http://www.Generation%20Thrive.com" target="_blank">Thrive
+                        <a href="http://www.GenerationThrive.com" target="_blank">Thrive
                         Gift Card</a>
                     </li>
                     <li>
                         <a href="http://www.custompure.com/" target="_blank">Gift
-                        Certificate to Custom Pure</a>
+                        Certificate for Custom Pure Water filters</a>
                     </li>
                     <li>
                         <a href="http://www.reddoorspas.com/" target="_blank">Red Door
@@ -177,11 +174,7 @@
                         Annette Funicello -
                         Collectable Ballerina Bear                
                     </li>
-                    <li>
-                        <a href="http://www.museumofflight.org/" target="_blank">4
-                        Tickets to Museum of Flight</a>
-                    </li>
-                    <li>
+                                       <li>
                         Silver Rabbit Poop Earrings with Bright Swirls                 
                     </li>
                     <li>
@@ -223,7 +216,7 @@
                         <a href="http://www.premiergc.com/" target="_blank">Interbay-Round of Mini-Golf for 8 players</a>
                     </li>
                     <li>
-                        <a href="http://www.zoo.org/" target="_blank">Admission to
+                        <a href="http://www.zoo.org/" target="_blank">2 Adult & 2 Children - Admissions to
                         Woodland Park Zoo</a>
                     </li>
                 </ul>
