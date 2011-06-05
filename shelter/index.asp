@@ -167,8 +167,8 @@ Our 5th annual Silent Auction is fast approaching! Tickets are only $35 for the 
           <br/><a href="/shelter/Newsletters/News from Rabbit Meadows.htm">November 2010</a>
           <br/><a href="/shelter/Newsletters/NoseWigglesfromRabbitMeadows.htm">December 2010</a>
           <br/><a href="/shelter/Newsletters/RabbitMeadowsCelebratesYearoftheRabbit.htm">January 2011</a>
-           <br/><a href="/shelter/Newsletters/HoponoverMarch2011.htm">March 2011</a>
-           <br/><a href="/shelter/Newsletters/FunWaystoSupportRabbitMeadows.htm">April 2011</a>
+           <br/><a href="http://hosted.verticalresponse.com/258167/6a5c7b27a3/1371010277/d924055a98/">March 2011</a>
+           <br/><a href="http://hosted.verticalresponse.com/258167/a2995f900d/1371010277/b25efa5963/">April 2011</a>
    
           <div style="padding:10px"/>
           <!--#include file="paypal_logo.html"-->
