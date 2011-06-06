@@ -123,35 +123,47 @@ See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/Ra
       </td>
       <td style="width:540px">
         <h1 class="banner" style="text-align:center">
-            Annual Silent Auction & Dinner<br/>
-            Saturday  June 4, 2011 <br/>
-            <span style="font-size:.75em">Sponsored by Rusty Pelican Cafe</span>
+            Memorialize Your Companion Animal on our New Shelter Walls
         </h1>
- <a href="2011 Poster.pdf"><img src="2011PosterSmall.jpg" alt="2011 Auction Poster" style="float:right;" /></a>
-<center><a href="AuctionDinner2011.asp">See our current list of Auction Items</a></center>
-<p>
-Our 5th annual Silent Auction is fast approaching! Tickets are only $35 for the auction and a delicious pasta or lasagna dinner, plus a fantastic dessert that Rusty Pelican is famous for. We have a limited number of tickets, so purchase yours now. 
-</p>
-<center>
-          <%
-            paypal_paybutton "Seat at Rabbit Meadows Dinner & Silent Auction", "35.00"
-          %>
-</center>
-<p>
-    We are still accepting items for the auction. If you have a service (house cleaning, pet sitting, etc.) or product that you can donate, please fill out and send us
-    <a href="2011 Auction Letter & Procurement Form.pdf">this form</a> along with any brochures, buisness cards, etc. you'd like to have displayed alongside the item at the auction.
-    You can help to make this year's auction a huge success. The rabbits, guinea pigs, rats & other small rodents thank you!
-</p>
-<p>
-    <strong>Help us spread the word!</strong>  Print out <a href="2011 Poster.pdf">our poster</a> and hang it on your office door, the bulletin board in the break room, or anywhere
-    else <em>that you have permission</em> to post it!
-</p>
+        <img src="BunnyImages/TileExample0001.jpg" alt="Tile Examples" style="float:right" />
+        <p>
+        I'm sure you've heard about the new shelter we're building in Redmond.  We need <i>your</i> support to bring this project to completion.
+        The walls of our new shelter will be adorned with ceramic tiles with photos of companion animals.  If you want your furry friend to be
+        forever memorialized on our shelter walls, please support us with a donation.  Use the Paypal button below, or fill out
+        <a href="PhotoTileExample.doc">this form</a> and send it in with your donation.
+        </p>
+        <center>
+        <%
+                dim choices(7)
+                choices(0) = "2x6"
+                choices(1) = 25
+                choices(2) = "4x4"
+                choices(3) = 30
+                choices(4) = "6x6"
+                choices(5) = 50
+                choices(6) = "6x8"
+                choices(7) = 75
 
-               <p>            
-    <!--        <a href="2011Auction.asp">Click here</a> for more information or email
-            <a href="mailto:Auction@RabbitMeadows.org?subject=Silent%20Auction%20& Dinner%20">Auction@RabbitMeadows.org</a>
-            or call 206-365-9105.
-    -->
+                paypal_multi "Tile", choices 
+        %>
+        </center>
+        <p>
+        Rabbits, hamsters, cats, dogs, and critters of all descriptions are welcome on our walls!
+        </p>
+        <p>
+        We'll need a high-quality digitial photo of your furry friend to create the ceramic tile.  If your digital camera has a "best" setting, use that.
+        If you just have an image sitting on your hard drive, for a good photo-quality print, you should make sure it's a high enough resolution for the
+        tile size you select.  Here's what we recommend:
+        </p>
+        <ul>
+            <li>2x6 -- 400x1200</li>
+            <li>4x4 -- 800x800</li>
+            <li>6x6 -- 1200x1200</li>
+            <li>6x8 -- 1200x1600</li>
+
+        </ul>
+        <p>
+        The critters of Rabbit Meadows thank you for your support!
         </p>
         <hr/>
         
