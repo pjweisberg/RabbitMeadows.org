@@ -125,19 +125,19 @@ See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/Ra
         <h1 class="banner" style="text-align:center">
             Memorialize Your Companion Animal on our New Shelter Walls
         </h1>
-        <img src="BunnyImages/TileExample0001.jpg" alt="Tile Examples" style="float:right" />
+        <img src="BunnyImages/Tiles-small.jpg" alt="Tile Examples" style="float:right" />
         <p>
         I'm sure you've heard about the new shelter we're building in Redmond.  We need <i>your</i> support to bring this project to completion.
-        The walls of our new shelter will be adorned with ceramic tiles with photos of companion animals.  If you want your furry friend to be
-        forever memorialized on our shelter walls, please support us with a donation.  Use the Paypal button below, or fill out
-        <a href="PhotoTileExample.doc">this form</a> and send it in with your donation.
+        The walls of our new shelter will be adorned with photos of your companion animals on ceramic tiles.  If you want your furry friend to be
+        forever memorialized on our shelter walls, please use the Paypal button below, or fill out
+        <a href="Photo Tile Requirements.pdf">this form</a> and send it in with your donation.
         </p>
         <center>
         <%
                 dim choices(7)
-                choices(0) = "2x6"
+                choices(0) = "4x4"
                 choices(1) = 25
-                choices(2) = "4x4"
+                choices(2) = "3x6"
                 choices(3) = 30
                 choices(4) = "6x6"
                 choices(5) = 50
@@ -156,8 +156,8 @@ See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/Ra
         tile size you select.  Here's what we recommend:
         </p>
         <ul>
-            <li>2x6 -- 400x1200</li>
             <li>4x4 -- 800x800</li>
+            <li>3x6 -- 600x1200</li>
             <li>6x6 -- 1200x1200</li>
             <li>6x8 -- 1200x1600</li>
 
@@ -165,13 +165,16 @@ See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/Ra
         <p>
         The critters of Rabbit Meadows thank you for your support!
         </p>
+      <hr/>    
+        <h2 style="border-style:groove; text-align:center">Our Silent Auction Earned over $8,100!</h2>
+      	        Only with your support can we continue our life saving work. Thank you so very much!  
         <hr/>
         
-        <h2 style="border-style:groove; text-align:center">We Have Our Building Permit!</h2>
-      	<img src="Web-bldg1.jpg" width="360" height="185" hspace="10" alt="Conceptual image of new shelter" style="float:right" />
-        Here's an idea of what our new shelter will look like!  
+        <h2 style="border-style:groove; text-align:center">Our Shelter is going up!</h2>
+      	<img src="Posts and rafters.jpg" width="360" height="185" hspace="10" alt="Conceptual image of new shelter" style="float:right" />
+        Our new shelter is taking shape!  
                 The building will be 38' x 48' with a second level loft of 14' x 48'. The first level will contain our reception area; adoption area with a place to spend time with potential companions; an education room; a boarding room; utility room; bathroom.
-                The loft area will contain areas to quarantine incomming animals and those waiting to be spayed/neutered. And, a clinic room where animals can receive veterinary care. We need volunteers to help clear the building area. <a href="mailto:Sandi@RabbitMeadows.org?subject=Helping%20With%20the%20New%20Shelter">Contact us</a> if you have a few hours available to help.
+                The loft area will contain areas to quarantine incomming animals and those waiting to be spayed/neutered. And, a clinic room where animals can receive veterinary care. We need volunteers! By June 25th the building should have it's roof, rafters, loft, stairs and concrete floor! Then we'll need a work party to build walls! Put us on your calendar. <a href="mailto:Sandi@RabbitMeadows.org?subject=Helping%20With%20the%20New%20Shelter">Contact us</a> if you have a few hours available to help.
 <hr />
 
         <center>
