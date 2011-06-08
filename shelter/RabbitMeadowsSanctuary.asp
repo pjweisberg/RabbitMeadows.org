@@ -1,6 +1,7 @@
 <%@ LANGUAGE=VBSCRIPT %>
 <% OPTION EXPLICIT %>
 <!-- #include file="correct-domain.asp"-->
+<!-- #include file="paypal_paybutton.asp"-->
 
 <HTML>
 <HEAD>
@@ -189,40 +190,51 @@ table.white td {
 					<td valign="top"><!--#include file="headerfilesanc.asp"-->
 					
 
-					<p align=center><font face="arial" size="4"><B>UPGRADING OUR MISSION TO HELP ANIMALS</B></font>
-            <p align="center"><a href="/shelter/DroughtHitsRabbitMeadows.html">DROUGHT HITS RABBIT MEADOWS!</a><br> 
-
-					<p align="center"><a href="/shelter/Thanks-2009SilentAuction.html">2009 Silent Auction</a><br>
-					<p align="right"><a href="overview.asp">Read more details of our plan!</a><br>
-					<a href="RabbitMeadowsBrochure2.pdf">View and/or print our brochure</a>
+					<h4 style="text-align:center">UPGRADING OUR MISSION TO HELP ANIMALS</h4>
+            		
+                    <img src="onebunny.jpg" align="right" hspace="5" width="109" height="160">
+					<p>
+                        Over 1,500 rescued feral rabbits have roamed the 4.5 acres of Rabbit Meadows Sanctuary since we opened in 1996. Our first
+                        rescue mission was at a business park in Redmond where we saved 650 feral rabbits from the ultimate fate of the arriving
+                        bulldozers. We've subsequently rescued feral rabbit populations from Rocky Reach Dam in Wenatchee, Seattle's Woodland Park,
+                        and the Aqua Barn of Kent, insuring each rabbit a safe haven to live out the rest of their life at Rabbit meadows without
+                        threat of harm.
+                    </p>
 					
-					<p align=left><img src="onebunny.jpg" align="right" hspace="5" width="109" height="160"><font face="arial" size="3">   <p>Over 1,000 rescued rabbits have roamed the 4.5 acres of Rabbit Meadows Sanctuary since we opened twelve years ago.  Our first rescue mission was at a business park in Redmond where we saved 650 feral rabbits from the ultimate fate of the arriving bulldozers.  We've subsequently rescued feral rabbit populations from Rocky Reach Dam in Wenatchee, Seattle's Woodland Park, and the Aqua Barn of Kent, insuring each rabbit a safe haven to live out the rest of their life at Rabbit meadows without threat of harm.
-					<p><img src="mainrescue.jpg" align="left" width="146" height="216" hspace="5">Today, Rabbit Meadows shows definite signs of age, wear and tear from weather and badly needs an upgrade.  To accommodate the sanctuary rabbits, our adoption center and our compassionate human visitors, Rabbit Meadows plans to build a series of small cottage-like structures among the picturesque fir trees on its grounds.  The structures will be small so we don't disturb the trees or our resident wildlife (raccoons, deer, owls, cottontail rabbits, etc.) who feel comfortable enough to return to Rabbit Meadows each year to raise their young.
-					<p> Each structure will house a vital part in our "mission village," including:<br clear="left">
-					<ul>
-					<li><b>Adoption housing
-		<li> Feral rabbit shelter
-		
-		<li>Education building 
-		<li>Veterinary clinic (low cost spays/nueters)
-		<li> Squirrel/cottontail rehab area (under the direction of USDA licensed Sara's Sanctuary)
-		<li>Volunteer/caretaker cottages
-		<li> Permanent resident (not adopted) shelter
-		<li> Welcome and Administration office</b>
-		</ul>	
+                    <img src="mainrescue.jpg" align="left" width="146" height="216" hspace="5">
+                    <p>
+                        Today, Rabbit Meadows shows definite signs of age, wear and tear from weather and badly needs an upgrade. To accommodate the
+                        sanctuary rabbits, our adoption center and our compassionate human visitors, Rabbit Meadows will be building a new Shelter
+                        among the picturesque trees on its grounds. Initially there will be one main building at the end of a winding driveway. Most
+                        of the trees will be left undisturbed so that our resident wildlife (raccoons, deer, owls, cottontail rabbits, etc.) who feel
+                        comfortable enough to return to Rabbit Meadows each year will continue to do so.
+                    </p>
 
+                    <p>
+                        Our building(s) will eventually contain:
+                    </p>
+                    <ul style="font-weight:bold">
+                        <li>Adoption area</li>
+                        <li>Feral rabbit sanctuary</li>
+                        <li>Education area</li>
+                        <li>Veterinary clinic (low cost spays/neuters for low income individuals)</li>
+                        <li>Squirrel/cottontail rehab area (under the direction of USDA licensed Sara's Sanctuary)</li>
+                        <li>Volunteer/caretaker cottages</li>
+                        <li>Area for our senior animals who have not found a permanent home</li>
+                        <li>Welcome and Administration office</li>
+                    </ul>
 
+                    <img src="salad2.jpg" width="218" height="105" align="right" hspace="5">
+                    <p>
+                        We need your support to accomplish this project. Please help us to continue to give each rescued
+                        animal a safe environment and a second chance for a new home. If you would like to contribute to
+                        this effort and to our continuing rescue work, please send a donation today! 
+                    </p>
 
-	 We need your support to accomplish this project.  Please help us to continue to give each rescued animal a safe environment and a second chance for a new home.  If you would like to contribute to this effort and to our continuing rescue work, please send a donation today!<img src="salad2.jpg" width="218" height=""105" align="right" hspace="5">
-	 <p align=center>
-	 <!--#include file="paypal_logo.html"-->
-     <br>
-View our 990 Tax Forms for years: <a href="2007-990.pdf" >2007-here </a>  and <a href="2008-990EZ.pdf" >2008-here.</a>
-
-<br><br>
-
-
-		
+                    <center>
+                        <% paypal_donatebutton %>
+	                </center>
+	
 					
 					</td>
 				</tr>
@@ -240,7 +252,9 @@ Running the sanctuary takes a considerable amount of time, effort and money.  Al
 <p align=left>
  If you would like to contribute to the rescue effort, please send a donation today!
 <p align=center>	 
-	 <!--#include file="paypal_logo.html"-->
+     <center>
+    	 <% paypal_donatebutton %>
+     </center>
 <hr>
 
 			</td></tr>
