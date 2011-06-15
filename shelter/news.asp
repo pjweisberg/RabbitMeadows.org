@@ -57,6 +57,7 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
 '--------------------------------------------------------------------
 ' Open the connection
 '--------------------------------------------------------------------
+Dim Conn
 Set Conn = Server.CreateObject("ADODB.Connection")
 %>
 
@@ -68,6 +69,8 @@ Conn.Open sConnect
 ' Display a record
 '--------------------------------------------------------------------
 If request("id")>0 then
+    Dim sql
+    Dim rsNews
 	sql="Select * from News where id=" & request("id")
 	on error resume next
 	set rsNews=conn.execute(sql)

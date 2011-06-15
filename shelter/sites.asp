@@ -56,6 +56,7 @@ Northwest and other parts of the country. HRS is a non-provit organization.">
 '--------------------------------------------------------------------
 ' Open the connection
 '--------------------------------------------------------------------
+Dim Conn
 Set Conn = Server.CreateObject("ADODB.Connection")
 %>
 
@@ -66,6 +67,8 @@ Conn.Open sConnect
 '--------------------------------------------------------------------
 ' Display All the Records
 '--------------------------------------------------------------------
+Dim sql
+Dim rsLinks
 sql="Select * from links order by [Desc]"
 set rsLinks=conn.execute(sql)
 do while not rsLinks.eof
