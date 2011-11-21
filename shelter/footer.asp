@@ -20,9 +20,9 @@ Mon: 10-6 / Tue: noon-6 / Wed: noon-7 / Thur-Fri: 10-7 / Sat:10-6 / Sun: 11-5  &
 PO Box 3242 - Redmond, WA 98073<br></div>
 <b><a href="http://www.mapquest.com/maps/map.adp?searchtype=address&country=US&addtohistory=&searchtab=home&formtype=address&popflag=0&latitude=&longitude=&name=&phone=&level=&cat=&address=8311+252nd+Ave.+NE&city=REdmond&state=wa&zipcode=98053">Click for Map<a></b><br>
 <font face="arial" size=2 color=#4486c4><B>(4&nbsp;2&nbsp;5)&nbsp;&nbsp;8&nbsp;3&nbsp;6&nbsp;-&nbsp;8&nbsp;9&nbsp;2&nbsp;5</b></font><br>
-Open Mon, Tue Thur, Fri by appointment 
-<br>Open Sat-Sun noon-5pm 
-<br>Closed Wed (except for boarding drop off/pickup)
+<font size=2>
+Open Sat-Sun by appointment
+</font>
 </div><br>
 <div class="contentmed"><font face="Verdana, arial">
 Tax ID 91-1873550

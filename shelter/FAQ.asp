@@ -75,10 +75,10 @@ Conn.Open sConnect
 '--------------------------------------------------------------------
 If request("id")>0 then
     Dim sql
-	sql="Select * from FAQ where id=" & request("id")
+    sql="Select * from FAQ where id=" & request("id")
 	on error resume next
     Dim rsFAQ
-	set rsFAQ=conn.execute(sql)
+    set rsFAQ=conn.execute(sql)
 	on error goto 0
 	If rsFAQ.eof then
 		response.write "No FAQ with that number found"

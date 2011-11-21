@@ -1,4 +1,4 @@
-<%@ LANGUAGE=VBSCRIPT %>
+﻿<%@ LANGUAGE=VBSCRIPT %>
 <% OPTION EXPLICIT %>
 <!-- #include file="correct-domain.asp"-->
 <!-- #include file="paypal_paybutton.asp"-->
@@ -174,7 +174,7 @@ table.white td {
 					
 				<tr>
 					<td class="answer">
-					If you'd like to help, please send your tax-deductable contribution to:<p><B>Best Little Rabbit, Rodent & Ferret House<br>14317 Lake City Way NE<br>Seattle, WA 98125</B><p>Or use the Pay-Pal button at right to make on safe and easy on-line contribution.<br><br><img src="5buns.gif" width="141" height="74" align="center">
+					If you'd like to help, please send your tax-deductable contribution to:<p><B>Rabbit Meadows<br>14317 Lake City Way NE<br>Seattle, WA 98125</B><p>Or use the Pay-Pal button at right to make a safe and easy on-line contribution.<br><br><img src="5buns.gif" width="141" height="74" align="center">
 					</td>
 				</tr>
 
@@ -244,7 +244,12 @@ table.white td {
 				<td></td>
 				<td><img src="rabbitsanctuarysmall.jpg" align="right" width="229" height="327" hspace="5">
 				<p align=center><font face="arial" size="4"><b>A Place to Call Home</b></font>
-			<p>In 1996, The <B>Best Little Rabbit Rodent and Ferret House</B> opened it's doors to the public as a shelter and a retail store with <B>ALL</B> proceeds going to support the shelter animals.<br><br> BLRRFH had its start in 1988 when Duster came to live with our founder, Sandi Ackerman. By the end of 1988 one rabbit from a pet store had grown into 16 rescued rabbits. People were learning there was a place where they could take their unwanted rabbits. In 1988 the Washington State Chapter of the national House Rabbit Society was founded. In 1997 Rabbit Meadows Feral Rabbit Sanctuary was founded with the rescue of one hundred rabbits from a Redmond business park. <br><br>In 1998, our organization joined with other groups to rescue the remaining 652 rabbits at the business park. Since then we became the organization to look to when there have been problem areas where feral rabbit were living. <br><br>We have organized the rescue and relocation of feral rabbits from the Aqua Barn in Redmond, Rocky Beach Dam in Wenatchee, and Woodland Park in Seattle.  In 2009, there are still approximately 200 feral rabbits in residence in the sanctuary. (All of our rabbits are spayed or neutered.) <p>
+			<p>In 1996, The <B>Best Little Rabbit Rodent and Ferret House</B> opened it's doors to the public as a shelter and a retail store with <B>ALL</B> proceeds going to support the shelter animals.<br><br> BLRRFH had its start in 1988 when Duster came to live with our founder, Sandi Ackerman. 
+ 			By the end of 1988 one rabbit from a pet store had grown into 16 rescued rabbits. People were learning there was a place where they could take their unwanted rabbits. 
+			In 1988 the Washington State Chapter of the national House Rabbit Society was founded. In 1996 Rabbit Meadows Feral Rabbit Sanctuary was founded with the rescue of one hundred rabbits from a Redmond business park.
+		    <br><br>In 1997-1998, our organization joined with other groups to rescue the remaining 652 rabbits at the business park. Since then we have become the organization to look to when there have been problem areas where feral rabbits are living. 
+			<br><br>We have organized the rescue and relocation of feral rabbits from the Aqua Barn in Kent, Rocky Beach Dam in Wenatchee, and Woodland Park in Seattle.  
+			In 2011, there are still approximately 125 feral rabbits in residence in the sanctuary. (All of our rabbits are spayed or neutered.) <p>
 <img src="salad3.jpg" width="261" height=""196" align="left" hspace="10">
 Rabbit Meadows is fenced in a way that the rabbits can not escape by tunneling, and predators can not dig in.  Netting is overhead to prevent predator birds from entering.  Since founding, Rabbit Meadows Sanctuary has continuously provided a <B>safe and healthy environment</B> for numerous feral rabbit colonies.  The rabbits have a "living yard," where they have tunnels and structures that provide shelter, and where they are fed. They also have a "play yard" where they can munch on plants and grass and run to their hearts' content.<p>
 <img src="sanctuary2.jpg" align="right" width="223" height="165" hspace="10">

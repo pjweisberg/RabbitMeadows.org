@@ -1,4 +1,4 @@
-<table cellpadding="0" cellspacing="0" border="0" bgcolor="white" width="145">
+﻿<table cellpadding="0" cellspacing="0" border="0" bgcolor="white" width="145">
 	<tr>
     <td align="left">
 	    <img src="/shelter/spacer.gif" width="301" height="1" border="0" alt="auction for BLRRFH"/>
@@ -27,22 +27,19 @@
     <tr>
 	    <td class="volunteerforboard">
             <img src="/shelter/carrot017.gif" style="float:left" alt=""/>
-            <center><strong>WISH LIST For our New Shelter</strong></center>
-            <ul>
-                <li>Lumber: 2x4's and 2x6'</li>
-                <li>Nails & screws</li>
-                <li>Electrical Supplies</li>
-                <li>Ceiling fans(6)</li>
-                <li>Drywall</li>
-                <li>Windows</li>
-                <li>
-                    Gift Certificates to:
-                    <ul>
-                      <li>Home Depot</li>
-                      <li>Lowes</li>
-                      <li>McLendon's</li>
-                      <li>Second Use</li>
-                      <li>Millworks of Maple Valley</li>
+            <center><strong>The Christmas Bunny Movie</strong>
+			<br>Sunday, Dec 18-noon-2pm </center>
+			<img src="X-MasBunny.jpg" style="float:right" />
+        <p>
+			<i><size=0>"The most heartwarming film of the holiday season." </i>
+			
+			<p>
+			The Christmas Bunny is a family film staring Brady Bunch mom Florence Henderson. The Christmas Bunny tells the story of a lonely foster child who finds a lost, injured rabbit in the woods on Christmas Eve.
+			<br>You can reserve your seats through Paypal for only $6.00/ea. Or, phone our store 206-365-9105 with your Visa or Mastercard info.
+ 		<center>	<div style="padding:10px"/>
+          <!--#include file="paypal_logo.html"-->
+        </center>
+			<i>Proceeds benefit Rabbit Meadows
                     </ul>
                 </li>
             </ul>
