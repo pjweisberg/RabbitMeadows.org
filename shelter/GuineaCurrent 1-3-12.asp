@@ -20,11 +20,11 @@ end if
 Dim title, blurb
 Select Case Status
   Case 1:
-  title="Rodents Looking for a Good Home"  
+  title="Guinea Pigs Looking for a Good Home"  
 
 
   Case 2:
-  title="Rodents Adopted to a Home of Their Own"  
+  title="Guinea Pigs who found a Home of Their Own"  
 
   
 
@@ -35,7 +35,7 @@ End Select
 <HTML>
 
 <HEAD>
-<TITLE>Rabbit Meadows Sanctuary & Adoption Center - <%=title%> </TITLE>
+<TITLE>Best Little Rabbit, Rodent and Ferret House - <%=title%> </TITLE>
 
 <!--#include file="dropdownmenu.asp"-->
 <!--#include file="google-analytics.js"-->
@@ -59,7 +59,7 @@ End Select
 
 <TR><TD VALIGN=TOP bgcolor="#ffb563" ALIGN=CENTER width=100%>
 
-	<!--inner table with info and rodents-->
+	<!--inner table with info and guineas-->
 	
 	<TABLE CELLPADDING=5 cellspacing=4 width=100%>
 		<TR><TD ALIGN=left BGCOLOR="#FFFFFF" width=100%><br><p align=center>
@@ -79,31 +79,30 @@ If Status=1 or Status=2 then
 
 
 	<font face="arial" size="2">The
-    Rabbit Meadows Sanctuary & Adoption Center is a non-profit animal welfare organization
+    Best Little Rabbit, Rodent &amp; Ferret House is a non-profit animal welfare organization
     dedicated to:
 	<ul>
-      <li><font face="arial" size="2" >The rescue and then
-        adoption of rodents who have lost their home, through no fault of their own. </li>
+      <li><font face="arial" size="2" >The rescue and adoption of guinea pigs who have lost their home, through no fault of their own. </li>
       <li><font face="arial" size="2" >The education of
-        persons interested in sharing their homes with a rodent.</li>
+        persons interested in sharing their homes with guinea pigs.</li>
     </ul>
     
 	<p>
   
-  <font face="arial" size="2" >We rescue
-    guinea pigs, rats, mice, gerbils,&nbsp; hamsters, prairie dogs, chinchillas and the
+  <font face="arial" size="2" >We rescue rabbits, guinea pigs, rats, mice, gerbils,&nbsp; hamsters, prairie dogs, chinchillas and the
     occasional hedgehog. We work with local animal shelters and accept these animals from them
-    as space permits. (Only <b>if</b> a shelter does not have rodents needing our help will we consider
-    taking in your rodents.) 
+    as space permits. (Only <b>if</b> a shelter has none of these animals will we consider
+    taking in your guinea pig, and only if you help to pay for their spay/neuter by donating $85 for each surrender.) 
 	
-	<p><font face="arial" size="2">We recommend that all rats be spayed or neutered to prevent hormonal tumors and early
-    deaths, as well as a means to allow these animals to live humanely with their own species. Adoption Fee for spayed/neutered rats
+	<p><font face="arial" size="2">We spay and neuter our guinea pigs prior to adoption. This is done to prevent hormonal cancers which could result in early
+    deaths. This also allows these guinea pigs to live humanely with their own species and with your family.
+    <br><br>If you are looking for a friend for your own guinea pig s/he must first be altered. We place guinea pigs either as a friend for your guinea pig or as pairs. Guinea Pigs are herd animals, and should not live alone.
 	
 	<p>
 
 
 
-We only do adoptions within the Seattle and Puget Sound area. Companion rodents must live inside in order to be part of the family. If interested in a particular animal, you must come in to the shelter to meet one another. 
+We only do adoptions within the Seattle and Puget Sound area. If interested in a particular animal, you must come in to our Redmond shelter to meet one another. 
 
 <p align=left>
 <%
@@ -115,8 +114,8 @@ end if
 
 	<!--Populate selection drop-down box-->
 
-<FORM METHOD="get" ACTION="RodentCurrent.asp"><CENTER>
-<FONT SIZE=2 COLOR=#b8860b FACE=ARIAL><B>Our Rodents</B></FONT>
+<FORM METHOD="get" ACTION="GuineaCurrent.asp"><CENTER>
+<FONT SIZE=2 COLOR=#b8860b FACE=ARIAL><B>Our Guinea Pigs</B></FONT>
 
 <SELECT NAME="Status" LENGTH="15">
 <OPTION VALUE=1 selected>Looking for a home
@@ -165,13 +164,13 @@ objRS.PageSize=12
 '------------------------------------------------------------------------------------------
 Dim strSQL
 If Status=1 then
-strSQL="Select * from AdoptRodents where adopted=False and archive=0 Order by Name" 
+strSQL="Select * from AdoptGuineas where adopted=False and archive=0 Order by Name" 
 'and status=1"
 elseif Status=2 then
-strSQL="Select * from AdoptRodents where adopted=True" 
+strSQL="Select * from AdoptGuineas where adopted=True" 
 'and status=2"
 elseif Status=3 then
-strSQL="Select * from AdoptRodents where archive=0" 
+strSQL="Select * from AdoptGuineas where archive=0" 
 'and status=3"
 end if
 
@@ -193,7 +192,7 @@ If Not objRS.EOF THEN
 		 For i=1 to objRS.PageCount
 	 		If i <> cInt(pg) THEN 
 %>
-			<a href="RodentCurrent.asp?Status=<%=Status%>&pg=<%=i%>"> <%= i %> </a> |
+			<a href="GuineaCurrent.asp?Status=<%=Status%>&pg=<%=i%>"> <%= i %> </a> |
 <%
 			
 			Else Response.Write i & "|"
@@ -222,7 +221,7 @@ End if
 </TD></TR></TABLE>
 </TD></TR>
 
-<!--End title and general info section, begin rabbit display-->
+<!--End title and general info section, begin guinea pig display-->
 <TR><TD>
 <%
 
@@ -237,7 +236,7 @@ Do While Not objRS.EOF and rowCount < objRS.PageSize
 <%
 
 '--------------------------------------------------------------------------------
-'Read and display info from rabbits table into individual nested tables, 
+'Read and display info from guinea pigs table into individual nested tables, 
 'alternate printing image first, then text, and text first then image
 '------------------------------------------------------------------------------------
 
@@ -254,25 +253,25 @@ If rowcount mod 2 = 0 then
 <tr><td width=100%><table bgcolor="#ffb563" cellpadding=8 CELLSPACING=4 width=100%>
 <tr>
 <TD BGCOLOR="ivory" align="center">
-<IMG SRC="RodentImages/<%=varImg1%>"  ALT="<%=objRS("Name")%>" border=1>
+<IMG SRC="GuineaImages/<%=varImg1%>"  ALT="<%=objRS("Name")%>" border=1>
 <%
 if not isNull(objRS("Picture2")) and objRS("Picture2")<>""  then
 %>
-<IMG SRC="RodentImages/<%=objRS("Picture2")%>"  ALT="<%=objRS("Name")%>" border=1>
+<IMG SRC="GuineaImages/<%=objRS("Picture2")%>"  ALT="<%=objRS("Name")%>" border=1>
 <%
 end if
 %>
 <%
 if not isNull(objRS("Picture3")) and objRS("Picture3")<>""  then
 %>
-<IMG SRC="RodentImages/<%=objRS("Picture3")%>"  ALT="<%=objRS("Name")%>" border=1>
+<IMG SRC="GuineaImages/<%=objRS("Picture3")%>"  ALT="<%=objRS("Name")%>" border=1>
 <%
 end if
 %>
 <%
 if not isNull(objRS("Picture4")) and objRS("Picture4")<>""  then
 %>
-<IMG SRC="RodentImages/<%=objRS("Picture4")%>"  ALT="<%=objRS("Name")%>" border=1>
+<IMG SRC="GuineaImages/<%=objRS("Picture4")%>"  ALT="<%=objRS("Name")%>" border=1>
 <%
 end if
 %>
@@ -297,25 +296,25 @@ else
 </FONT></TD>
 
 <TD BGCOLOR="ivory" ALIGN="center">
-<IMG SRC="RodentImages/<%=varImg1%>" ALT="<%=objRS("Name")%>" border=1>
+<IMG SRC="GuineaImages/<%=varImg1%>" ALT="<%=objRS("Name")%>" border=1>
 <%
 if not isNull(objRS("Picture2")) and objRS("Picture2")<> "" then
 %>
-<IMG SRC="RodentImages/<%=objRS("Picture2")%>"  ALT="<%=objRS("Name")%>" border=1>
+<IMG SRC="GuineaImages/<%=objRS("Picture2")%>"  ALT="<%=objRS("Name")%>" border=1>
 <%
 end if
 %>
 <%
 if not isNull(objRS("Picture3")) and objRS("Picture3")<>""  then
 %>
-<IMG SRC="RodentImages/<%=objRS("Picture3")%>"  ALT="<%=objRS("Name")%>" border=1>
+<IMG SRC="GuineaImages/<%=objRS("Picture3")%>"  ALT="<%=objRS("Name")%>" border=1>
 <%
 end if
 %>
 <%
 if not isNull(objRS("Picture4")) and objRS("Picture4")<>""  then
 %>
-<IMG SRC="RodentImages/<%=objRS("Picture4")%>"  ALT="<%=objRS("Name")%>" border=1>
+<IMG SRC="GuineaImages/<%=objRS("Picture4")%>"  ALT="<%=objRS("Name")%>" border=1>
 <%
 end if
 %>
@@ -350,7 +349,7 @@ If norec=false then
 		 For i=1 to objRS.PageCount
 	 		If i <> cInt(pg) THEN 
 %>
-			<a href="RodentCurrent.asp?Status=<%=Status%>&pg=<%=i%>"> <%= i %> </a> |
+			<a href="GuineaCurrent.asp?Status=<%=Status%>&pg=<%=i%>"> <%= i %> </a> |
 <%
 			
 			Else Response.Write i & "|"

@@ -24,10 +24,48 @@
             </form>
         </td>
     </tr>
+=====================================
+    <tr>
+	    <td class="silentauction">
+            <img src="/shelter/carrot017.gif" style="float:left" alt=""/>
+            <center><strong>Annual Silent Auction & Dinner</strong></center>
+			
+			<img src="X-Mas.jpg" style="float:right" />
+        <p>
+			<i><size=0> </i>
+			
+			<p>
+			<li>When: Sat May 19th, 2012 - 2-5pm
+			<li>Where:  Rusty Pelican Cafe http://rustypelicancafe.com/
+            <li>Price:  $40 - 100% goes to Rabbit Meadows
+
+			<br>Help us spread the word! Print our flyer http://www.rabbitmeadows.org/shelter/2012%20dinner%20and%20silent%20auction%20poster.pdf and post it where you can. 	
+			
+			<br>If you have auction items to donate, please complete our procurment form. Or, if you think someone you know who might donate an item or service
+                 you can print our procurement letter for them.
+		<center>	<div style="padding:10px"/>
+          <!--#include file="paypal_logo.html"-->
+        
+			<i>Proceeds benefit Rabbit Meadows</center>
+                    </ul>
+                </li>
+            </ul>
+	    </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="/shelter/spacer.gif" width="1" height="10"/>
+        </td>
+    </tr>
+
+<!--
+=====================================
     <tr>
 	    <td class="volunteerforboard">
             <img src="/shelter/carrot017.gif" style="float:left" alt=""/>
             <center><strong>Volunteer Opportunities</strong></center>
+			
+			<img src="X-Mas.jpg" style="float:right" />
         <p>
 			<i><size=0> </i>
 			

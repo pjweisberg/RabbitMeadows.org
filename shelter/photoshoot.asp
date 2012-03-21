@@ -8,10 +8,10 @@
 <!--#include file="dropdownmenu.asp"-->
 <meta NAME="Keywords" CONTENT="House Rabbit, House Rabbit Society, rabbits, bunnies, pets, pet adoption, shelter, humane,
          pet rabbits, rabbit health, vets, non-profit, rabbit information, rescue, rabbit rescue, rodent rescue,
-         pet rats, pet mice, pet hamsters, pet gerbils, pet ferrets, pet guinea pigs">
+         pet rats, pet mice, pet hamsters, pet gerbils, pet, pet guinea pigs">
 
-<meta NAME="Description" CONTENT="The Best Little Rabbit, Rodent and Ferret House is a the definitive site for Rescued Rabbits, Rodents and Ferrets in the 
-Northwest and other parts of the country. BLRRFH is a non-profit organization.">
+<meta NAME="Description" CONTENT="RabbitMeadows Sanctuary & Adoption Center is a the definitive site for Rescued Rabbits, Guinea Pigs & Rodents in the 
+Northwest and other parts of the country. We are a non-profit organization.">
 
 
 <style>

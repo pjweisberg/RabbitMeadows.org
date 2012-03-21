@@ -18,9 +18,9 @@ Function sendrequest
     MyMail.From = "webmaster@rabbitrodentferret.org" 
     MyMail.Username = "webmaster@rabbitrodentferret.org" 
     MyMail.Password = "climber" 
-    MyMail.AddAddress "sandi@rabbitmeadows.org"
+    MyMail.AddAddress "sandi@rabbitrodentferret.org"
     MyMail.Subject = "Newsletter Sign Up" 
-    MyMail.AddCC "info@rabbitmeadows.org" 
+    MyMail.AddCC "houserabbit@clearwire.net" 
 
     If MyMail.Send Then
         Response.write ""
@@ -49,13 +49,13 @@ End If
 <head>
 <title>Rabbit Meadows - Quality Supplies for Companion Animals</title>
 
-<meta name="description" content="Rabbit Meadows, Sanctuary and Adoption Center"/>
+<meta name="description" content="Best Little Rabbit & Rodent House Pet Supplies and Adoption"/>
 <meta name="keywords" content="rabbit, rodent, pet, companion animal, shelter, boarding, kennel, pet supplies, pet food,
-   squirrel, possum, guinea pig, rat, mice, chinchilla, prairie dog, adoption, washington, seattle, puget, house rabbit, rabbit, rabbits, pet, bunny, bunnies, 
-care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-profit,Fuzzy Lop, Holland lop, mini lop, fench lop, rex, giant, dwarf, new zealand, lion head, jersey wooley, 
-	behavior, faq, spay, neuter, animals, lapin, lapine, sanctuary, rabbit sanctuary, woodland park, adoption "/> 
+   squirrel, possum, guinea pig, rat, rodent, mice, chinchilla, prairie dog, adoption, washington, seattle, puget, house rabbit, rabbit, rabbits, pet, bunny, bunnies, 
+care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-profit,
+	behavior, faq, spay, neuter, animals, lapin, lapine, sanctuary, rabbit sanctuary, woodland park, DEA "/> 
 
-<meta name="copyright" content="Copyright 2000-2011 Rabbit Meadows, Sanctuary & Adoption Center. All rights reserved. 
+<meta name="copyright" content="Copyright 2000-2011 Best Little Rabbit, Rodent and Ferret House. All rights reserved. 
         Contact author for reprint policies."/>
 
 <link rel="StyleSheet" href="style.css" type="text/css" media="screen"/>
@@ -127,7 +127,7 @@ See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/Ra
         </h1>
         <img src="BunnyImages/Tiles-small.jpg" alt="Tile Examples" style="float:right" />
         <p>
-        Have you heard about the new shelter we're building in Redmond? (See below.) We need <i>your</i> support to bring this project to completion.
+        I'm sure you've heard about the new shelter we're building in Redmond. (See below.) We need <i>your</i> support to bring this project to completion.
         The walls of our new shelter will be adorned with photos of your companion animals on ceramic tiles.  If you want your furry friend to be
         forever memorialized on our shelter walls, please use the Paypal button below, or fill out
         <a href="Photo Tile Requirements.pdf">this form</a> and send it in with your donation.
@@ -167,14 +167,14 @@ See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/Ra
         </p>
       <hr/>    
               <h2 style="border-style:groove; text-align:center">Our Shelter is going up!</h2>
-      	<img src="ShelterFeb2012a.jpg" width="300" height="180" hspace="10" alt="Shelter Progress" style="float:left" />
-    	<img src="ShelterFeb2012b.jpg" width="252" height="189" hspace="10" alt="Shelter Progress" style="float:right" />
+      	<img src="Shelter-VaporWrapped.jpg" width="300" height="225" hspace="10" alt="Shelter Progress" style="float:left" />
+    	<img src="Shelter-BackofBuilding.jpg" width="300" height="225" hspace="10" alt="Shelter Progress" style="float:right" />
         Progress: Our new shelter is taking shape!  
                 The building is 38' x 48' with a second level loft of 14' x 48'. The first level will contain our reception area; adoption area with a place to spend time with potential companions; an education room; a boarding room; utility room; bathroom.
                 The loft area will contain areas to quarantine incomming animals and those waiting to be spayed/neutered. And, a clinic room where animals can receive veterinary care. 
-                <br><br>The building now has siding on the back and north side ground floor. We have one "half-round" window in the front, but still need another 4'x2' half-round for the left side of the door. (Thanks to Photoshop you can see what it will look like in the future.)
-				 Other than that, we have all the ground floor windows and only need four more 6'x2' windows for upstairs. We have the gutters and downspounds
-				 but they need to be installed. We have all of the siding and have a potential volunteer to install it. We also need a 20' x 10' asphalt apron if you know of anyone with that experience who might help, please ask them to contact us.
+                <br><br>The building now has siding on the back and north side ground floor. As you can see we have one "half-round" window in the front, but still need another 4'x2' half-round for the other side of the door.
+				 Other than that, we have all the ground floor windows and only need seven more 6'x2' windows for upstairs. We have the gutters and downspounds
+				 but they need to be installed. We have all of the siding and have a potential volunteer to install it. We also need a 20' x 10' asphalt apron if you know of anyone with that experience who might help, please contact them.
 			<br><br><b>And then the rabbits, guinea pigs, rats, mice, etc. can move in!</b>
             <br><br>The address is (approximately) 8510 250th Ave NE, Redmond, WA 98053. (Address still to be assigned by the county.)  Please be considerate of our neighbors and drive no more than 20 mph when you turn into our private road. 
                 <a href="mailto:Sandi@RabbitMeadows.org?subject=Helping%20With%20the%20New%20Shelter">Contact us</a> if you have a few hours available to help.
@@ -183,9 +183,7 @@ See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/Ra
         <img src="Shelter-JanetMatthew.jpg" width="300" height="225" hspace="10" alt="Shelter Progress-B" style="float:right" />
 
           <b>Past Newsletters:</b>
-			<br/><a href="/shelter/Newsletters/March2012.pdf">March 2012</a>
-			<br/><a href="/shelter/Newsletters/February2012.pdf">February 2012</a>	
-			<br/><a href="/shelter/Newsletters/January2012news.pdf">January 2012</a>
+<br/><a href="/shelter/Newsletters/January2012news.pdf">January 2012</a>
 			<br/><a href="/shelter/Newsletters/NoseWigglesfromRabbitMeadows.htm">December 2011</a>          
 			 <br/><a href="http://hosted.verticalresponse.com/258167/f746d9532b/1371019405/b25efa5963/">October 2011</a>
            <br/><a href="http://hosted.verticalresponse.com/258167/a2995f900d/1371010277/b25efa5963/">April 2011</a>
@@ -206,15 +204,15 @@ See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/Ra
 
         <hr/>
         
-        <h3 align="center">MEET Jumpin' Jack & Popcorn, Bunnies of the Month</h3>
+        <h3 align="center">MEET Pepper, Bunny of the Month</h3>
         <p>
-          <img align="left" src="Web-JumpinJack-Popcorn.jpg" width="198" height="163" hspace="5" vspace="5/ alt="JumpinJack+Pepper"">
-          These adorable bunnies were adopted for only 3 weeks and then returned when the previously allergy-free individuals came down with an allergy to cleaning litterboxes. Jumpin' Jack & Popcorn were originally turned into Seattle Animal Shelter by a breeder who hadn't been able to sell them at Easter. Now, almost two years old, these brothers would sure like a home to call their own.
+          <img align="left" src="bunnyimages/Pepper-72.jpg" width="198" height="163" hspace="5" vspace="5/ alt="Pepper"">
+          Pepper was found as a stray in Bellingham. He was likely last year's "Easter Bunny" and was discarded when the "kids lost interest" or "he started spraying/marking everything!" Now neutered, Pepper is the life of his party and wants lots of attention.  <br><br>Come visit Pepper at our Redmond Shelter. He's looking for someone who will pay lots of attention to him and let him out into the house for several hours of exercise each day.
         </p>
 
         <hr/>
 
-      <img src="/shelter/condo.jpg" width="125" height="124" align="left" alt="Condo"/>
+      <img src="/shelter/products/condos.jpg" width="125" height="124" align="left" alt="Condo"/>
       <span style="font-weight:bold; font-size:1.35em">Condos Now Available!!</span>
 	<p>We now have the Leith Petwerks condos (48&quot;) available at our Seattle Store! Make the trip to Seattle and save on expensive shipping fees. We do not ship this item, so if you are not in Seattle you can order directly from Leith Petwerks <a href="http://www.leithpetwerks.com">www.leithpetwerks.com</a>
 	 Proceeds benefit the animals!</p>
@@ -259,7 +257,7 @@ See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/Ra
             <tr>
                 <td align="center" valign="middle" class="philosophy2">
                     <font face="arial" size="4" color="#000000"><B>THANK YOU FOR SUPPORTING US!</B></font><br/>
-                    <b>ALL</b> donations to <b>Rabbit Meadows</b> go directly to help support our rabbits, rodents and guinea pigs.
+                    <b>ALL</b> donations to <b>Rabbit Meadows</b> (BLRRFH) go directly to help support our rabbits, rodents and guinea pigs.
                 </td>
             </tr>
             <tr>
