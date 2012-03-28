@@ -1,0 +1,56 @@
+.container-table
+{
+    width: 768px;
+    background-color: #DDDDDD;
+    margin: 0 auto;
+}
+
+.main-content
+{
+    min-height: 600px;
+    margin: 32px;
+}
+
+.header
+{
+}
+
+.footer
+{
+    font-size: .7em;
+}
+
+.nav
+{
+    background-color: #AAAAAA;
+    vertical-align: top;
+    text-align: center;
+    width: 111px;
+    height: 100%;
+}
+
+.nav a
+{
+    display: block;
+    padding: 1em;
+    font-family: perpetua, garamond, helvetica;
+}
+
+h1
+{
+    font-size: 1.2em;
+}
+
+h2
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.deeb-portrait
+{
+    float:right;
+    font-size:.7em;
+    font-family:perpetua, garamond, helvetica;
+    text-align: center;
+}
