@@ -7,7 +7,7 @@
     address=request.servervariables("HTTP_HOST")
     address=lcase(address)
     If address="www.barbaradeeb.org" or address="barbaradeeb.org" then
-        Response.AddHeader "Location", "http://BarbaraDeeb.org/BarbaraDeeb.org/index.html"
+        Response.AddHeader "Location", "http://BarbaraDeeb.org/BarbaraDeeb.org/"
     Elseif address="www.rabbitmeadowssanctuary.org" or address="rabbitmeadowssanctuary.org" then
         Response.AddHeader "Location", "http://www.rabbitmeadows.org/shelter/RabbitMeadowsSanctuary.asp"
     Else
