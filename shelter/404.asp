@@ -4,14 +4,16 @@
     dim garbage, url, modified
     garbage = "404;http://" & Request.ServerVariables("SERVER_NAME") & ":"  & Request.ServerVariables("SERVER_PORT")
     url = Replace( Request.QueryString, garbage, "" )
+    url = lcase(url) //We're on a Windows server, so file names aren't case sensitive.
 
     modified = Replace( url, "/rabbitrodentferret.org", "/shelter", vbTextCompare)
     modified = Replace( modified, "/washingtonhouserabbitsociety.org", "/shelter", vbTextCompare)
+    modified = Replace( modified, "/barbaradeeb.org", "/memorial", vbTextCompare)
     if url = modified then
         Response.Status = "404 Not Found"
     else
         dim newlocation
-        newlocation = "http://www.rabbitmeadows.org" & modified
+        newlocation = "http://" & Request("HTTP_HOST") & modified
         Response.Status = "301 Moved Permanently"
         Response.AddHeader "Location", newlocation
         Response.Write "<html><body>The page you are looking for has moved to <a href='"
@@ -50,7 +52,7 @@
                  </p>
                  <p>
                     Assuming it didn't get chewed up, you can probably find what you're looking for by clicking one of the links on the left or at the top of the page.
-                    Or you could go back to the <a href="http://www.rabbitmeadows.org">home page</a>.
+                    Or you could go back to the <a href="http://www.rabbitmeadows.org/shelter/">home page</a>.
                  </p>
                  <p>
                     Sorry about that.
