@@ -135,7 +135,7 @@ table.white td {
 					
 				<tr>
 					<td class="answer"><img src="bunnrunn.jpg" width="103" height="95" align="left" hspace="5">
-					Rabbit Meadows houses only feral rabbits. These are the <U>offspring</U> of domestic rabbits who were abandoned when they were no longer wanted. <p> The offspring (and their offspring and their offspring etc.) have had little or no human contact and are considered feral.<p> The original dumped rabbits are not feral, even if they are unsocialized.
+					The Sanctuary at Rabbit Meadows houses only feral rabbits. These are the <U>offspring</U> of domestic rabbits who were abandoned when they were no longer wanted. <p> The offspring (and their offspring and their offspring etc.) have had little or no human contact and are considered feral.<p> The original dumped rabbits are not feral, even if they are unsocialized.
 					</td>
 				</tr>
 
@@ -193,6 +193,7 @@ table.white td {
 					<h4 style="text-align:center">UPGRADING OUR MISSION TO HELP ANIMALS</h4>
             		
                     <img src="onebunny.jpg" align="right" hspace="5" width="109" height="160">
+                    <p> Rabbit Meadows consists of an out side Sanctuary for feral rabbits and a Shelter/Adoption building for adoptable rabbits.
 					<p>
                         Over 1,500 rescued feral rabbits have roamed the 4.5 acres of Rabbit Meadows Sanctuary since we opened in 1996. Our first
                         rescue mission was at a business park in Redmond where we saved 650 feral rabbits from the ultimate fate of the arriving
@@ -205,21 +206,20 @@ table.white td {
                     <p>
                         Today, Rabbit Meadows shows definite signs of age, wear and tear from weather and badly needs an upgrade. To accommodate the
                         sanctuary rabbits, our adoption center and our compassionate human visitors, Rabbit Meadows will be building a new Shelter
-                        among the picturesque trees on its grounds. Initially there will be one main building at the end of a winding driveway. Most
-                        of the trees will be left undisturbed so that our resident wildlife (raccoons, deer, owls, cottontail rabbits, etc.) who feel
-                        comfortable enough to return to Rabbit Meadows each year will continue to do so.
+                        among the picturesque trees on its grounds. Initially there will be one main building at the end of a winding driveway. 
+                        Our beautiful trees will be left undisturbed so that our resident wildlife (raccoons, deer, owls, cottontail rabbits, etc.) who feel
+                        comfortable returning to Rabbit Meadows each year, will continue to do so.
                     </p>
 
                     <p>
-                        Our building(s) will eventually contain:
+                        Our plans:
                     </p>
                     <ul style="font-weight:bold">
                         <li>Adoption area</li>
-                        <li>Feral rabbit sanctuary</li>
+                        <li>Outside securely enclosed and covered area and a building for the feral rabbits</li>
                         <li>Education area</li>
                         <li>Veterinary clinic (low cost spays/neuters for low income individuals)</li>
                         <li>Squirrel/cottontail rehab area (under the direction of USDA licensed Sara's Sanctuary)</li>
-                        <li>Volunteer/caretaker cottages</li>
                         <li>Area for our senior animals who have not found a permanent home</li>
                         <li>Welcome and Administration office</li>
                     </ul>

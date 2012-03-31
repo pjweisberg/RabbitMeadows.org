@@ -1,4 +1,4 @@
-<%@ LANGUAGE=VBSCRIPT %>
+﻿<%@ LANGUAGE=VBSCRIPT %>
 <% OPTION EXPLICIT %>
 <!-- #include file="correct-domain.asp"-->
 <!--#include file="adovbs.inc"-->
@@ -35,7 +35,7 @@ End Select
 <HTML>
 
 <HEAD>
-<TITLE>Best Little Rabbit, Rodent and Ferret House - <%=title%> </TITLE>
+<TITLE>Rabbit Meadows Sanctuary & Adoption Center - <%=title%> </TITLE>
 
 <!--#include file="dropdownmenu.asp"-->
 <!--#include file="google-analytics.js"-->
@@ -79,7 +79,7 @@ If Status=1 or Status=2 then
 
 
 	<font face="arial" size="2">The
-    Best Little Rabbit, Rodent &amp; Ferret House is a non-profit animal welfare organization
+    Rabbit Meadows Sanctuary & Adoption Center is a non-profit animal welfare organization
     dedicated to:
 	<ul>
       <li><font face="arial" size="2" >The rescue and adoption of guinea pigs who have lost their home, through no fault of their own. </li>
@@ -91,7 +91,7 @@ If Status=1 or Status=2 then
   
   <font face="arial" size="2" >We rescue rabbits, guinea pigs, rats, mice, gerbils,&nbsp; hamsters, prairie dogs, chinchillas and the
     occasional hedgehog. We work with local animal shelters and accept these animals from them
-    as space permits. (Only <b>if</b> a shelter has none of these animals will we consider
+    as space permits. (Only <b>if</b> a shelter does not have guinea pigs needing our help will we consider
     taking in your guinea pig, and only if you help to pay for their spay/neuter by donating $85 for each surrender.) 
 	
 	<p><font face="arial" size="2">We spay and neuter our guinea pigs prior to adoption. This is done to prevent hormonal cancers which could result in early

@@ -27,28 +27,19 @@
     <tr>
 	    <td class="volunteerforboard">
             <img src="/shelter/carrot017.gif" style="float:left" alt=""/>
-            <center><strong>Volunteer Opportunities</strong></center>
+            <center><strong>The Christmas Bunny Movie</strong>
+			<br>Sunday, Dec 18-noon-2pm </center>
+			<img src="X-MasBunny.jpg" style="float:right" />
         <p>
-			<i><size=0> </i>
+			<i><size=0>"The most heartwarming film of the holiday season." </i>
 			
 			<p>
-			<li>Completing New Shelter: To finalize Phase I we need to finish installing siding, purchase & install 4 more windows, install gutters, install french drain & make an asphalt apron at the road entrance.
-			<li>Once the weather gets better: Paint siding. 
-			"Second story" volunteer to put on vapor wrap (must happen before the 4 windows are installedl) & siding on the second level. 
-			<center>
-			__________________________
-			<br><b>On going opportunities </b>
-			<br><i>Available Year Round </i></center>
-			<li>Bunny barn cleaning-once every 4 weeks
-			<li>Daily cleaning of enclosures
-			<li>Yard maintenance
-			<br>
-			<br>If you are interested in volunteering, please contact: <a href="mailto:Volunteer@RabbitMeadows.org">Volunteer Coordinator </a> 
-
-		<center>	<div style="padding:10px"/>
+			The Christmas Bunny is a family film staring Brady Bunch mom Florence Henderson. The Christmas Bunny tells the story of a lonely foster child who finds a lost, injured rabbit in the woods on Christmas Eve.
+			<br>You can reserve your seats through Paypal for only $6.00/ea. Or, phone our store 206-365-9105 with your Visa or Mastercard info.
+ 		<center>	<div style="padding:10px"/>
           <!--#include file="paypal_logo.html"-->
-        
-			<i>Proceeds benefit Rabbit Meadows</center>
+        </center>
+			<i>Proceeds benefit Rabbit Meadows
                     </ul>
                 </li>
             </ul>
@@ -59,9 +50,7 @@
             <img src="/shelter/spacer.gif" width="1" height="10"/>
         </td>
     </tr>
-
-<!--
-	 <tr>
+    <tr>
         <td class="bunnycam">
             <center>
                 Rabbit Meadows BunnyCam, featuring:<br />
@@ -79,8 +68,6 @@
                             </object>
                         </td>
                     </tr>
--->
-<!---
                     <tr>
                         <td>
                             <center>
@@ -88,7 +75,6 @@
                             </center>
                         </td>
                     </tr>
--->
                 </table>
             </center>
    		</td>

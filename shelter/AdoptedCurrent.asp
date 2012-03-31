@@ -1,4 +1,4 @@
-<%@ LANGUAGE=VBSCRIPT %>
+﻿<%@ LANGUAGE=VBSCRIPT %>
 <% OPTION EXPLICIT %>
 <!-- #include file="correct-domain.asp"-->
 <!--#include file="adovbs.inc"-->
@@ -75,8 +75,8 @@ If Status=1 or Status=2 then
 <font size 3 face="Arial"><p align="center">
 <FONT SIZE=2 FACE="ARIAL">Please visit our adoption center at: <br>
 <b>Rabbit Meadows<br>
-8311 252nd Ave NE, Redmond, WA 98053 - 425-836-8925<br><br>Noon-5pm: Weekends no appointment necessary. Weekdays please call and make certain we're here and not out picking up veggies.
-<br><br>We do not do same day adoptions: We verify that your landlord allows rabbits, or that you own your own home, or that your condo allows animals. We may do a home visit, if you've never had rabbits, to help you to bunny proof. The rabbits house must be no less than 8 sq. ft, etc.
+8311 252nd Ave NE, Redmond, WA 98053 - 425-836-8925<br><br>Noon-5pm: Weekends no appointment necessary. Weekdays by appointment only.
+<br><br>We do not do same day adoptions: We verify that your landlord allows rabbits, or that you own your own home, or that your condo allows animals. We may do a home visit, if you've never had rabbits, to help you to bunny proof. The rabbits house must be no less than 8 sq. ft.
 </b><br><p align=left>
 We only do adoptions within the Seattle and Puget Sound area. Companions rabbits must live inside in order to be part of the family. If interested in a particular animal, you must come in to the shelter to meet one another. 
 </b><br><p align=left>

@@ -35,7 +35,7 @@ End Select
 <HTML>
 
 <HEAD>
-<TITLE>Rabbit Meadows Sanctuary & Adoption Center - <%=title%> </TITLE>
+<TITLE>Best Little Rabbit, Rodent and Ferret House - <%=title%> </TITLE>
 
 <!--#include file="dropdownmenu.asp"-->
 <!--#include file="google-analytics.js"-->
@@ -74,12 +74,12 @@ If Status=1 or Status=2 then
 <font size 3 face="Arial"><p align="center">
 <FONT SIZE=2 FACE="ARIAL">Please visit our adoption center at: <br>
 <b>Rabbit Meadows<br> 
-8311 252nd Ave NE, Redmond, WA 98053 - 425-836-8925<br>Open without appointment: Sat,Sun noon-5pm </b><br><p align=left>
+8311 252nd Ave NE, Redmond, WA 98053 - 425-836-8925<br>By appointment only - thru March 2008 </b><br><p align=left>
 
 
 
 	<font face="arial" size="2">The
-    Rabbit Meadows Sanctuary & Adoption Center is a non-profit animal welfare organization
+    Best Little Rabbit, Rodent &amp; Ferret House is a non-profit animal welfare organization
     dedicated to:
 	<ul>
       <li><font face="arial" size="2" >The rescue and then
@@ -93,11 +93,12 @@ If Status=1 or Status=2 then
   <font face="arial" size="2" >We rescue
     guinea pigs, rats, mice, gerbils,&nbsp; hamsters, prairie dogs, chinchillas and the
     occasional hedgehog. We work with local animal shelters and accept these animals from them
-    as space permits. (Only <b>if</b> a shelter does not have rodents needing our help will we consider
+    as space permits. (Only <b>if</b> a shelter has none of these animals will we consider
     taking in your rodents.) 
 	
-	<p><font face="arial" size="2">We recommend that all rats be spayed or neutered to prevent hormonal tumors and early
-    deaths, as well as a means to allow these animals to live humanely with their own species. Adoption Fee for spayed/neutered rats
+	<p><font face="arial" size="2">We spay all guinea pigs,&nbsp; chinchillas &amp; prairie dogs&nbsp; and
+    neuter these animals as funds permit. This is done to prevent hormonal tumors and early
+    deaths, as well as a means to allow these animals to live humanely with their own species.
 	
 	<p>
 
