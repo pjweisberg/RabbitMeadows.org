@@ -1,6 +1,6 @@
 <script type="text/javascript">
-/* Sandi, you can change the text in any of these. Please leave the single quotes at the beginning and end of 
-each text string and the semicolon at the end.  Also, if you use the <p> tag to start a new paragraph, write 
+/* Sandi, you can change the text in any of these. Please leave the single quotes at the beginning and end of
+each text string and the semicolon at the end.  Also, if you use the <p> tag to start a new paragraph, write
 it this way <p class="philossml"> so it formats correctly.  Feel free to use any bold <b></b>, italics <i></i>
 or underline <u></u> tags or any other HTML tags you might know.  Call me if it all goes wrong :-) */
 
@@ -17,14 +17,14 @@ var msg1fer = '<div class="contentsmall">Adoptable ferrets, info on ferret care 
 var msg1mea = '<div class="contentsmall">Help for feral rabbits.  See the Woodland Park project!</div>'; /* rabbit meadows */
 var msg1sto = '<div class="contentsmall">Quality products for you and your companion.</div>'; /* store */
 var msg1rod = '<div class="contentsmall">Adoptable rodents, info on rodent care and more!</div>'; /* rodents */
-var msg1mem= '<div class="contentsmall">Dr. Barb Deeb life history and memorial fund.</div>'; /* scholarship */
+var msg1mem= '<div class="contentsmall">Dr. Barb Deeb life history and memorial.</div>'; /* scholarship */
 var msg1gui = '<div class="contentsmall">Adoptable guinea pigs, info on their care and more!</div>'; /* guinea pigs */
 var msg1don = '<div class="contentsmall">We depend on your contributions to help the animals.</div>'; /* donate*/
 
 /* messages for inside large info box on mouseover of each link section */
 
-var textmsg2rab = '<p class="philossml"><b>At</b> any one time, over <b>30 rabbits</b> are sheltered and available for adoption at our Seattle location.  <p class="philossml"><b>Meet</b> them here, find an experienced <b>rabbit vet</b>, get information on volunteering and donating, or browse links to all things <b>rabbit</b>!'; 
-var textmsg2fer = '<p class="philossml">We have many rescued ferrets available for adoption at our Seattle location.  <br>Meet them here, find a ferret vet, get information on volunteering and donating, or browse links to all things ferret!'; 
+var textmsg2rab = '<p class="philossml"><b>At</b> any one time, over <b>30 rabbits</b> are sheltered and available for adoption at our Seattle location.  <p class="philossml"><b>Meet</b> them here, find an experienced <b>rabbit vet</b>, get information on volunteering and donating, or browse links to all things <b>rabbit</b>!';
+var textmsg2fer = '<p class="philossml">We have many rescued ferrets available for adoption at our Seattle location.  <br>Meet them here, find a ferret vet, get information on volunteering and donating, or browse links to all things ferret!';
 var textmsg2mea = '<p class="philossml"><b>Rabbit Meadows Sanctuary</b> is a large enclosed outdoor space that provides <b>safe haven</b> for hundreds of abandoned rabbits who would otherwise be killed or worse.';
 var textmsg2sto = '<p class="philossml"><b>We</b> have toys, food, books, and many other products for your rabbit, rodent, ferret or guinea pig (including some things for you!). <p class="philossml"> <b>All</b> profits go directly to the animals.';
 var textmsg2rod = '<p class="philossml"><b>We</b> have many rescued mice, rats, and other <span class="purplesmall">rodents</span> available for adoption in our shelter.<p class="philossml"><b>Meet</b> them here, find an experienced <b>vet</b>, get infomation on <b>volunteering</b> or donating, or browse the <b>links</b> to other rodent related sites.';

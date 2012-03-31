@@ -37,6 +37,12 @@
 
     var menudon = new Array()
     menudon[0] = '<a href="/shelter/donate.asp" onmouseover="changeContentPure(td1,link1don)"  onmouseout="changeContentPure(td1,msg100)" >Donate</a>'
+
+    var menumem = new Array()
+    menumem[0] = '<a href="http://barbaradeeb.org/memorial/" onmouseover="changeContentPure(td1,link1mem)"  onmouseout="changeContentPure(td1,msg100)">Memorial</a>'
+    menumem[1] = '<a href= "http://barbaradeeb.org/memorial/philosophy.aspx" onmouseover="changeContentPure(td1,link2mem)"  onmouseout="changeContentPure(td1,msg100)">Life and Work</a>'
+    menumem[2] = '<a href="http://barbaradeeb.org/memorial/publications.aspx" onmouseover="changeContentPure(td1,link3mem)"  onmouseout="changeContentPure(td1,msg100)">Publications</a>'
+
 </script>
 
 <!--beginning of row 1, rabbit section (all section cells are a main 2 cells inside, a title cell and main info cell containing a table) -->
@@ -63,7 +69,7 @@
 		<tr><td id="td2" bgcolor="#FFFFFF" height="40">
 				<img src="/shelter/pics/rabadoptlink.jpg" align="left" border="0" vspace="2"> <script type="text/javascript">
 				                                                                         document.write(msg1rab)</script>
-				
+
 		</td></tr>
 		</table>
 	</td></tr>
@@ -78,10 +84,10 @@
 		<tr><td class="dkblue" align="center" height="15"><a class="dkblue" href="/shelter/RodentCurrent.asp" onMouseover="dropdownmenu(this, event, menurod,'90'); changeContentPure('td1',msg2rod)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Rodents</a></td></tr>
 
 		<tr><td id="td7" bgcolor="#FFFFFF" height="40">
-				
+
 				<img src="/shelter/pics/rodentlink.jpg"  align="left" border="0" width="42" height="41" vspace="2"> <script type="text/javascript">
 				                                                                                               document.write(msg1rod) </script>
-				
+
 		</td></tr>
 		</table>
 	</td></tr>
@@ -93,10 +99,10 @@
 		<tr><td class="dkgreen" align="center" height="15"><a class="dkgreen" href="/shelter/GuineaCurrent.asp" onMouseover="dropdownmenu(this, event, menugui,'90px'); changeContentPure('td1',msg2gui)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Guinea Pigs</a></td></tr>
 
 		<tr><td id="td9" bgcolor="#FFFFFF" height="40">
-				
+
 				<img src="/shelter/pics/guinealink.jpg" align="left" border="0" width="45" height="42" vspace="2"> <script type="text/javascript">
 				                                                                                              document.write(msg1gui) </script>
-				
+
 		</td></tr>
 		</table>
 	</td></tr>
@@ -115,4 +121,19 @@
 		</td></tr>
 		</table>
 </td></tr>
-</table><br>
+</table><br/>
+
+<table bgcolor="#FFFFFF" width="130" height="65" cellpadding="0" cellspacing="0" border="0">
+	<tr><td valign="top">
+		<table class="ltorange" cellpadding=4 cellspacing=2 width="130">
+		<tr><td class="dkorange" align="center" height="15"><a class="dkorange" href="http://barbaradeeb.org/memorial/" onMouseover="dropdownmenu(this, event, menumem,'90px'); changeContentPure('td1',msg2mem)" onMouseout="changeContentPure('td1',msg100);delayhidemenu()">Memorial</a></td></tr>
+
+		<tr><td id="td8" bgcolor="#FFFFFF" height="40">
+
+				<img src="pics/Barbdeeblink.jpg" align="left" border="0" width="43" height="42" vspace="2"> <script type="text/javascript">
+				                                                                                                document.write(msg1mem) </script>
+
+		</td></tr>
+		</table>
+	</td></tr>
+</table>
