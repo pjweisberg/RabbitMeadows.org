@@ -33,8 +33,8 @@ Tax ID 91-1873550
 
 <tr><td align=center><font face="arial" size=1>
 
-&#169;2000-2011 Best Little Rabbit, Rodent and Ferret House.  All Rights Reserved<br>
-Product prices and availability subject to change without notice<br></font>
+&#169;2000-2012 Best Little Rabbit, Rodent and Ferret House.  All Rights Reserved
+</font>
 
 
 </td></tr>
