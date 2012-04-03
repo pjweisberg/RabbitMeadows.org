@@ -115,7 +115,7 @@ care, breed, breeding, breeds, Humane Society, education, adoption, adopt, non-p
 
 <center>
 <!--#include file="headerfile.asp"-->
-See Photos of our successful <a href="http://www.facebook.com/RabbitMeadows#!/RabbitMeadows#!/photo.php?fbid=10150167349094759&set=pu.75949809758&type=1&theater">Easter Egg Hunt</a> on Facebook
+_________________________
 <table border="0"  cellspacing="10px">
     <tr>
       <td align="right" valign="top">

@@ -24,6 +24,24 @@
             </form>
         </td>
     </tr>
+<tr>
+   <td>
+	 <h3 style="border-style:groove">   
+		<center><strong>Annual Silent Auction & Dinner <br>May 19, 2012</strong></center></h3><p>
+		<img src="/shelter/2012AuctionPoster.jpg" style="float:right" alt=""/>
+		This year's Silent Auction & Dinner is just around the corner! Once again 
+		the Rusty Pelican Cafe is hosting this event for us, meaning that 100% of the proceeds go directly to our organization. 
+		<p>Our new shelter is progressing and with your participation in this event we should be able to move animals in by the end of the summer. 
+	 	Our Silent Auction and Dinner has always been a lot of fun and of course the food is scrumptious. We'll be posting a list of companies that 
+	  	are donating items for the auction to entice you to attend. You can use the paypal button below to reserve your space. (We'll be sending 
+		the catalog out via e-mail about 5 days before the event.)
+		<p>If you have an item or service to donate, please print and complete this
+		procurement <a href="2012 Auction Procurement Form.pdf"> form</a>, or pass it on to a place you do business with. If you can help us spread the word, please
+		print our <a href="2012 Dinner and Silent Auction Poster.pdf">flyer</a> and post it where you work or shop.
+		<p>
+   </td>
+</tr>
+
     <tr>
 	    <td class="volunteerforboard">
             <img src="/shelter/carrot017.gif" style="float:left" alt=""/>
