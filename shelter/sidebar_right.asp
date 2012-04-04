@@ -1,4 +1,5 @@
-﻿<table cellpadding="0" cellspacing="0" border="0" bgcolor="white" width="145">
+﻿<!--#include file="paypal_paybutton.asp"-->
+<table cellpadding="0" cellspacing="0" border="0" bgcolor="white" width="145">
 	<tr>
     <td align="left">
 	    <img src="/shelter/spacer.gif" width="301" height="1" border="0" alt="auction for BLRRFH"/>
@@ -37,9 +38,13 @@
 		the Rusty Pelican Cafe is hosting this event for us, meaning that 100% of the proceeds go directly to our organization. 
 		<p>Our new shelter is progressing and with your participation in this event we should be able to move animals in by the end of the summer. 
 	 	Our Silent Auction and Dinner has always been a lot of fun and of course the food is scrumptious. We'll be posting a list of companies that 
-	  	are donating items for the auction to entice you to attend. You can use the paypal button below to reserve your space. (We'll be sending 
+	  	are donating items for the auction to entice you to attend. You can use the paypal button below to reserve your space for $40 per person. (We'll be sending 
 		the catalog out via e-mail about 5 days before the event.)
         </p>
+        <center>
+            <% paypal_paybutton "Seat at the 2012 Rabbit Meadows Silent Auction", "40" %>
+            <i>Proceeds benefit Rabbit Meadows</i>
+        </center>
 		<p>If you have an item or service to donate, please print and complete this
 		procurement <a href="2012 Auction Procurement Form.pdf"> form</a>, or pass it on to a place you do business with. If you can help us spread the word, please
 		print our <a href="2012 Dinner and Silent Auction Poster.pdf">flyer</a> and post it where you work or shop.
