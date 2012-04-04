@@ -26,19 +26,24 @@
     </tr>
 <tr>
    <td>
+    <center>
 	 <h3 style="border-style:groove">   
-		<center><strong>Annual Silent Auction & Dinner <br>May 19, 2012</strong></center></h3><p>
-		<img src="/shelter/2012AuctionPoster.jpg" style="float:right" alt=""/>
+		Annual Silent Auction & Dinner <br>May 19, 2012
+     </h3>
+    </center>
+    	<img src="/shelter/2012AuctionPoster.jpg" style="float:right" alt=""/>
+        <p>
 		This year's Silent Auction & Dinner is just around the corner! Once again 
 		the Rusty Pelican Cafe is hosting this event for us, meaning that 100% of the proceeds go directly to our organization. 
 		<p>Our new shelter is progressing and with your participation in this event we should be able to move animals in by the end of the summer. 
 	 	Our Silent Auction and Dinner has always been a lot of fun and of course the food is scrumptious. We'll be posting a list of companies that 
 	  	are donating items for the auction to entice you to attend. You can use the paypal button below to reserve your space. (We'll be sending 
 		the catalog out via e-mail about 5 days before the event.)
+        </p>
 		<p>If you have an item or service to donate, please print and complete this
 		procurement <a href="2012 Auction Procurement Form.pdf"> form</a>, or pass it on to a place you do business with. If you can help us spread the word, please
 		print our <a href="2012 Dinner and Silent Auction Poster.pdf">flyer</a> and post it where you work or shop.
-		<p>
+		</p>
    </td>
 </tr>
 
@@ -46,30 +51,22 @@
 	    <td class="volunteerforboard">
             <img src="/shelter/carrot017.gif" style="float:left" alt=""/>
             <center><strong>Volunteer Opportunities</strong></center>
-        <p>
-			<i><size=0> </i>
-			
-			<p>
-			<li>Completing New Shelter: To finalize Phase I we need to finish installing siding, purchase & install 4 more windows, install gutters, install french drain & make an asphalt apron at the road entrance.
-			<li>Once the weather gets better: Paint siding. 
-			"Second story" volunteer to put on vapor wrap (must happen before the 4 windows are installedl) & siding on the second level. 
-			<center>
-			__________________________
-			<br><b>On going opportunities </b>
-			<br><i>Available Year Round </i></center>
-			<li>Bunny barn cleaning-once every 4 weeks
-			<li>Daily cleaning of enclosures
-			<li>Yard maintenance
-			<br>
-			<br>If you are interested in volunteering, please contact: <a href="mailto:Volunteer@RabbitMeadows.org">Volunteer Coordinator </a> 
-
-		<center>	<div style="padding:10px"/>
-          <!--#include file="paypal_logo.html"-->
-        
-			<i>Proceeds benefit Rabbit Meadows</center>
-                    </ul>
-                </li>
+            <ul>
+			    <li>Completing New Shelter: To finalize Phase One we need to finish installing siding, purchase & install 4 more windows, install gutters, install french drain & make an asphalt apron at the road entrance.</li>
+			    <li>Once the weather gets better: Paint siding.</li>
+                <li>"Second story" volunteer to put on vapor wrap (must happen before the 4 windows are installed) & siding on the second level. </li>
+		    </ul>
+            <center>
+                <hr style="width:75%;"/>
+			    <b>On going opportunities</b> <br />
+			    <i>Available Year Round </i>
+            </center>
+            <ul>
+			    <li>Bunny barn cleaning-once every 4 weeks</li>
+			    <li>Daily cleaning of enclosures</li>
+			    <li>Yard maintenance</li>
             </ul>
+			If you are interested in volunteering, please contact: <a href="mailto:Volunteer@RabbitMeadows.org">Volunteer Coordinator </a> 
 	    </td>
     </tr>
     <tr>
