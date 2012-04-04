@@ -26,19 +26,19 @@
         </td>
     </tr>
 <tr>
-   <td>
+   <td class="GreenInside" style="margin-bottom: 5px;">
     <center>
-	 <h3 style="border-style:groove">   
+	 <h3 style="border-style:groove">
 		Annual Silent Auction & Dinner <br>May 19, 2012
      </h3>
     </center>
     	<img src="/shelter/2012AuctionPoster.jpg" style="float:right" alt=""/>
         <p>
-		This year's Silent Auction & Dinner is just around the corner! Once again 
-		the Rusty Pelican Cafe is hosting this event for us, meaning that 100% of the proceeds go directly to our organization. 
-		<p>Our new shelter is progressing and with your participation in this event we should be able to move animals in by the end of the summer. 
-	 	Our Silent Auction and Dinner has always been a lot of fun and of course the food is scrumptious. We'll be posting a list of companies that 
-	  	are donating items for the auction to entice you to attend. You can use the paypal button below to reserve your space for $40 per person. (We'll be sending 
+		This year's Silent Auction & Dinner is just around the corner! Once again
+		the Rusty Pelican Cafe is hosting this event for us, meaning that 100% of the proceeds go directly to our organization.
+		<p>Our new shelter is progressing and with your participation in this event we should be able to move animals in by the end of the summer.
+	 	Our Silent Auction and Dinner has always been a lot of fun and of course the food is scrumptious. We'll be posting a list of companies that
+	  	are donating items for the auction to entice you to attend. You can use the paypal button below to reserve your space for $40 per person. (We'll be sending
 		the catalog out via e-mail about 5 days before the event.)
         </p>
         <center>
@@ -51,7 +51,11 @@
 		</p>
    </td>
 </tr>
-
+<tr>
+    <td>
+        <div style="height:5px;"></div>
+    </td>
+</tr>
     <tr>
 	    <td class="volunteerforboard">
             <img src="/shelter/carrot017.gif" style="float:left" alt=""/>
@@ -71,7 +75,7 @@
 			    <li>Daily cleaning of enclosures</li>
 			    <li>Yard maintenance</li>
             </ul>
-			If you are interested in volunteering, please contact: <a href="mailto:Volunteer@RabbitMeadows.org">Volunteer Coordinator </a> 
+			If you are interested in volunteering, please contact: <a href="mailto:Volunteer@RabbitMeadows.org">Volunteer Coordinator </a>
 	    </td>
     </tr>
     <tr>
