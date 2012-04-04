@@ -1,6 +1,7 @@
 <% @LANGUAGE=VBScript %>
 <% Option Explicit %>
 <!-- #include file="correct-domain.asp"-->
+<!-- #include file="paypal_paybutton.asp"-->
 <html>
 
 <head>
@@ -10,7 +11,7 @@
          pet rabbits, rabbit health, vets, non-profit, rabbit information, rescue, rabbit rescue, rodent rescue,
          pet rats, pet mice, pet hamsters, pet gerbils, pet ferrets, pet guinea pigs">
 
-<meta NAME="Description" CONTENT="The Best Little Rabbit, Rodent and Ferret House is a the definitive site for Rescued Rabbits, Rodents and Ferrets in the 
+<meta NAME="Description" CONTENT="The Best Little Rabbit, Rodent and Ferret House is a the definitive site for Rescued Rabbits, Rodents and Ferrets in the
 Northwest and other parts of the country. BLRRFH is a non-profit organization.">
 
 
@@ -34,9 +35,9 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
   </tr>
 
   <tr>
-    
+
 	<td colspan="3" align="center">
-	<!--#include file="paypal_logo.html"-->
+	<% paypal_donatebutton %>
 
 
 
@@ -44,21 +45,21 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
   </tr>
   <tr>
     <td colspan="3" class="philosophy1">
-	
+
 	<hr>
-    <!--#include file="paypal_logo.html"-->
+    <% paypal_donatebutton %>
     <br>
 <tr>
 	<td rowspan="10"><img src="spacer.gif" height="240" width="1"></td></tr>
 	<tr><td>
 	<h2> 2008 - A Defining Year</h2>
-	
+
 	<tr><td>
 	<P align=top><img src="mainpage.jpg" align="left" width="334" height="222" hspace="10">2008 was a busy year for us and our organization has experienced many changes.  Read some of the rescue stories from this year <a href="2008.asp">here.</a>
-	
+
 	<p>Many of you have been following our progress at Rabbit Meadows Sanctuary, from our initial move to the development of our plans to consolodate our shelter, sanctuary and adoption center.  We are now planning the construction phase of our project which will include cottage-like buildings for vital services such as adoption housing, a feral rabbit shelter, an education building, a vet clinic and much more! <p><a href="RabbitMeadowsBrochure2.pdf">View and/or print our brochure</a> | <a href="overview.asp">More details</a>
-		
-	
+
+
 	</td></tr>
 
 
@@ -74,10 +75,10 @@ PO Box 3242 <br> 8311 252nd Ave. NE, <br>Redmond, WA 98053<br>(425)836-8925
 </tr></tr></table>
 
 <p><B>Many, Many Thanks</B> to all of you for all you've done!  Your contributions truly make a difference in the world!
-	
-	
 
-	 	 
+
+
+
 
 
 	</td></tr>

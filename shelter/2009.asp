@@ -1,6 +1,7 @@
 <% @LANGUAGE=VBScript %>
 <% Option Explicit %>
 <!-- #include file="correct-domain.asp"-->
+<!-- #include file="paypal_paybutton.asp"-->
 <html>
 
 <head>
@@ -10,7 +11,7 @@
          pet rabbits, rabbit health, vets, non-profit, rabbit information, rescue, rabbit rescue, rodent rescue,
          pet rats, pet mice, pet hamsters, pet gerbils, pet ferrets, pet guinea pigs">
 
-<meta NAME="Description" CONTENT="The Best Little Rabbit, Rodent and Ferret House is a the definitive site for Rescued Rabbits, Rodents and Ferrets in the 
+<meta NAME="Description" CONTENT="The Best Little Rabbit, Rodent and Ferret House is a the definitive site for Rescued Rabbits, Rodents and Ferrets in the
 Northwest and other parts of the country. BLRRFH is a non-profit organization.">
 
 
@@ -34,9 +35,9 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
   </tr>
 
   <tr>
-    
+
 	<td colspan="3" align="center">
-	<!--#include file="paypal_logo.html"-->
+	<% paypal_donatebutton %>
 
 
 
@@ -44,7 +45,7 @@ Northwest and other parts of the country. BLRRFH is a non-profit organization.">
   </tr>
   <tr>
     <td colspan="3" class="philosophy1">
-	
+
 	<hr>
 
 <tr>
@@ -63,7 +64,7 @@ We put $5,800 into our operating budget and have put $2,000 into our Capital Fun
 <li><a href="http://www.ste-michelle.com/">Chateau Ste Michelle Winery</a>
 <li><a href="http://www.criticalcarevets.com/">Critical Care Vets</a>
 <li><a href="http://www.devinrice.com/">Devin Rice Designs</a>
-<li><a href="http://dentists.healthprofs.com/cam/prof_detail.php?profid=508299&sid=1238817983.2906_19929&city=Seattle&county=King&state=Washington&thrpst_type=12">Jaymor Kim, DDS-Whitening </a> 
+<li><a href="http://dentists.healthprofs.com/cam/prof_detail.php?profid=508299&sid=1238817983.2906_19929&city=Seattle&county=King&state=Washington&thrpst_type=12">Jaymor Kim, DDS-Whitening </a>
 <li><a href="http://www.Fellswoop.com/">Fell Swoop - Rabbit Art Posters</a>
 <li>Great Clips Sammamish
 <li><a href= "http://www.bowlluckystrike.com/">Lucky Strike Lanes - Bellevue </a>
@@ -76,7 +77,7 @@ We put $5,800 into our operating budget and have put $2,000 into our Capital Fun
 <li><a href="http://www.runawayrabbit.com/">Runaway Rabbit Creations</a>
 <li><a href="http://www.ridetheducksofseattle.com/">Ride the Ducks of Seattle </a>
 <li><a href="http://rmcf.com/WA/Seattle50435/">Rocky Mountain Chocolate Factory </a>
-<li>Rusty Pelican Cafe 
+<li>Rusty Pelican Cafe
 <li>Sammamish Point Espresso
 <li><a href="http://www.samscatsanddogs.com/">Sam's Cats & Dogs, Naturally </a>
 <li><a href="http://www.sidecarforpigspeace.com/">Sidecar for Pigs Peace </a>
@@ -95,17 +96,16 @@ We put $5,800 into our operating budget and have put $2,000 into our Capital Fun
 <li>2-Way Radios - Chris Sterns
 <li>Verizon Bay Signs ($200-Commercial Signs)-James Andrews
 <li>Guided Snow Shoe Tour-Patti Polinsky
-<li>Original Artwork-by Jessie Olson 
+<li>Original Artwork-by Jessie Olson
 <li>Framed Bunny Picture-Claudine Guignard
-<li>Bakery Gift Certificate 
+<li>Bakery Gift Certificate
 <li>Doggie Treat Basket-Claudine Guignard
-<li>Tea Basket-Claudine Guignard 
+<li>Tea Basket-Claudine Guignard
 <li>Homemade Bunny-Claudine Guignard
 <li>Lavendar Body Care Basket-Claudine Guignard
 <li>Aromatherapy Apothecary Set<p>
 
-	
-	<!--#include file="paypal_logo.html"-->
+	<% paypal_donatebutton %>
 <br/>
 <table  cellspacing=40><tr><td>
 	<b>Best Little Rabbit, Rodent & Ferret House<br>
@@ -119,10 +119,10 @@ PO Box 3242 <br> 8311 252nd Ave. NE, <br>Redmond, WA 98053
 </tr></tr></table>
 
 <p><B>Many, Many Thanks</B> to all of you for all you've done!  Your contributions truly make a difference in the world!
-	
-	
 
-	 	 
+
+
+
 
 
 	</td></tr>

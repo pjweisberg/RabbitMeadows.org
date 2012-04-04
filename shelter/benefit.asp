@@ -1,14 +1,14 @@
 <% @LANGUAGE=VBScript %>
 <% Option Explicit %>
 <!-- #include file="correct-domain.asp"-->
-
+<!-- #include file="paypal_paybutton.asp"-->
 
 <HTML><HEAD><TITLE>Best Little Rabbit, Rodent and Ferret House - Quality Supplies for Companion Animals</TITLE><meta name="description" content="Best Little Rabbit, Rodent and Ferret House Pet Supplies and Adoption">
 
 <meta name="keywords" content="rabbits, rodents, ferrets, pets, companion animals, shelter, pet supplies, pet food,
-   guinea pig, rats, mice, chinchilla, prairie dog, adoption, washington, seattle, puget"> 
+   guinea pig, rats, mice, chinchilla, prairie dog, adoption, washington, seattle, puget">
 
-<meta name="copyright" content="Copyright 2000-2011 Best Little Rabbit, Rodent and Ferret House. All rights reserved. 
+<meta name="copyright" content="Copyright 2000-2011 Best Little Rabbit, Rodent and Ferret House. All rights reserved.
         Contact author for reprint policies.">
 
 	<!--#include file="dropdownmenu.asp"-->
@@ -18,38 +18,38 @@
 
 
 		span.purple{
-font-weight: bold; 
-color:#669; 
-font-style: normal; 
-font-size: 200%; 
-line-height: 1.2; 
+font-weight: bold;
+color:#669;
+font-style: normal;
+font-size: 200%;
+line-height: 1.2;
 font-family:  Arial,Helvetica;
-} 
+}
 
 span.orange{
-font-weight: bold; 
-color:#F93; font-style: 
-normal; font-size: 200%; 
-line-height: 1.2; 
+font-weight: bold;
+color:#F93; font-style:
+normal; font-size: 200%;
+line-height: 1.2;
 font-family: Arial,Helvetica;
-} 
-td.philosophy3 {				
+}
+td.philosophy3 {
   background-color:#EEC;
   border:1px dotted #993;
   padding:25px;
 }
 p.philos {
-font-weight: normal; 
-font-style: normal; font-size: 16px; 
-line-height: 1.6; 
-font-family: Arial,Helvetica;} 
+font-weight: normal;
+font-style: normal; font-size: 16px;
+line-height: 1.6;
+font-family: Arial,Helvetica;}
 
-span.green{font-weight: bold; color:#993; font-style: normal; font-size: 200%; line-height: 1.2; font-family: Arial,Helvetica;} 
+span.green{font-weight: bold; color:#993; font-style: normal; font-size: 200%; line-height: 1.2; font-family: Arial,Helvetica;}
 
 .linktext {
-font-family:Verdana,Arial,Helvetica; 
-color:#000; 
-font-size:10px; 
+font-family:Verdana,Arial,Helvetica;
+color:#000;
+font-size:10px;
 text-decoration: none
 }
 </style>
@@ -62,7 +62,7 @@ text-decoration: none
 
 
 <tr><td   valign="top">
-	
+
 <!--#include file="headerfile.asp"-->
 <%
 Dim referer,page
@@ -81,7 +81,7 @@ page=request.querystring("name")
 <font face="arial" size="2">
 <br><br>
 <b>Join us for a <br> Dinner and Silent Auction hosted by</b><br>
-<h2><b>The Rusty Pelican Cafe</B></h2> 
+<h2><b>The Rusty Pelican Cafe</B></h2>
 
 to benefit the lifesaving work of<p>
 <b>The Best Little Rabbit, Rodent & Ferret House</b> <p>
@@ -98,7 +98,7 @@ BLRRFHauction@gmail.com<br><br>
 
 or pay by PayPal <br>(this will appear as a donation -just type in your information)
 
-<!--#include file="paypal_logo.html"-->
+<% paypal_donatebutton %>
 
 
 <p align="Left">
