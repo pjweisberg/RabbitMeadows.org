@@ -24,16 +24,16 @@
     var menurod = new Array()
     menurod[0] = '<a href="/shelter/RodentCurrent.asp" onmouseover="changeContentPure(td1,link1rod)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
     menurod[1] = '<a href="/shelter/vets.asp?animal=2" onmouseover="changeContentPure(td1,link2rod)"  onmouseout="changeContentPure(td1,msg100)" >Vet Referral</a>'
-    menurod[2] = '<a href="/shelter/comingsoon.asp?name=Rodent Links" onmouseover="changeContentPure(td1,link3rod)"  onmouseout="changeContentPure(td1,msg100)" >Links</a>'
-    menurod[3] = '<a href="/shelter/volunteer.asp?name=Rodents" onmouseover="changeContentPure(td1,link4rod)"  onmouseout="changeContentPure(td1,msg100)" >Volunteer</a>'
-    menurod[4] = '<a href="/shelter/donate.asp?name=rodents" onmouseover="changeContentPure(td1,link5rod)"  onmouseout="changeContentPure(td1,msg100)" >Donate</a>'
+    //menurod[2] = '<a href="/shelter/comingsoon.asp?name=Rodent Links" onmouseover="changeContentPure(td1,link3rod)"  onmouseout="changeContentPure(td1,msg100)" >Links</a>'
+    menurod[2] = '<a href="/shelter/volunteer.asp?name=Rodents" onmouseover="changeContentPure(td1,link4rod)"  onmouseout="changeContentPure(td1,msg100)" >Volunteer</a>'
+    menurod[3] = '<a href="/shelter/donate.asp?name=rodents" onmouseover="changeContentPure(td1,link5rod)"  onmouseout="changeContentPure(td1,msg100)" >Donate</a>'
 
     var menugui = new Array()
     menugui[0] = '<a href="/shelter/GuineaCurrent.asp" onmouseover="changeContentPure(td1,link1gui)"  onmouseout="changeContentPure(td1,msg100)" >Adoptions</a>'
     menugui[1] = '<a href="/shelter/vets.asp?animal=4" onmouseover="changeContentPure(td1,link2gui)" onmouseout="changeContentPure(td1,msg100)">Vet Referral</a>'
-    menugui[2] = '<a href="/shelter/comingsoon.asp?name=Guinea Pig" onmouseover="changeContentPure(td1,link3gui)"  onmouseout="changeContentPure(td1,msg100)">Links</a>'
-    menugui[3] = '<a href="/shelter/volunteer.asp?name=Guinea Pigs" onmouseover="changeContentPure(td1,link4gui)"  onmouseout="changeContentPure(td1,msg100)">Volunteer</a>'
-    menugui[4] = '<a href="/shelter/donate.asp?name=guinea pigs" onmouseover="changeContentPure(td1,link5gui)"  onmouseout="changeContentPure(td1,msg100)">Donate</a>'
+    //menugui[2] = '<a href="/shelter/comingsoon.asp?name=Guinea Pig" onmouseover="changeContentPure(td1,link3gui)"  onmouseout="changeContentPure(td1,msg100)">Links</a>'
+    menugui[2] = '<a href="/shelter/volunteer.asp?name=Guinea Pigs" onmouseover="changeContentPure(td1,link4gui)"  onmouseout="changeContentPure(td1,msg100)">Volunteer</a>'
+    menugui[3] = '<a href="/shelter/donate.asp?name=guinea pigs" onmouseover="changeContentPure(td1,link5gui)"  onmouseout="changeContentPure(td1,msg100)">Donate</a>'
 
     var menudon = new Array()
     menudon[0] = '<a href="/shelter/donate.asp" onmouseover="changeContentPure(td1,link1don)"  onmouseout="changeContentPure(td1,msg100)" >Donate</a>'
