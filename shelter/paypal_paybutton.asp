@@ -7,14 +7,14 @@ Function paypal_common()
     Response.write "<input type='hidden' name='tax' value='0'/>"
     Response.write "<input type='hidden' name='return' value='http://www.rabbitmeadows.org/shelter/'/>"
     Response.write "<input type='hidden' name='cancel_return' value='http://www.rabbitmeadows.org/shelter/'/>"
-    
+
 End Function
 
 Function paypal_paybutton(item, price)
     paypal_common
 
     Response.write "<input type='hidden' name='cmd' value='_xclick'/>"
-    Response.write "<input type='image' src='http://images.paypal.com/images/x-click-but02.gif' name='submit' alt='PayPal - it&apos;s fast, free and secure!'/>"
+    Response.write "<input type='image' src='/shelter/images/paypal/x-click-but02.gif' name='submit' alt='PayPal - it&apos;s fast, free and secure!'/>"
     Response.write "<input type='hidden' name='item_name' value='" + item + "'>"
     Response.write "<input type='hidden' name='amount' value='" + price + "'>"
     Response.write "<input type='hidden' name='undefined_quantity' value='1'>"
@@ -25,7 +25,7 @@ Function paypal_donatebutton()
     paypal_common
 
     Response.write "<input type='hidden' name='cmd' value='_donations'/>"
-    Response.write "<input type='image' src='http://images.paypal.com/images/x-click-but04.gif' name='submit' alt='Donate with PayPal - it&apos;s fast, free and secure!'/>"
+    Response.write "<input type='image' src='/shelter/images/paypal/x-click-but04.gif' name='submit' alt='Donate with PayPal - it&apos;s fast, free and secure!'/>"
     Response.write "</form>"
 End Function
 
@@ -35,10 +35,10 @@ Function paypal_multi(item, choices)
     Response.write "<input type='hidden' name='cmd' value='_xclick'>"
     Response.write "<input type='hidden' name='undefined_quantity' value='1'>"
     Response.write "<input type='hidden' name='item_name' value='" + item + "'>"
-    Response.write "<input type='hidden' name='on0' value='" + item + "'>" 
+    Response.write "<input type='hidden' name='on0' value='" + item + "'>"
     Response.write "<table>"
     Response.write "<tr><td>"
-    Response.write "<input type='image' src='http://images.paypal.com/images/x-click-but02.gif' name='submit' alt='PayPal - it&apos;s fast, free and secure!'/>"
+    Response.write "<input type='image' src='/shelter/images/paypal/x-click-but02.gif' name='submit' alt='PayPal - it&apos;s fast, free and secure!'/>"
     Response.write "</td><td>"
     Response.write item + ": "
     Response.write "<select name='os0'>"
