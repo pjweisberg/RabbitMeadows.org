@@ -167,13 +167,18 @@ _________________________
         </p>
       <hr/>
               <h2 style="border-style:groove; text-align:center">Our Shelter is going up!</h2>
+    Look!! Our New Entrance Gate - Artwork created & donated by Chris Hart (future Eagle Scout) and his dad! Thank YOU!!<br>
+
+      	<img src="New Gate2.jpg" width="288" height="230" hspace="10" alt="Shelter Progress" style="float:left" />
+    	<img src="New Gate3.jpg" width="288" height="240" hspace="10" alt="Shelter Progress" style="float:right" />
+
       	<img src="ShelterFeb2012a.jpg" width="300" height="180" hspace="10" alt="Shelter Progress" style="float:left" />
     	<img src="ShelterFeb2012b.jpg" width="252" height="189" hspace="10" alt="Shelter Progress" style="float:right" />
         Progress: Our new shelter is taking shape!
                 The building is 38' x 48' with a second level loft of 14' x 48'. The first level will contain our reception area; adoption area with a place to spend time with potential companions; an education room; a boarding room; utility room; bathroom.
                 The loft area will contain areas to quarantine incomming animals and those waiting to be spayed/neutered. And, a clinic room where animals can receive veterinary care.
                 <br><br>The building now has siding on the back and north side ground floor. We have one "half-round" window in the front, but still need another 4'x2' half-round for the left side of the door. (Thanks to Photoshop you can see what it will look like in the future.)
-				 Other than that, we have all the ground floor windows and only need four more 6'x2' windows for upstairs. We have the gutters and downspounds
+				 Other than that, we have all the ground floor windows and only need four more 6'x2' windows for upstairs. We have the gutters and down spouts
 				 but they need to be installed. We have all of the siding and have a potential volunteer to install it. We also need a 20' x 10' asphalt apron if you know of anyone with that experience who might help, please ask them to contact us.
 			<br><br><b>And then the rabbits, guinea pigs, rats, mice, etc. can move in!</b>
             <br><br>The address is (approximately) 8510 250th Ave NE, Redmond, WA 98053. (Address still to be assigned by the county.)  Please be considerate of our neighbors and drive no more than 20 mph when you turn into our private road.
